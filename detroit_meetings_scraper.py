@@ -20,13 +20,41 @@ from typing import List, Optional
 from urllib.parse import urljoin, urlparse, parse_qs
 
 import pytz
-import requests
 from bs4 import BeautifulSoup
-from icalendar import Calendar, Event
+
+# --- HTTP (resilient session) ---
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 BASE = "https://pub-detroitmi.escribemeetings.com/"
 TZ = pytz.timezone("America/Detroit")
-HEADERS = {"User-Agent": "DetroitMeetingsScraper/1.0 (+https://example.com)"}
+
+HEADERS = {
+    # Use a real-browser UA (some hosts throttle default UA strings)
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.8",
+}
+
+def _session() -> requests.Session:
+    s = requests.Session()
+    retries = Retry(
+        total=4, connect=4, read=4, backoff_factor=0.6,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=["GET", "HEAD", "OPTIONS"]
+    )
+    s.mount("https://", HTTPAdapter(max_retries=retries))
+    s.mount("http://", HTTPAdapter(max_retries=retries))
+    return s
+
+SESSION = _session()
+
+# --- Data model ---
 
 @dataclass
 class Meeting:
@@ -45,29 +73,42 @@ class Meeting:
     detail_url: str
     source: str = "escribe-detroit"
 
+# --- Utils ---
+
 def clean(t: Optional[str]) -> str:
     return re.sub(r"\s+", " ", (t or "").strip())
 
 def get(url: str) -> str:
-    r = requests.get(url, headers=HEADERS, timeout=30)
+    r = SESSION.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
     r.raise_for_status()
     return r.text
 
 def month_url(year: int, month: int) -> str:
     return f"{BASE}?Year={year}&Month={month}"
 
-def parse_month(url: str) -> List[str]:
+# --- Scrape month pages ---
+
+def parse_month(url: str, debug_dir: Optional[str] = None) -> List[str]:
+    """Return a list of absolute meeting detail URLs from a month view."""
     html = get(url)
+
+    # Save HTML snapshot for diagnostics
+    if debug_dir:
+        os.makedirs(debug_dir, exist_ok=True)
+        name = re.sub(r"[^0-9A-Za-z]+", "_", url)
+        with open(os.path.join(debug_dir, f"{name[:120]}.html"), "w", encoding="utf-8") as f:
+            f.write(html)
+
     soup = BeautifulSoup(html, "html.parser")
     detail_links: List[str] = []
 
-    # Broad selector to catch typical eScribe patterns (with/without .aspx)
+    # CSS selector sweep (handles Meeting?Id=..., Meeting.aspx?..., etc.)
     for a in soup.select("a[href*='Meeting?Id'], a[href*='Meeting?'], a[href*='Meeting.aspx?']"):
         href = a.get("href") or ""
         if "Meeting" in href:
             detail_links.append(urljoin(BASE, href))
 
-    # Generic pass (some templates don’t match the CSS selector above)
+    # Generic sweep in case template differs
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if ("Meeting?Id=" in href) or ("Meeting.aspx" in href and "Id=" in href):
@@ -76,15 +117,19 @@ def parse_month(url: str) -> List[str]:
     # Unique + stable order
     return sorted(set(detail_links))
 
+# --- Parse detail page (and per-meeting ICS if present) ---
+
+from icalendar import Calendar, Event  # after docstring so flake8 doesn't complain
+
 def try_parse_ics_from_detail(soup: BeautifulSoup) -> Optional[dict]:
-    # Look for Add to Calendar link (.ics)
+    """Fetch and parse the per-meeting .ics if an 'Add to Calendar' link exists."""
     for a in soup.select("a[href$='.ics'], a[href*='AddToCalendar'], a[href*='.ics']"):
         href = a.get("href", "")
         if not href:
             continue
         try:
             ics_url = urljoin(BASE, href)
-            r = requests.get(ics_url, headers=HEADERS, timeout=30)
+            r = SESSION.get(ics_url, headers=HEADERS, timeout=30, allow_redirects=True)
             if r.status_code == 200 and "BEGIN:VCALENDAR" in r.text:
                 cal = Calendar.from_ical(r.content)
                 for comp in cal.walk():
@@ -166,7 +211,7 @@ def parse_detail(url: str) -> Optional[Meeting]:
         end_dt = start_dt + dt.timedelta(hours=2)
 
     # Agenda/minutes links
-    def first_link(label_regex):
+    def first_link(label_regex: str) -> Optional[str]:
         for link in soup.select("a[href]"):
             if re.search(label_regex, link.get_text(strip=True), re.I):
                 return urljoin(BASE, link["href"])
@@ -177,9 +222,9 @@ def parse_detail(url: str) -> Optional[Meeting]:
 
     virtual_link = None
     for link in soup.select("a[href]"):
-        href = link.get("href", "")
-        if any(k in href.lower() for k in ["zoom.us", "teams.microsoft", "youtube.com", "facebook.com/live", "livestream"]):
-            virtual_link = href
+        href = (link.get("href") or "").lower()
+        if any(k in href for k in ["zoom.us", "teams.microsoft", "youtube.com", "facebook.com/live", "livestream"]):
+            virtual_link = link.get("href")
             break
 
     if not location:
@@ -209,6 +254,25 @@ def parse_detail(url: str) -> Optional[Meeting]:
         minutes_url=minutes_url,
         detail_url=url,
     )
+
+# --- Fallback seeding from the City Clerk list ---
+
+def seed_from_city_agendas_page() -> List[str]:
+    """City Clerk 'Agendas & Documents' page often links to eScribe Meeting.aspx pages."""
+    url = "https://detroitmi.gov/government/city-clerk/city-council-agendas-documents"
+    try:
+        html = get(url)
+    except Exception:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    links: List[str] = []
+    for a in soup.select("a[href]"):
+        href = a.get("href", "")
+        if "escribemeetings.com" in href and "Meeting" in href:
+            links.append(href if href.startswith("http") else urljoin(url, href))
+    return sorted(set(links))
+
+# --- ICS output ---
 
 def to_ics(items: List[Meeting]) -> str:
     cal = Calendar()
@@ -243,22 +307,7 @@ def to_ics(items: List[Meeting]) -> str:
         cal.add_component(event)
     return cal.to_ical().decode("utf-8")
 
-def seed_from_city_agendas_page() -> List[str]:
-    """
-    Fallback: the City Clerk 'Agendas & Documents' page links out to eScribe Meeting.aspx pages.
-    """
-    url = "https://detroitmi.gov/government/city-clerk/city-council-agendas-documents"
-    try:
-        html = get(url)
-    except Exception:
-        return []
-    soup = BeautifulSoup(html, "html.parser")
-    links: List[str] = []
-    for a in soup.select("a[href]"):
-        href = a.get("href", "")
-        if "pub-detroitmi.escribemeetings.com/Meeting.aspx" in href:
-            links.append(href if href.startswith("http") else urljoin(url, href))
-    return sorted(set(links))
+# --- Crawl orchestration ---
 
 def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) -> List[Meeting]:
     today = dt.date.today()
@@ -273,16 +322,15 @@ def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) 
     for y, m in sorted(target_months):
         url = month_url(y, m)
         try:
-            found = parse_month(url)
-            # Log for diagnostics
-            print(f"Month {y}-{m:02d}: found {len(found)} detail links")
+            found = parse_month(url, debug_dir="data/debug")
+            print(f"Month {y}-{m:02d}: found {len(found)} detail links  @ {url}")
             for du in found:
                 details.add(du)
             time.sleep(pause)
         except Exception as e:
             print(f"WARN month {y}-{m}: {e}")
 
-    # Fallback if month views were empty (JS/Ajax calendar)
+    # Fallback if month views were empty (e.g., JS/Ajax)
     if not details:
         seeds = seed_from_city_agendas_page()
         print(f"Fallback seeding from City Clerk page: {len(seeds)} links")
@@ -311,6 +359,8 @@ def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) 
     print(f"Total meetings parsed: {len(unique)}")
     return unique
 
+# --- CLI ---
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--year", type=int, default=dt.date.today().year, help="Base year to crawl (defaults to current year)")
@@ -320,6 +370,8 @@ def main():
     args = ap.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
+    os.makedirs(os.path.join(args.outdir, "debug"), exist_ok=True)
+
     meetings = crawl(args.year, args.months_ahead, args.months_behind)
 
     json_path = os.path.join(args.outdir, "detroit-meetings.json")

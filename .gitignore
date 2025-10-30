@@ -10,5 +10,3 @@ build/
 
 # (Optional) Generated data — comment OUT these lines if you want
 # the workflow to commit JSON/ICS results to the repo.
-# data/*.json
-# data/*.ics

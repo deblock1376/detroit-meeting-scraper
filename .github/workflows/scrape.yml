@@ -1,7 +1,7 @@
 name: scrape-detroit
 on:
   schedule:
-    - cron: "5 12 * * *"   # daily 12:05 UTC (~7:05am ET standard)
+    - cron: "5 12 * * *"   # daily 12:05 UTC (~7:05am ET std)
   workflow_dispatch: {}
 
 jobs:
@@ -9,14 +9,57 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    concurrency:
+      group: scrape-detroit
+      cancel-in-progress: true
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python -m pip install --upgrade pip && pip install -r requirements.txt
-      - run: python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        id: run
+        run: |
+          set -e
+          python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data | tee scrape.log
+          echo "COUNT=$(jq length data/detroit-meetings.json 2>/dev/null || echo 0)" >> $GITHUB_OUTPUT
+
+      - name: Show outputs
+        run: |
+          ls -la data || true
+          echo "First 200 bytes of JSON (if present):"
+          head -c 200 data/detroit-meetings.json || true
+          echo
+          echo "Scraper log:"
+          sed -n '1,120p' scrape.log || true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: detroit-meetings
+          path: |
+            data/detroit-meetings.json
+            data/detroit-meetings.ics
+            scrape.log
+          if-no-files-found: warn
+
+      - name: Fail if zero meetings
+        if: ${{ steps.run.outputs.COUNT == '0' }}
+        run: |
+          echo "No meetings were scraped (COUNT=0). Failing for visibility."
+          exit 1
+
       - name: Commit results
+        if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

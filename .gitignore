@@ -1,0 +1,14 @@
+# Python / OS
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+
+# (Optional) Generated data — comment OUT these lines if you want
+# the workflow to commit JSON/ICS results to the repo.
+# data/*.json
+# data/*.ics

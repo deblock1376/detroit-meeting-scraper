@@ -6,11 +6,6 @@ Detroit eScribe scraper
 
 Usage:
   python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data
-
-Notes:
-  - This is a best-effort parser; eScribe HTML can vary. We also try to parse any per-meeting ICS links if present
-    to get authoritative start/end times.
-  - Timezone is America/Detroit (handles DST).
 """
 
 import argparse
@@ -64,18 +59,21 @@ def month_url(year: int, month: int) -> str:
 def parse_month(url: str) -> List[str]:
     html = get(url)
     soup = BeautifulSoup(html, "html.parser")
-    detail_links = []
-    # Broad selector to catch typical eScribe patterns
-    for a in soup.select("a[href*='Meeting?Id'], a[href*='Meeting?']"):
+    detail_links: List[str] = []
+
+    # Broad selector to catch typical eScribe patterns (with/without .aspx)
+    for a in soup.select("a[href*='Meeting?Id'], a[href*='Meeting?'], a[href*='Meeting.aspx?']"):
         href = a.get("href") or ""
         if "Meeting" in href:
             detail_links.append(urljoin(BASE, href))
-    # Also capture links within event tiles/cards that point to details
+
+    # Generic pass (some templates don’t match the CSS selector above)
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if "Meeting?Id=" in href:
+        if ("Meeting?Id=" in href) or ("Meeting.aspx" in href and "Id=" in href):
             detail_links.append(urljoin(BASE, href))
-    # unique + stable order
+
+    # Unique + stable order
     return sorted(set(detail_links))
 
 def try_parse_ics_from_detail(soup: BeautifulSoup) -> Optional[dict]:
@@ -95,18 +93,12 @@ def try_parse_ics_from_detail(soup: BeautifulSoup) -> Optional[dict]:
                         end = comp.get("dtend").dt if comp.get("dtend") else None
                         summary = str(comp.get("summary") or "")
                         loc = str(comp.get("location") or "")
-                        return {
-                            "start": start,
-                            "end": end,
-                            "summary": summary,
-                            "location": loc,
-                        }
+                        return {"start": start, "end": end, "summary": summary, "location": loc}
         except Exception:
             continue
     return None
 
 def extract_meeting_id(url: str) -> Optional[str]:
-    # Attempt to extract numeric ID from query string
     try:
         parsed = urlparse(url)
         qs = parse_qs(parsed.query)
@@ -133,7 +125,7 @@ def parse_detail(url: str) -> Optional[Meeting]:
         elif parts:
             body = parts[-1]
 
-    # If the title looks like the body (COMMON IN ESCRIBE), adjust
+    # If the title looks like the body (common in eScribe), adjust
     if not body and re.search(r"(COMMITTEE|COMMISSION|COUNCIL)", raw_title.upper()):
         body = raw_title
         title = "Meeting"
@@ -229,7 +221,6 @@ def to_ics(items: List[Meeting]) -> str:
         event.add("uid", it.uid)
         start = dt.datetime.fromisoformat(it.start)
         end = dt.datetime.fromisoformat(it.end)
-        # Ensure TZ-aware
         if start.tzinfo is None:
             start = TZ.localize(start)
         if end.tzinfo is None:
@@ -252,25 +243,51 @@ def to_ics(items: List[Meeting]) -> str:
         cal.add_component(event)
     return cal.to_ical().decode("utf-8")
 
+def seed_from_city_agendas_page() -> List[str]:
+    """
+    Fallback: the City Clerk 'Agendas & Documents' page links out to eScribe Meeting.aspx pages.
+    """
+    url = "https://detroitmi.gov/government/city-clerk/city-council-agendas-documents"
+    try:
+        html = get(url)
+    except Exception:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    links: List[str] = []
+    for a in soup.select("a[href]"):
+        href = a.get("href", "")
+        if "pub-detroitmi.escribemeetings.com/Meeting.aspx" in href:
+            links.append(href if href.startswith("http") else urljoin(url, href))
+    return sorted(set(links))
+
 def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) -> List[Meeting]:
     today = dt.date.today()
     target_months = set()
     for d in range(-months_behind, months_ahead + 1):
-        # Calculate month offset
-        y = year if d >= 0 else year
         month = today.month + d
         y_offset = (month - 1) // 12
         m_norm = ((month - 1) % 12) + 1
         target_months.add((year + y_offset, m_norm))
+
     details = set()
     for y, m in sorted(target_months):
         url = month_url(y, m)
         try:
-            for du in parse_month(url):
+            found = parse_month(url)
+            # Log for diagnostics
+            print(f"Month {y}-{m:02d}: found {len(found)} detail links")
+            for du in found:
                 details.add(du)
             time.sleep(pause)
         except Exception as e:
             print(f"WARN month {y}-{m}: {e}")
+
+    # Fallback if month views were empty (JS/Ajax calendar)
+    if not details:
+        seeds = seed_from_city_agendas_page()
+        print(f"Fallback seeding from City Clerk page: {len(seeds)} links")
+        for du in seeds:
+            details.add(du)
 
     items: List[Meeting] = []
     for du in sorted(details):
@@ -291,6 +308,7 @@ def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) 
             seen.add(key)
             unique.append(it)
     unique.sort(key=lambda x: x.start)
+    print(f"Total meetings parsed: {len(unique)}")
     return unique
 
 def main():
@@ -310,7 +328,6 @@ def main():
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump([asdict(x) for x in meetings], f, indent=2, ensure_ascii=False)
 
-    from icalendar import Calendar
     with open(ics_path, "w", encoding="utf-8") as f:
         f.write(to_ics(meetings))
 

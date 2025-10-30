@@ -1,7 +1,7 @@
 name: scrape-detroit
 on:
   schedule:
-    - cron: "5 12 * * *"   # daily 12:05 UTC (~7:05am ET std)
+    - cron: "5 12 * * *"   # daily 12:05 UTC (~7:05am ET standard)
   workflow_dispatch: {}
 
 jobs:
@@ -15,6 +15,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # we need full history to rebase
 
       - uses: actions/setup-python@v5
         with:
@@ -31,15 +33,15 @@ jobs:
         run: |
           set -e
           python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data | tee scrape.log
-          echo "COUNT=$(jq length data/detroit-meetings.json 2>/dev/null || echo 0)" >> $GITHUB_OUTPUT
+          echo "COUNT=$(jq length data/detroit-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 
       - name: Show outputs
         run: |
           ls -la data || true
-          echo "First 200 bytes of JSON (if present):"
+          echo "---- First 200 bytes of JSON (if present) ----"
           head -c 200 data/detroit-meetings.json || true
           echo
-          echo "Scraper log:"
+          echo "---- Scraper log (top) ----"
           sed -n '1,120p' scrape.log || true
 
       - name: Upload artifact
@@ -58,11 +60,24 @@ jobs:
           echo "No meetings were scraped (COUNT=0). Failing for visibility."
           exit 1
 
-      - name: Commit results
+      - name: Commit & push results (rebase first, safe force if needed)
         if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
-          git config user.name "github-actions[bot]"
+          set -e
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # stage + commit
           git add data/*.json data/*.ics || true
-          git commit -m "Update Detroit meetings" || echo "No changes"
-          git push
+          git commit -m "Update Detroit meetings" || { echo "No changes to commit"; exit 0; }
+
+          # rebase onto latest main (handles your concurrent commits)
+          git fetch origin main
+          git checkout main
+          git pull --rebase origin main
+
+          # now push; if we race, retry with --force-with-lease (safer than --force)
+          git push origin HEAD:main || {
+            echo "Non-fast-forward; retrying with --force-with-lease"
+            git push --force-with-lease origin HEAD:main
+          }

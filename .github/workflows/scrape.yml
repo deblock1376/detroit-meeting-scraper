@@ -36,6 +36,9 @@ jobs:
 
       - name: Run scraper
         id: run
+        env:
+          REQUESTS_CA_BUNDLE: /etc/ssl/certs/ca-certificates.crt
+          SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
         run: |
           set -e
           python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data | tee scrape.log

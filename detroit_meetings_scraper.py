@@ -26,6 +26,7 @@ from bs4 import BeautifulSoup
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import certifi
 
 BASE = "https://pub-detroitmi.escribemeetings.com/"
 TZ = pytz.timezone("America/Detroit")
@@ -50,6 +51,8 @@ def _session() -> requests.Session:
     )
     s.mount("https://", HTTPAdapter(max_retries=retries))
     s.mount("http://", HTTPAdapter(max_retries=retries))
+    # Use certifi's certificate bundle for SSL verification
+    s.verify = certifi.where()
     return s
 
 SESSION = _session()

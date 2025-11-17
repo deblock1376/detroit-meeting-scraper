@@ -88,34 +88,142 @@ def month_url(year: int, month: int) -> str:
 
 # --- Scrape month pages ---
 
-def parse_month(url: str, debug_dir: Optional[str] = None) -> List[str]:
-    """Return a list of absolute meeting detail URLs from a month view."""
-    html = get(url)
+def parse_ajax_meeting(meeting_data: dict) -> Optional[Meeting]:
+    """Convert AJAX JSON meeting data directly to a Meeting object."""
+    try:
+        meeting_id = meeting_data.get("ID")
+        if not meeting_id:
+            return None
 
-    # Save HTML snapshot for diagnostics
-    if debug_dir:
-        os.makedirs(debug_dir, exist_ok=True)
-        name = re.sub(r"[^0-9A-Za-z]+", "_", url)
-        with open(os.path.join(debug_dir, f"{name[:120]}.html"), "w", encoding="utf-8") as f:
-            f.write(html)
+        # Parse meeting name and body
+        meeting_name = clean(meeting_data.get("MeetingName", ""))
+        meeting_type = clean(meeting_data.get("MeetingType", ""))
 
-    soup = BeautifulSoup(html, "html.parser")
-    detail_links: List[str] = []
+        # Use meeting type as body if available, otherwise use meeting name
+        if meeting_type and meeting_type != meeting_name:
+            body = meeting_type
+            title = "Meeting"
+        else:
+            body = meeting_name
+            title = "Meeting"
 
-    # CSS selector sweep (handles Meeting?Id=..., Meeting.aspx?..., etc.)
-    for a in soup.select("a[href*='Meeting?Id'], a[href*='Meeting?'], a[href*='Meeting.aspx?']"):
-        href = a.get("href") or ""
-        if "Meeting" in href:
-            detail_links.append(urljoin(BASE, href))
+        # Parse dates (format: "2025/10/09 10:00:00")
+        start_str = meeting_data.get("StartDate", "")
+        end_str = meeting_data.get("EndDate", "")
 
-    # Generic sweep in case template differs
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if ("Meeting?Id=" in href) or ("Meeting.aspx" in href and "Id=" in href):
-            detail_links.append(urljoin(BASE, href))
+        if not start_str:
+            return None
 
-    # Unique + stable order
-    return sorted(set(detail_links))
+        # Parse datetime from format "2025/10/09 10:00:00"
+        start_dt = dt.datetime.strptime(start_str, "%Y/%m/%d %H:%M:%S")
+        start_dt = TZ.localize(start_dt)
+
+        if end_str:
+            end_dt = dt.datetime.strptime(end_str, "%Y/%m/%d %H:%M:%S")
+            end_dt = TZ.localize(end_dt)
+        else:
+            end_dt = start_dt + dt.timedelta(hours=2)
+
+        # Location
+        location = clean(meeting_data.get("Location", ""))
+        description = clean(meeting_data.get("Description", ""))
+
+        # Detail URL
+        detail_url = meeting_data.get("Url", "")
+
+        # Extract agenda and minutes URLs from MeetingDocumentLink
+        agenda_url = None
+        minutes_url = None
+        docs = meeting_data.get("MeetingDocumentLink", [])
+        for doc in docs:
+            doc_type = doc.get("Type", "")
+            doc_url = doc.get("Url", "")
+            if not doc_url:
+                continue
+            # Make absolute URL if relative
+            if not doc_url.startswith("http"):
+                doc_url = urljoin(BASE, doc_url)
+
+            if "Agenda" in doc_type and not agenda_url:
+                agenda_url = doc_url
+            elif "Minutes" in doc_type and not minutes_url:
+                minutes_url = doc_url
+
+        # UID
+        uid_src = f"{body}|{start_dt.astimezone(dt.timezone.utc).isoformat()}|{meeting_id}|{detail_url}"
+        uid = hashlib.sha1(uid_src.encode()).hexdigest() + "@detroit-escribe"
+
+        return Meeting(
+            uid=uid,
+            title=clean(title),
+            body=clean(body),
+            start=start_dt.isoformat(),
+            end=end_dt.isoformat(),
+            all_day=False,
+            timezone="America/Detroit",
+            location=clean(location),
+            address=clean(description) if description != location else "",
+            virtual_link=None,  # Not available in AJAX response
+            agenda_url=agenda_url,
+            minutes_url=minutes_url,
+            detail_url=detail_url,
+        )
+    except Exception as e:
+        print(f"WARN: Failed to parse AJAX meeting data: {e}")
+        return None
+
+
+def parse_month(url: str, debug_dir: Optional[str] = None) -> List[Meeting]:
+    """Return a list of Meeting objects from AJAX endpoint for a month view."""
+    # Extract year and month from URL (format: ?Year=2025&Month=11)
+    parsed = urlparse(url)
+    qs = parse_qs(parsed.query)
+    year = int(qs.get("Year", [dt.date.today().year])[0])
+    month = int(qs.get("Month", [dt.date.today().month])[0])
+
+    # Calculate start and end dates for the month
+    start_date = dt.date(year, month, 1)
+    # Get last day of month
+    if month == 12:
+        end_date = dt.date(year, 12, 31)
+    else:
+        end_date = dt.date(year, month + 1, 1) - dt.timedelta(days=1)
+
+    # Call the AJAX endpoint that actually returns meeting data
+    ajax_url = f"{BASE}MeetingsCalendarView.aspx/GetCalendarMeetings?Year={year}&Month={month}"
+    payload = {
+        "calendarStartDate": start_date.isoformat(),
+        "calendarEndDate": end_date.isoformat()
+    }
+
+    try:
+        r = SESSION.post(
+            ajax_url,
+            json=payload,
+            headers={**HEADERS, "Content-Type": "application/json"},
+            timeout=30
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        # Save JSON snapshot for diagnostics
+        if debug_dir:
+            os.makedirs(debug_dir, exist_ok=True)
+            name = f"ajax_{year}_{month:02d}.json"
+            with open(os.path.join(debug_dir, name), "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+
+        # Convert JSON data directly to Meeting objects
+        meetings = []
+        for meeting_data in data.get("d", []):
+            mtg = parse_ajax_meeting(meeting_data)
+            if mtg:
+                meetings.append(mtg)
+
+        return meetings
+    except Exception as e:
+        print(f"WARN: Failed to fetch AJAX endpoint for {year}-{month}: {e}")
+        return []
 
 # --- Parse detail page (and per-meeting ICS if present) ---
 
@@ -318,34 +426,16 @@ def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) 
         m_norm = ((month - 1) % 12) + 1
         target_months.add((year + y_offset, m_norm))
 
-    details = set()
+    items: List[Meeting] = []
     for y, m in sorted(target_months):
         url = month_url(y, m)
         try:
-            found = parse_month(url, debug_dir="data/debug")
-            print(f"Month {y}-{m:02d}: found {len(found)} detail links  @ {url}")
-            for du in found:
-                details.add(du)
+            meetings = parse_month(url, debug_dir="data/debug")
+            print(f"Month {y}-{m:02d}: found {len(meetings)} meetings  @ {url}")
+            items.extend(meetings)
             time.sleep(pause)
         except Exception as e:
             print(f"WARN month {y}-{m}: {e}")
-
-    # Fallback if month views were empty (e.g., JS/Ajax)
-    if not details:
-        seeds = seed_from_city_agendas_page()
-        print(f"Fallback seeding from City Clerk page: {len(seeds)} links")
-        for du in seeds:
-            details.add(du)
-
-    items: List[Meeting] = []
-    for du in sorted(details):
-        try:
-            mtg = parse_detail(du)
-            if mtg:
-                items.append(mtg)
-        except Exception as e:
-            print(f"WARN detail {du}: {e}")
-        time.sleep(pause)
 
     # de-dupe by (title, body, start)
     seen = set()

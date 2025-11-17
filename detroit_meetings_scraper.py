@@ -82,7 +82,7 @@ def clean(t: Optional[str]) -> str:
     return re.sub(r"\s+", " ", (t or "").strip())
 
 def get(url: str) -> str:
-    r = SESSION.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
+    r = SESSION.get(url, headers=HEADERS, timeout=30, allow_redirects=True, verify=certifi.where())
     r.raise_for_status()
     return r.text
 
@@ -204,7 +204,8 @@ def parse_month(url: str, debug_dir: Optional[str] = None) -> List[Meeting]:
             ajax_url,
             json=payload,
             headers={**HEADERS, "Content-Type": "application/json"},
-            timeout=30
+            timeout=30,
+            verify=certifi.where()
         )
         r.raise_for_status()
         data = r.json()

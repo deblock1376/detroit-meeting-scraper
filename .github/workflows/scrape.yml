@@ -23,6 +23,12 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
+      - name: Install system certificates
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ca-certificates
+          sudo update-ca-certificates
+
       - name: Install deps
         run: |
           python -m pip install --upgrade pip

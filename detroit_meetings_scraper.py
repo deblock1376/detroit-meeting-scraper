@@ -201,7 +201,7 @@ def parse_votes(text: str) -> List[dict]:
 
 # --- Scrape month pages ---
 
-def parse_ajax_meeting(meeting_data: dict) -> Optional[Meeting]:
+def parse_ajax_meeting(meeting_data: dict, parse_documents: bool = False) -> Optional[Meeting]:
     """Convert AJAX JSON meeting data directly to a Meeting object."""
     try:
         meeting_id = meeting_data.get("ID")
@@ -266,29 +266,30 @@ def parse_ajax_meeting(meeting_data: dict) -> Optional[Meeting]:
         uid_src = f"{body}|{start_dt.astimezone(dt.timezone.utc).isoformat()}|{meeting_id}|{detail_url}"
         uid = hashlib.sha1(uid_src.encode()).hexdigest() + "@detroit-escribe"
 
-        # Download and parse documents
+        # Download and parse documents (only if requested)
         agenda_text = None
         agenda_items = None
         minutes_text = None
         votes = None
 
-        if agenda_url:
-            print(f"  Downloading agenda for {body}...")
-            pdf_bytes = download_pdf(agenda_url)
-            if pdf_bytes:
-                agenda_text = extract_text_from_pdf(pdf_bytes)
-                if agenda_text:
-                    agenda_items = parse_agenda_items(agenda_text)
-                    print(f"    Found {len(agenda_items)} agenda items")
+        if parse_documents:
+            if agenda_url:
+                print(f"  Downloading agenda for {body}...")
+                pdf_bytes = download_pdf(agenda_url)
+                if pdf_bytes:
+                    agenda_text = extract_text_from_pdf(pdf_bytes)
+                    if agenda_text:
+                        agenda_items = parse_agenda_items(agenda_text)
+                        print(f"    Found {len(agenda_items)} agenda items")
 
-        if minutes_url:
-            print(f"  Downloading minutes for {body}...")
-            pdf_bytes = download_pdf(minutes_url)
-            if pdf_bytes:
-                minutes_text = extract_text_from_pdf(pdf_bytes)
-                if minutes_text:
-                    votes = parse_votes(minutes_text)
-                    print(f"    Found {len(votes)} vote records")
+            if minutes_url:
+                print(f"  Downloading minutes for {body}...")
+                pdf_bytes = download_pdf(minutes_url)
+                if pdf_bytes:
+                    minutes_text = extract_text_from_pdf(pdf_bytes)
+                    if minutes_text:
+                        votes = parse_votes(minutes_text)
+                        print(f"    Found {len(votes)} vote records")
 
         return Meeting(
             uid=uid,
@@ -314,7 +315,7 @@ def parse_ajax_meeting(meeting_data: dict) -> Optional[Meeting]:
         return None
 
 
-def parse_month(url: str, debug_dir: Optional[str] = None) -> List[Meeting]:
+def parse_month(url: str, debug_dir: Optional[str] = None, parse_documents: bool = False) -> List[Meeting]:
     """Return a list of Meeting objects from AJAX endpoint for a month view."""
     # Extract year and month from URL (format: ?Year=2025&Month=11)
     parsed = urlparse(url)
@@ -357,7 +358,7 @@ def parse_month(url: str, debug_dir: Optional[str] = None) -> List[Meeting]:
         # Convert JSON data directly to Meeting objects
         meetings = []
         for meeting_data in data.get("d", []):
-            mtg = parse_ajax_meeting(meeting_data)
+            mtg = parse_ajax_meeting(meeting_data, parse_documents=parse_documents)
             if mtg:
                 meetings.append(mtg)
 
@@ -558,7 +559,7 @@ def to_ics(items: List[Meeting]) -> str:
 
 # --- Crawl orchestration ---
 
-def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) -> List[Meeting]:
+def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6, parse_documents: bool = False) -> List[Meeting]:
     today = dt.date.today()
     target_months = set()
     for d in range(-months_behind, months_ahead + 1):
@@ -571,7 +572,7 @@ def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6) 
     for y, m in sorted(target_months):
         url = month_url(y, m)
         try:
-            meetings = parse_month(url, debug_dir="data/debug")
+            meetings = parse_month(url, debug_dir="data/debug", parse_documents=parse_documents)
             print(f"Month {y}-{m:02d}: found {len(meetings)} meetings  @ {url}")
             items.extend(meetings)
             time.sleep(pause)
@@ -598,12 +599,13 @@ def main():
     ap.add_argument("--months-ahead", type=int, default=2, help="How many months ahead to crawl")
     ap.add_argument("--months-behind", type=int, default=1, help="How many months behind to crawl")
     ap.add_argument("--outdir", type=str, default="data", help="Output directory")
+    ap.add_argument("--parse-documents", action="store_true", help="Download and parse agenda/minutes PDFs (slower but extracts text and structured data)")
     args = ap.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
     os.makedirs(os.path.join(args.outdir, "debug"), exist_ok=True)
 
-    meetings = crawl(args.year, args.months_ahead, args.months_behind)
+    meetings = crawl(args.year, args.months_ahead, args.months_behind, parse_documents=args.parse_documents)
 
     json_path = os.path.join(args.outdir, "detroit-meetings.json")
     ics_path = os.path.join(args.outdir, "detroit-meetings.ics")

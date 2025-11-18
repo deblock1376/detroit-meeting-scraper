@@ -3,3 +3,4 @@ requests==2.32.3
 icalendar==5.0.12
 pytz==2024.1
 certifi>=2023.7.22
+pdfplumber>=0.10.0

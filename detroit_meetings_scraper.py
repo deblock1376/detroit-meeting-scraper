@@ -21,6 +21,8 @@ from urllib.parse import urljoin, urlparse, parse_qs
 
 import pytz
 from bs4 import BeautifulSoup
+import pdfplumber
+import io
 
 # --- HTTP (resilient session) ---
 import requests
@@ -86,6 +88,11 @@ class Meeting:
     minutes_url: Optional[str]
     detail_url: str
     source: str = "escribe-detroit"
+    # Parsed document content
+    agenda_text: Optional[str] = None
+    minutes_text: Optional[str] = None
+    agenda_items: Optional[List[dict]] = None
+    votes: Optional[List[dict]] = None
 
 # --- Utils ---
 
@@ -99,6 +106,98 @@ def get(url: str) -> str:
 
 def month_url(year: int, month: int) -> str:
     return f"{BASE}?Year={year}&Month={month}"
+
+# --- Document downloading and parsing ---
+
+def download_pdf(url: str) -> Optional[bytes]:
+    """Download a PDF document and return its bytes."""
+    try:
+        r = SESSION.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        if 'application/pdf' in r.headers.get('Content-Type', ''):
+            return r.content
+        return None
+    except Exception as e:
+        print(f"WARN: Failed to download PDF from {url}: {e}")
+        return None
+
+def extract_text_from_pdf(pdf_bytes: bytes) -> Optional[str]:
+    """Extract text from PDF bytes."""
+    try:
+        with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+            text_parts = []
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text_parts.append(page_text)
+            return "\n\n".join(text_parts)
+    except Exception as e:
+        print(f"WARN: Failed to extract text from PDF: {e}")
+        return None
+
+def parse_agenda_items(text: str) -> List[dict]:
+    """Parse agenda items from text."""
+    items = []
+    if not text:
+        return items
+
+    # Look for numbered items like "1.", "2.", "I.", "II.", "A.", "B."
+    # Common patterns in meeting agendas
+    patterns = [
+        r'^\s*(\d+)\.\s+(.+?)(?=^\s*\d+\.|$)',  # 1. Item text
+        r'^\s*([A-Z])\.\s+(.+?)(?=^\s*[A-Z]\.|$)',  # A. Item text
+        r'^\s*([IVX]+)\.\s+(.+?)(?=^\s*[IVX]+\.|$)',  # I. Item text (Roman numerals)
+    ]
+
+    for pattern in patterns:
+        matches = re.finditer(pattern, text, re.MULTILINE | re.DOTALL)
+        for match in matches:
+            item_num = match.group(1)
+            item_text = clean(match.group(2))
+            if item_text and len(item_text) > 10:  # Filter out too-short items
+                items.append({
+                    "number": item_num,
+                    "text": item_text[:500]  # Limit length
+                })
+
+    return items
+
+def parse_votes(text: str) -> List[dict]:
+    """Parse voting records from minutes text."""
+    votes = []
+    if not text:
+        return votes
+
+    # Look for vote patterns like "YEAS: ...", "NAYS: ...", "Motion carried", etc.
+    # Pattern: "YEAS: Council Member ..., Council Member ..."
+    yeas_pattern = r'YEAS?:?\s*(.+?)(?=NAYS?:?|ABSENT|$)'
+    nays_pattern = r'NAYS?:?\s*(.+?)(?=ABSENT|YEAS?:?|$)'
+
+    yeas_matches = re.finditer(yeas_pattern, text, re.IGNORECASE | re.DOTALL)
+    nays_matches = re.finditer(nays_pattern, text, re.IGNORECASE | re.DOTALL)
+
+    for match in yeas_matches:
+        yeas_text = clean(match.group(1))
+        if yeas_text:
+            # Extract names (simple approach - split by commas)
+            names = [clean(n) for n in re.split(r',|and', yeas_text) if clean(n)]
+            if names:
+                votes.append({
+                    "vote_type": "yea",
+                    "voters": names[:20]  # Limit number of names
+                })
+
+    for match in nays_matches:
+        nays_text = clean(match.group(1))
+        if nays_text:
+            names = [clean(n) for n in re.split(r',|and', nays_text) if clean(n)]
+            if names:
+                votes.append({
+                    "vote_type": "nay",
+                    "voters": names[:20]
+                })
+
+    return votes
 
 # --- Scrape month pages ---
 
@@ -167,6 +266,30 @@ def parse_ajax_meeting(meeting_data: dict) -> Optional[Meeting]:
         uid_src = f"{body}|{start_dt.astimezone(dt.timezone.utc).isoformat()}|{meeting_id}|{detail_url}"
         uid = hashlib.sha1(uid_src.encode()).hexdigest() + "@detroit-escribe"
 
+        # Download and parse documents
+        agenda_text = None
+        agenda_items = None
+        minutes_text = None
+        votes = None
+
+        if agenda_url:
+            print(f"  Downloading agenda for {body}...")
+            pdf_bytes = download_pdf(agenda_url)
+            if pdf_bytes:
+                agenda_text = extract_text_from_pdf(pdf_bytes)
+                if agenda_text:
+                    agenda_items = parse_agenda_items(agenda_text)
+                    print(f"    Found {len(agenda_items)} agenda items")
+
+        if minutes_url:
+            print(f"  Downloading minutes for {body}...")
+            pdf_bytes = download_pdf(minutes_url)
+            if pdf_bytes:
+                minutes_text = extract_text_from_pdf(pdf_bytes)
+                if minutes_text:
+                    votes = parse_votes(minutes_text)
+                    print(f"    Found {len(votes)} vote records")
+
         return Meeting(
             uid=uid,
             title=clean(title),
@@ -181,6 +304,10 @@ def parse_ajax_meeting(meeting_data: dict) -> Optional[Meeting]:
             agenda_url=agenda_url,
             minutes_url=minutes_url,
             detail_url=detail_url,
+            agenda_text=agenda_text,
+            minutes_text=minutes_text,
+            agenda_items=agenda_items,
+            votes=votes,
         )
     except Exception as e:
         print(f"WARN: Failed to parse AJAX meeting data: {e}")

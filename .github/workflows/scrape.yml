@@ -38,7 +38,7 @@ jobs:
         id: run
         run: |
           set -e
-          python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data | tee scrape.log
+          python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data --parse-documents | tee scrape.log
           echo "COUNT=$(jq length data/detroit-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 
       - name: Show outputs

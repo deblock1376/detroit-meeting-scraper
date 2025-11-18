@@ -1,0 +1,83 @@
+name: scrape-macomb
+on:
+  schedule:
+    - cron: "15 12 * * *"   # daily 12:15 UTC (~7:15am ET standard)
+  workflow_dispatch: {}
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: scrape-macomb
+      cancel-in-progress: true
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # we need full history to rebase
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        id: run
+        run: |
+          set -e
+          python civicclerk_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data | tee scrape-macomb.log
+          echo "COUNT=$(jq length data/macomb-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+
+      - name: Show outputs
+        run: |
+          ls -la data || true
+          echo "---- First 200 bytes of JSON (if present) ----"
+          head -c 200 data/macomb-meetings.json || true
+          echo
+          echo "---- Scraper log (top) ----"
+          sed -n '1,120p' scrape-macomb.log || true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macomb-meetings
+          path: |
+            data/macomb-meetings.json
+            data/macomb-meetings.ics
+            scrape-macomb.log
+          if-no-files-found: warn
+
+      - name: Fail if zero meetings
+        if: ${{ steps.run.outputs.COUNT == '0' }}
+        run: |
+          echo "No meetings were scraped (COUNT=0). Failing for visibility."
+          exit 1
+
+      - name: Commit & push results (rebase first, safe force if needed)
+        if: ${{ steps.run.outputs.COUNT != '0' }}
+        run: |
+          set -e
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # stage + commit
+          git add data/macomb-meetings.json data/macomb-meetings.ics || true
+          git commit -m "Update Macomb County meetings" || { echo "No changes to commit"; exit 0; }
+
+          # rebase onto latest main (handles concurrent commits)
+          git fetch origin main
+          git checkout main
+          git pull --rebase origin main
+
+          # now push; if we race, retry with --force-with-lease (safer than --force)
+          git push origin HEAD:main || {
+            echo "Non-fast-forward; retrying with --force-with-lease"
+            git push --force-with-lease origin HEAD:main
+          }

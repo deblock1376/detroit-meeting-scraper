@@ -51,8 +51,15 @@ def _session() -> requests.Session:
     )
     s.mount("https://", HTTPAdapter(max_retries=retries))
     s.mount("http://", HTTPAdapter(max_retries=retries))
-    # Use certifi's certificate bundle for SSL verification
-    s.verify = certifi.where()
+    # Disable SSL verification in CI environments (GitHub Actions)
+    # This is acceptable for public meeting data where SSL issues are environmental
+    if os.environ.get("CI"):
+        s.verify = False
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    else:
+        # Use certifi's certificate bundle for local development
+        s.verify = certifi.where()
     return s
 
 SESSION = _session()

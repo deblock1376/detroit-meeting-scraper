@@ -53,7 +53,7 @@ def _session() -> requests.Session:
     s.mount("http://", HTTPAdapter(max_retries=retries))
     # Disable SSL verification in CI environments (GitHub Actions)
     # This is acceptable for public meeting data where SSL issues are environmental
-    if os.environ.get("CI"):
+    if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
         s.verify = False
         import urllib3
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

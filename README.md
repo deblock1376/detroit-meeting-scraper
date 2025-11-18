@@ -1,9 +1,12 @@
-# Detroit eScribe Scraper
+# eScribe Meeting Scraper
 
-Scrape Detroit City Council & committee meetings from the public eScribe portal and emit **JSON** + **ICS**.
+Scrape city council & committee meetings from eScribe portals and emit **JSON** + **ICS**.
+
+Originally built for Detroit, now supports any eScribe instance.
 
 ## Quick start
 
+**Detroit (default):**
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -12,6 +15,18 @@ python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 202
 # Outputs:
 # data/detroit-meetings.json
 # data/detroit-meetings.ics
+```
+
+**Other cities:**
+```bash
+# Example: New York City (if they used eScribe)
+python detroit_meetings_scraper.py \
+  --base-url https://pub-nyc.escribemeetings.com/ \
+  --timezone America/New_York \
+  --months-ahead 2 --months-behind 1 --year 2025 --outdir data
+# Outputs:
+# data/nyc-meetings.json
+# data/nyc-meetings.ics
 ```
 
 ### JSON shape
@@ -39,12 +54,34 @@ python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 202
 
 ## Options
 
-- `--year` (default = current year)
-- `--months-ahead` (default = 2)
-- `--months-behind` (default = 1)
-- `--outdir` (default = `data/`)
+- `--base-url` (default = `https://pub-detroitmi.escribemeetings.com/`) - Base URL of the eScribe instance
+- `--timezone` (default = `America/Detroit`) - Timezone for meeting times (e.g., `America/New_York`, `America/Los_Angeles`)
+- `--year` (default = current year) - Base year to crawl
+- `--months-ahead` (default = 2) - How many months ahead to crawl
+- `--months-behind` (default = 1) - How many months behind to crawl
+- `--outdir` (default = `data/`) - Output directory
+- `--parse-documents` - Download and parse agenda/minutes PDFs (slower but extracts text and structured data)
 
-The scraper fetches month views, then visits each meeting detail page. It attempts to parse a per-meeting `.ics` (if present) for authoritative times, then enriches with agenda/minutes/virtual links from HTML.
+The scraper calls the eScribe AJAX endpoint to fetch meeting data as JSON, then optionally downloads and parses PDF documents for full text extraction and structured data parsing (agenda items, vote records).
+
+## Using with other cities
+
+To adapt this scraper for another city:
+
+1. **Find the eScribe URL**: Look for your city's meeting portal. Many use eScribe and have URLs like:
+   - `https://pub-{cityname}.escribemeetings.com/`
+   - Check your city's official website for "City Council", "Meetings", or "Agendas"
+
+2. **Find the timezone**: Use the IANA timezone database name (e.g., `America/New_York`, `America/Chicago`, `America/Los_Angeles`)
+   - See: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+3. **Run the scraper**:
+   ```bash
+   python detroit_meetings_scraper.py \
+     --base-url https://pub-{cityname}.escribemeetings.com/ \
+     --timezone America/{Region} \
+     --months-ahead 2 --months-behind 1 --year 2025 --outdir data
+   ```
 
 ## Scheduling (GitHub Actions)
 

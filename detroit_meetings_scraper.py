@@ -6,6 +6,10 @@ Detroit eScribe scraper
 
 Usage:
   python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data
+
+  To use with other cities:
+  python detroit_meetings_scraper.py --base-url https://pub-example.escribemeetings.com/ \
+    --timezone America/New_York --months-ahead 2 --months-behind 1 --year 2025 --outdir data
 """
 
 import argparse
@@ -30,8 +34,15 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import certifi
 
-BASE = "https://pub-detroitmi.escribemeetings.com/"
-TZ = pytz.timezone("America/Detroit")
+# Default configuration (Detroit)
+DEFAULT_BASE_URL = "https://pub-detroitmi.escribemeetings.com/"
+DEFAULT_TIMEZONE = "America/Detroit"
+
+# Global configuration (will be set by main() from CLI arguments)
+BASE = DEFAULT_BASE_URL
+TZ = pytz.timezone(DEFAULT_TIMEZONE)
+TIMEZONE_NAME = DEFAULT_TIMEZONE
+SOURCE_ID = "escribe-detroit"  # Derived from base URL
 
 HEADERS = {
     # Use a real-browser UA (some hosts throttle default UA strings)
@@ -55,15 +66,11 @@ def _session() -> requests.Session:
     s.mount("http://", HTTPAdapter(max_retries=retries))
     # Disable SSL verification in CI environments (GitHub Actions)
     # This is acceptable for public meeting data where SSL issues are environmental
-    is_ci = os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS")
-    print(f"DEBUG: CI={os.environ.get('CI')}, GITHUB_ACTIONS={os.environ.get('GITHUB_ACTIONS')}, is_ci={is_ci}")
-    if is_ci:
-        print("DEBUG: Disabling SSL verification in CI environment")
+    if os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS"):
         s.verify = False
         import urllib3
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     else:
-        print("DEBUG: Using certifi for SSL verification")
         # Use certifi's certificate bundle for local development
         s.verify = certifi.where()
     return s
@@ -264,7 +271,7 @@ def parse_ajax_meeting(meeting_data: dict, parse_documents: bool = False) -> Opt
 
         # UID
         uid_src = f"{body}|{start_dt.astimezone(dt.timezone.utc).isoformat()}|{meeting_id}|{detail_url}"
-        uid = hashlib.sha1(uid_src.encode()).hexdigest() + "@detroit-escribe"
+        uid = hashlib.sha1(uid_src.encode()).hexdigest() + f"@{SOURCE_ID}"
 
         # Download and parse documents (only if requested)
         agenda_text = None
@@ -298,13 +305,14 @@ def parse_ajax_meeting(meeting_data: dict, parse_documents: bool = False) -> Opt
             start=start_dt.isoformat(),
             end=end_dt.isoformat(),
             all_day=False,
-            timezone="America/Detroit",
+            timezone=TIMEZONE_NAME,
             location=clean(location),
             address=clean(description) if description != location else "",
             virtual_link=None,  # Not available in AJAX response
             agenda_url=agenda_url,
             minutes_url=minutes_url,
             detail_url=detail_url,
+            source=SOURCE_ID,
             agenda_text=agenda_text,
             minutes_text=minutes_text,
             agenda_items=agenda_items,
@@ -487,7 +495,7 @@ def parse_detail(url: str) -> Optional[Meeting]:
     # UID: include meeting ID if available for stability
     mid = extract_meeting_id(url) or ""
     uid_src = f"{full_title}|{start_dt.astimezone(dt.timezone.utc).isoformat()}|{mid}|{url}"
-    uid = hashlib.sha1(uid_src.encode()).hexdigest() + "@detroit-escribe"
+    uid = hashlib.sha1(uid_src.encode()).hexdigest() + f"@{SOURCE_ID}"
 
     return Meeting(
         uid=uid,
@@ -496,13 +504,14 @@ def parse_detail(url: str) -> Optional[Meeting]:
         start=start_dt.isoformat(),
         end=end_dt.isoformat(),
         all_day=False,
-        timezone="America/Detroit",
+        timezone=TIMEZONE_NAME,
         location=clean(location),
         address="",
         virtual_link=virtual_link,
         agenda_url=agenda_url,
         minutes_url=minutes_url,
         detail_url=url,
+        source=SOURCE_ID,
     )
 
 # --- Fallback seeding from the City Clerk list ---
@@ -593,22 +602,81 @@ def crawl(year: int, months_ahead: int, months_behind: int, pause: float = 0.6, 
 
 # --- CLI ---
 
+def derive_source_id(base_url: str) -> str:
+    """Derive a source identifier from the base URL."""
+    try:
+        parsed = urlparse(base_url)
+        hostname = parsed.netloc or parsed.path
+        # Extract subdomain or hostname parts (e.g., "pub-detroitmi" from "pub-detroitmi.escribemeetings.com")
+        parts = hostname.split('.')
+        if len(parts) >= 2:
+            # Use first part of hostname (e.g., "pub-detroitmi")
+            subdomain = parts[0]
+            # Clean up common prefixes
+            subdomain = re.sub(r'^pub-', '', subdomain)
+            return f"escribe-{subdomain}"
+        return "escribe-meetings"
+    except Exception:
+        return "escribe-meetings"
+
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--year", type=int, default=dt.date.today().year, help="Base year to crawl (defaults to current year)")
-    ap.add_argument("--months-ahead", type=int, default=2, help="How many months ahead to crawl")
-    ap.add_argument("--months-behind", type=int, default=1, help="How many months behind to crawl")
-    ap.add_argument("--outdir", type=str, default="data", help="Output directory")
-    ap.add_argument("--parse-documents", action="store_true", help="Download and parse agenda/minutes PDFs (slower but extracts text and structured data)")
+    global BASE, TZ, TIMEZONE_NAME, SOURCE_ID
+
+    ap = argparse.ArgumentParser(description="Scrape eScribe meeting calendar and generate JSON/ICS files")
+    ap.add_argument("--base-url", type=str, default=DEFAULT_BASE_URL,
+                    help=f"Base URL of the eScribe instance (default: {DEFAULT_BASE_URL})")
+    ap.add_argument("--timezone", type=str, default=DEFAULT_TIMEZONE,
+                    help=f"Timezone for meeting times (default: {DEFAULT_TIMEZONE})")
+    ap.add_argument("--year", type=int, default=dt.date.today().year,
+                    help="Base year to crawl (defaults to current year)")
+    ap.add_argument("--months-ahead", type=int, default=2,
+                    help="How many months ahead to crawl")
+    ap.add_argument("--months-behind", type=int, default=1,
+                    help="How many months behind to crawl")
+    ap.add_argument("--outdir", type=str, default="data",
+                    help="Output directory")
+    ap.add_argument("--parse-documents", action="store_true",
+                    help="Download and parse agenda/minutes PDFs (slower but extracts text and structured data)")
     args = ap.parse_args()
+
+    # Set global configuration from arguments
+    BASE = args.base_url
+    if not BASE.endswith('/'):
+        BASE += '/'
+
+    try:
+        TZ = pytz.timezone(args.timezone)
+        TIMEZONE_NAME = args.timezone
+    except pytz.exceptions.UnknownTimeZoneError:
+        print(f"ERROR: Unknown timezone '{args.timezone}'")
+        print(f"Use a valid timezone name like 'America/New_York' or 'America/Detroit'")
+        print(f"See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones")
+        return 1
+
+    SOURCE_ID = derive_source_id(BASE)
+
+    print(f"Configuration:")
+    print(f"  Base URL: {BASE}")
+    print(f"  Timezone: {TIMEZONE_NAME}")
+    print(f"  Source ID: {SOURCE_ID}")
+    print(f"  Date range: {args.year}, {args.months_behind} months behind to {args.months_ahead} months ahead")
+    print()
 
     os.makedirs(args.outdir, exist_ok=True)
     os.makedirs(os.path.join(args.outdir, "debug"), exist_ok=True)
 
     meetings = crawl(args.year, args.months_ahead, args.months_behind, parse_documents=args.parse_documents)
 
-    json_path = os.path.join(args.outdir, "detroit-meetings.json")
-    ics_path = os.path.join(args.outdir, "detroit-meetings.ics")
+    # Use detroit-meetings as default filename for backwards compatibility
+    # but derive from source ID for other cities
+    if SOURCE_ID == "escribe-detroitmi":
+        filename_base = "detroit-meetings"
+    else:
+        # Extract meaningful name from source ID (e.g., "escribe-nyc" -> "nyc-meetings")
+        filename_base = SOURCE_ID.replace("escribe-", "") + "-meetings"
+
+    json_path = os.path.join(args.outdir, f"{filename_base}.json")
+    ics_path = os.path.join(args.outdir, f"{filename_base}.ics")
 
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump([asdict(x) for x in meetings], f, indent=2, ensure_ascii=False)

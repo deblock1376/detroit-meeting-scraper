@@ -36,11 +36,12 @@ jobs:
 
       - name: Run scraper
         id: run
-        env:
-          REQUESTS_CA_BUNDLE: /etc/ssl/certs/ca-certificates.crt
-          SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
         run: |
           set -e
+          # Set certifi bundle path
+          export REQUESTS_CA_BUNDLE=$(python -c "import certifi; print(certifi.where())")
+          export SSL_CERT_FILE=$(python -c "import certifi; print(certifi.where())")
+          echo "Using CA bundle: $REQUESTS_CA_BUNDLE"
           python detroit_meetings_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data | tee scrape.log
           echo "COUNT=$(jq length data/detroit-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 

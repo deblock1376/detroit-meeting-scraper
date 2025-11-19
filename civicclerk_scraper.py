@@ -115,9 +115,16 @@ def get_json(url: str) -> dict:
 def download_pdf(url: str) -> Optional[bytes]:
     """Download a PDF document and return its bytes."""
     try:
-        r = SESSION.get(url, headers=HEADERS, timeout=30)
+        # Use different headers for PDF downloads (accept any content type)
+        pdf_headers = {
+            "User-Agent": HEADERS["User-Agent"],
+            "Accept": "*/*",
+        }
+        r = SESSION.get(url, headers=pdf_headers, timeout=30)
         r.raise_for_status()
-        if 'application/pdf' in r.headers.get('Content-Type', ''):
+        # Check if response contains PDF data
+        content_type = r.headers.get('Content-Type', '')
+        if 'application/pdf' in content_type or r.content[:4] == b'%PDF':
             return r.content
         return None
     except Exception as e:
@@ -260,27 +267,40 @@ def parse_event(event_data: dict, parse_documents: bool = False) -> Optional[Mee
         published_files = []
         agenda_url = None
         minutes_url = None
+        agenda_file_id = None
+        minutes_file_id = None
 
         for file_data in published_files_data:
             file_type = file_data.get("type", "")
             file_name = file_data.get("name", "")
+            file_id = file_data.get("fileId")
             file_url_rel = file_data.get("url", "")
 
             if file_url_rel:
-                # Construct absolute URL
+                # Construct portal URL for reference
                 file_url = urljoin(PORTAL_BASE, file_url_rel)
+
+                # Construct actual download URL using GetMeetingFileStream API
+                if file_id:
+                    download_url = f"{API_BASE}Meetings/GetMeetingFileStream(fileId={file_id},plainText=false)"
+                else:
+                    download_url = file_url  # Fallback to portal URL
 
                 published_files.append({
                     "type": file_type,
                     "name": file_name,
-                    "url": file_url
+                    "url": file_url,
+                    "file_id": file_id,
+                    "download_url": download_url
                 })
 
-                # Set agenda_url and minutes_url for primary documents
+                # Set agenda_url and minutes_url for primary documents using download URLs
                 if file_type == "Agenda" and not agenda_url:
-                    agenda_url = file_url
+                    agenda_url = download_url
+                    agenda_file_id = file_id
                 elif file_type == "Minutes" and not minutes_url:
-                    minutes_url = file_url
+                    minutes_url = download_url
+                    minutes_file_id = file_id
 
         # UID
         uid_src = f"{body}|{start_dt.astimezone(dt.timezone.utc).isoformat()}|{event_id}|{detail_url}"

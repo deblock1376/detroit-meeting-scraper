@@ -13,10 +13,11 @@ Usage:
 import argparse
 import json
 import os
+import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Tuple
 
 
 def parse_date(iso_datetime: str) -> datetime:
@@ -32,6 +33,114 @@ def format_date(dt: datetime) -> str:
 def format_time(dt: datetime) -> str:
     """Format datetime for time display."""
     return dt.strftime("%I:%M %p").lstrip('0')
+
+
+# High-interest topic detection
+TOPIC_KEYWORDS = {
+    'development': [
+        'rezoning', 'rezone', 'zoning', 'development', 'construction',
+        'building permit', 'land use', 'subdivision', 'site plan',
+        'infrastructure', 'road', 'highway', 'sidewalk', 'paving',
+        'drainage', 'sewer', 'water main', 'utility', 'demolition',
+        'variance', 'special use', 'conditional use', 'master plan'
+    ],
+    'environment': [
+        'environment', 'pollution', 'contamination', 'cleanup',
+        'park', 'recreation', 'conservation', 'preservation',
+        'water quality', 'air quality', 'stormwater', 'wetland',
+        'wildlife', 'natural', 'green space', 'trail', 'landfill',
+        'recycling', 'waste', 'compost', 'sustainability', 'climate'
+    ]
+}
+
+
+def extract_dollar_amounts(text: str) -> List[Tuple[str, float]]:
+    """Extract dollar amounts from text and return as (formatted_string, numeric_value) tuples."""
+    # Match patterns like $1,000,000 or $1M or $1.5M or $500K
+    patterns = [
+        (r'\$\s*([\d,]+(?:\.\d+)?)\s*million', 1_000_000),
+        (r'\$\s*([\d,]+(?:\.\d+)?)\s*M\b', 1_000_000),
+        (r'\$\s*([\d,]+(?:\.\d+)?)\s*thousand', 1_000),
+        (r'\$\s*([\d,]+(?:\.\d+)?)\s*K\b', 1_000),
+        (r'\$\s*([\d,]+(?:\.\d+)?)', 1),
+    ]
+
+    amounts = []
+    for pattern, multiplier in patterns:
+        matches = re.finditer(pattern, text, re.IGNORECASE)
+        for match in matches:
+            num_str = match.group(1).replace(',', '')
+            try:
+                value = float(num_str) * multiplier
+                amounts.append((match.group(0), value))
+            except ValueError:
+                continue
+
+    return amounts
+
+
+def detect_topic_keywords(text: str) -> List[str]:
+    """Detect topic keywords in text and return matching categories."""
+    text_lower = text.lower()
+    categories = []
+
+    for category, keywords in TOPIC_KEYWORDS.items():
+        if any(keyword in text_lower for keyword in keywords):
+            categories.append(category)
+
+    return categories
+
+
+def analyze_agenda_item(item: Dict[str, Any]) -> Dict[str, Any]:
+    """Analyze an agenda item and add high-interest tags."""
+    text = item.get('text', '')
+    tags = []
+    highlights = []
+
+    # Detect topic categories
+    categories = detect_topic_keywords(text)
+    if 'development' in categories:
+        tags.append('🏗️ Development')
+    if 'environment' in categories:
+        tags.append('🌲 Environment')
+
+    # Detect dollar amounts
+    amounts = extract_dollar_amounts(text)
+    if amounts:
+        # Find the largest amount
+        max_amount = max(amounts, key=lambda x: x[1])
+        if max_amount[1] >= 1_000_000:
+            tags.append(f'💰 {max_amount[0]}')
+            highlights.append(f"Large expenditure: {max_amount[0]}")
+        elif max_amount[1] >= 100_000:
+            tags.append(f'💵 {max_amount[0]}')
+
+    return {
+        **item,
+        'tags': tags,
+        'highlights': highlights,
+        'categories': categories
+    }
+
+
+def analyze_vote(vote: Dict[str, Any]) -> Dict[str, Any]:
+    """Analyze a vote and add interest indicators."""
+    yea_count = len(vote.get('voters', []))
+    vote_type = vote.get('vote_type', '')
+
+    tags = []
+
+    # This is simplified - in real data we'd need both yea and nay counts
+    # For now, flag if it appears in the data (meaning it was noteworthy enough to record)
+    if vote_type == 'yea':
+        tags.append('✓ Approved')
+    elif vote_type == 'nay':
+        tags.append('✗ Opposed')
+
+    return {
+        **vote,
+        'tags': tags
+    }
 
 
 def group_meetings_by_date(meetings: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
@@ -70,20 +179,61 @@ def generate_meeting_brief(meeting: Dict[str, Any]) -> str:
 
     brief.append("")  # Blank line
 
-    # Agenda items
-    agenda_items = meeting.get('agenda_items', [])
-    if agenda_items:
-        brief.append("#### 📋 Key Agenda Items")
+    # Analyze full meeting text for topics
+    full_text = (meeting.get('agenda_text', '') or '') + ' ' + (meeting.get('minutes_text', '') or '')
+    meeting_topics = detect_topic_keywords(full_text)
+    meeting_amounts = extract_dollar_amounts(full_text)
+
+    # Show meeting-level topics if found
+    meeting_tags = []
+    if 'development' in meeting_topics:
+        meeting_tags.append('🏗️ Development')
+    if 'environment' in meeting_topics:
+        meeting_tags.append('🌲 Environment')
+    if meeting_amounts:
+        max_amount = max(meeting_amounts, key=lambda x: x[1])
+        if max_amount[1] >= 1_000_000:
+            meeting_tags.append(f'💰 Large spending: {max_amount[0]}')
+
+    if meeting_tags:
+        brief.append("#### 🔔 High-Interest Topics")
+        brief.append(f"{' • '.join(meeting_tags)}")
+        brief.append("")
+
+    # Analyze agenda items for high-interest topics
+    agenda_items = meeting.get('agenda_items') or []
+    analyzed_items = [analyze_agenda_item(item) for item in agenda_items]
+
+    # High-interest items section (item-specific)
+    high_interest_items = [item for item in analyzed_items if item.get('tags')]
+    if high_interest_items:
+        brief.append("#### 🔔 High-Interest Items")
+        for item in high_interest_items[:5]:  # Show top 5
+            text = item['text'].replace('\n', ' ').strip()
+            if len(text) > 120:
+                text = text[:117] + "..."
+            tags_str = ' '.join(item['tags'])
+            brief.append(f"- **{item['number']}.** {text}")
+            brief.append(f"  {tags_str}")
+        if len(high_interest_items) > 5:
+            brief.append(f"\n*...and {len(high_interest_items) - 5} more flagged items*")
+        brief.append("")
+
+    # All agenda items
+    if analyzed_items:
+        brief.append("#### 📋 All Agenda Items")
         # Show up to 10 items
-        for item in agenda_items[:10]:
+        for item in analyzed_items[:10]:
             # Clean up and truncate text
             text = item['text'].replace('\n', ' ').strip()
             if len(text) > 150:
                 text = text[:147] + "..."
-            brief.append(f"{item['number']}. {text}")
+            # Add tags if present
+            tags_str = f" `{'` `'.join(item['tags'])}`" if item.get('tags') else ""
+            brief.append(f"{item['number']}. {text}{tags_str}")
 
-        if len(agenda_items) > 10:
-            brief.append(f"\n*...and {len(agenda_items) - 10} more items*")
+        if len(analyzed_items) > 10:
+            brief.append(f"\n*...and {len(analyzed_items) - 10} more items*")
         brief.append("")
 
     # Voting results
@@ -143,9 +293,28 @@ def generate_daily_brief(date_str: str, meetings: List[Dict[str, Any]], source: 
     brief.append("---")
     brief.append("")
 
+    # Count high-interest items across all meetings
+    total_high_interest = 0
+    topic_counts = {'development': 0, 'environment': 0}
+    for meeting in meetings:
+        agenda_items = meeting.get('agenda_items') or []
+        for item in agenda_items:
+            analyzed = analyze_agenda_item(item)
+            if analyzed.get('tags'):
+                total_high_interest += 1
+                for category in analyzed.get('categories', []):
+                    topic_counts[category] = topic_counts.get(category, 0) + 1
+
     # Summary
     brief.append(f"## Summary")
     brief.append(f"**{len(meetings)} meeting(s) scheduled**")
+    if total_high_interest > 0:
+        topic_labels = []
+        if topic_counts.get('development', 0) > 0:
+            topic_labels.append(f"🏗️ {topic_counts['development']} Development")
+        if topic_counts.get('environment', 0) > 0:
+            topic_labels.append(f"🌲 {topic_counts['environment']} Environment")
+        brief.append(f"**{total_high_interest} high-interest item(s):** {' • '.join(topic_labels) if topic_labels else 'See details below'}")
     brief.append("")
 
     # List meetings

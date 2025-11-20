@@ -1,122 +1,5 @@
 [
   {
-    "uid": "8eb877fb8b49ff32e54a65f054ab7edd22ceb4ab@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Board of Commissioners - Finance/Audit/Budget Committee",
-    "start": "2025-10-20T11:00:00-04:00",
-    "end": "2025-10-20T13:00:00-04:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21875,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21896,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1961",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "2025-10-20 BOC Finance/Audit/Budget Committee Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1d0ef3ab-74ad-4461-8741-f8294aaa6cdf.pdf",
-        "file_id": 21875,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21875,plainText=false)"
-      },
-      {
-        "type": "Agenda Packet",
-        "name": "2025-10-20 BOC Finance/Audit/Budget Committee Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/da8922bc-33f6-4e76-8c17-17c7e18af0a3.pdf",
-        "file_id": 21876,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21876,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "2025-10-20 BOC Finance/Audit/Budget Committee Draft Minutes",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0889acad-b66c-420e-b3ca-abdf8dfe29fd.pdf",
-        "file_id": 21896,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21896,plainText=false)"
-      },
-      {
-        "type": "Notice",
-        "name": "2025-10-20 BOC Finance/Audit/Budget Committee Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/126a42bd-cdef-443f-95fb-74325a73e28b.pdf",
-        "file_id": 21696,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21696,plainText=false)"
-      }
-    ],
-    "agenda_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraf t District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nAGENDA\nDATE/TIME: Monday, October 20, 2025, 3:00 PM\nCOMMITTEE: Finance/Audit/Budget Committee\nCHAIR: Chair Phil Kraft, Vice Chair Antoinette Wallace\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\n2. Pledge of Allegiance\n3. Adoption of Agenda\n4. Approval of Minutes\na) Joint Government Oversight and Finance/Audit/Budget Committees Minutes dated October 7, 2025\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\n6. Budget Reviews\na) Facilities & Operations\n(Budget Page C-33, 34) / Ben Treppa, Director of Facilities and Operations\nb) Information Technology\n(Budget Page C-42) / Jako van Blerk, CIO\nc) Capital Improvement Plan / Vicki Wolber, Special Projects Advisor\n7. For Discussion Purposes Only\na) An Ordinance to Amend in their Entirety Previously Adopted Comprehensive Contracting and\nPurchasing Policies and Procedures Ordinances and Associated Ordinances and Associated\nResolutions and to Provide Penalties and Consequences for Violations\n8. Public Participation (three minutes max per speaker)\n9. Commissioners' Comments\n10. Adjournment\nbocmacomb.org",
-    "minutes_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraft District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nDRAFT MINUTES\nDATE/TIME: Monday, October 20, 2025, 3:00 PM\nCOMMITTEE: Finance/Audit/Budget Committee\nCHAIR: Chair Phil Kraft, Vice Chair Antoinette Wallace\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\nThe meeting was called to order by the Chairperson at 03:00 PM in the Administration Building, 1\nSouth Main Street, 9th Floor, Mount Clemens, Michigan 48043.\nPresent: Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nAbsent: None\n2. Pledge of Allegiance\n3. Adoption of Agenda\nMotion to adopt the agenda dated Monday, October 20, 2025. THE MOTION PASSED.\nMotioned by: Joseph V. Romano\nSeconded by: Antoinette Wallace\nVote Summary: (11 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Phil Kraft, James M. Perna, Joseph V. Romano, Joe\nSabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n4. Approval of Minutes\na) Joint Government Oversight and Finance/Audit/Budget Committees Minutes dated October 7, 2025\nMotion to approve the Joint Government Oversight and Finance/Audit/Budget Committees\nMinutes dated October 7, 2025. THE MOTION PASSED.\nMotioned by: Harold L. Haugh\nSeconded by: James M. Perna\nVote Summary: (12 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, James M. Perna,\nbocmacomb.org\n\nMINUTES - PAGE 2\nJoseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\nNone\n6. Budget Reviews\na) Facilities & Operations\n(Budget Page C-33, 34) / Ben Treppa, Director of Facilities and Operations\nb) Information Technology\n(Budget Page C-42) / Jako van Blerk, CIO\nc) Capital Improvement Plan / Vicki Wolber, Special Projects Advisor\nMotion to receive and file Budget Review items 6a - 6c. THE MOTION PASSED.\nMotioned by: Don VanSyckel\nSeconded by: Sylvia Grot\nVote Summary: (13 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James\nM. Perna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara\nZinner\nNay - None\nAbstain - None\n7. For Discussion Purposes Only\na) An Ordinance to Amend in their Entirety Previously Adopted Comprehensive Contracting and\nPurchasing Policies and Procedures Ordinances and Associated Ordinances and Associated\nResolutions and to Provide Penalties and Consequences for Violations\nMotion to receive and file the discussion on the draft Ordinance to Amend in their Entirety\nPreviously Adopted Comprehensive Contracting and Purchasing Policies and Procedures\nOrdinances and Associated Ordinances and Associated Resolutions and to Provide Penalties and\nConsequences for Violations.\nTHE MOTION PASSED.\nMotioned by: Don VanSyckel\nSeconded by: Sarah Lucido\nVote Summary: (13 - 0 - 0)\n2025-10-20 BOC Finance/Audit/Budget Committee bocmacomb.org\n\nMINUTES - PAGE 3\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James\nM. Perna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara\nZinner\nNay - None\nAbstain - None\n8. Public Participation (three minutes max per speaker)\nNone\n9. Commissioners' Comments\nSpeakers\nKen Goike\n10. Adjournment\nMotion to adjourn the October 20, 2025 meeting at 04:29 PM. THE MOTION PASSED.\nMotioned by: Joseph V. Romano\nSeconded by: Antoinette Wallace\nVote Summary: (13 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n2025-10-20 BOC Finance/Audit/Budget Committee bocmacomb.org",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order"
-      },
-      {
-        "number": "2",
-        "text": "Pledge of Allegiance"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Approval of Minutes"
-      },
-      {
-        "number": "5",
-        "text": "Public Participation (three minutes max per speaker, related only to issues on the agenda)"
-      },
-      {
-        "number": "6",
-        "text": "Budget Reviews"
-      },
-      {
-        "number": "7",
-        "text": "For Discussion Purposes Only"
-      },
-      {
-        "number": "8",
-        "text": "Public Participation (three minutes max per speaker)"
-      },
-      {
-        "number": "9",
-        "text": "Commissioners' Comments"
-      },
-      {
-        "number": "10",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": [
-      {
-        "vote_type": "nay",
-        "voters": [
-          "- None Abstain - None 4. Approval of Minutes a) Joint Government Oversight",
-          "Finance/Audit/Budget Committees Minutes dated October 7",
-          "2025 Motion to approve the Joint Government Oversight",
-          "Finance/Audit/Budget Committees Minutes dated October 7",
-          "2025. THE MOTION PASSED. Motioned by: Harold L. Haugh Seconded by: James M. Perna Vote Summary: (12 - 0 - 0) Aye - Ken Goike",
-          "Sylvia Grot",
-          "Harold L. Haugh",
-          "Michael J. Howard II",
-          "Phil Kraft",
-          "James M. Perna",
-          "bocmacomb.org MINUTES - PAGE 2 Joseph V. Romano",
-          "Joe Sabatini",
-          "Don VanSyckel",
-          "Antoinette Wallace",
-          "Lisa Wojno",
-          "Barbara Zinner Nay - None Abstain - None 5. Public Participation (three minutes max per speaker",
-          "related only to issues on the agenda) None 6. Budget Reviews a) Facilities & Operations (Budget Page C-33",
-          "34) / Ben Treppa",
-          "Director of Facilities",
-          "Operations b) Information Technology (Budget Page C-42) / Jako van Blerk"
-        ]
-      }
-    ]
-  },
-  {
     "uid": "06dc1c6e14b2119dc14dfc37d47b46eb2616d263@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Veterans' Affairs Commission and Relief Fund",
@@ -2705,14 +2588,87 @@
     "location": "43533 Elizabeth Rd., Mt. Clemens, MI, 48043",
     "address": "",
     "virtual_link": null,
-    "agenda_url": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22070,plainText=false)",
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1801",
     "source": "civicclerk-macombcomi",
-    "published_files": null,
-    "agenda_text": null,
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/936ac610-c699-48ee-8563-88a9acea7a7c.pdf",
+        "file_id": 22070,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22070,plainText=false)"
+      }
+    ],
+    "agenda_text": "DATE/TIME: Thursday, November 20, 2025, 10:30 AM\nHUMAN SERVICES BOARD: Martha T. Berry Governing Board Meeting\nCOMMITTEE CHAIR: Dr. Patrick Thompson\nLOCATION: 43533 Elizabeth Road, Mount Clemens, Michigan, 48043\nAGENDA\n1. Call to Order\n2. Adoption of Agenda\na) Motion to Receive and File\n3. Approval of Minutes\na) Motion to Receive and File\n4. Public Participation\n5. Current Invoices\na) Motion to Approve Batch Invoices as Presented\n6. Closed Session\na) Motion to Enter Closed Session to Discuss Union Contract Negotiations\n7. Union Bargaining Agreements\na) Motion to Accept the Ratified TA for Michigan Nurses Association\nb) Motion to Provide a Raise for Non-Union Staff Retroactive to September 1, 2025\n8. Finance Committee Recap\na) Motion to Receive and File\n9. Finance - Jeff Ostermeyer and Emily Pelyak\na) Motion to Receive and File\nRevenue & Expenses\nCheck Registers\nAverage Daily Census\nb) Motion to Approve the 2026 Budget\n10. Clinical Report - Christine Luyeho\na) Motion to Receive and File\nClinical Report\nAgency Usage Report\n11. Quality and Compliance - Andrea Schweiger\n\na) Motion to Receive and File\nQuality Assurance and Compliance Report\n12. HR Director's Discussion - Carol Tucker\na) Motion to Receive and File\nUnion Summary\nTurnover and Personnel Report\n13. Approval Item(s)\na) Motion to approve policies IC 2200.39 Management of Candida Auris, NUR 2500.64 Care and\nTreatment of Bariatric Residents, and revised IC 2200.12 Infection Prevention Program\nb) Motion to approve the sunsetting of policies IC 2200.04 Infection Reporting, IC 2200.05 Infection\nSurveillance, IC 2200.06 Influenza Vaccine, IC 2200.08 Pneumococcal Vaccine, IC 2200.16\nRespiratory Illness Prevention and Response, IC 2200.19 PPE Disposal, IC 2200.21 COVID 19\nVaccination, IC 2200.23 Laundry and Handling of Soiled Linen, IC 2200.26 Cleaning and Disinfection\nof Resident Care Equipment\n14. Director's Report\na) Discuss Naming Challenges with Cost Reporting\nb) Director's Evaluation\nc) Discuss a Separate Special Meeting for Later-Ratified CBAs\n15. Resident Family Thank You Note\na) Thank You Note\n16. Adjournment",
     "minutes_text": null,
-    "agenda_items": null,
+    "agenda_items": [
+      {
+        "number": "1",
+        "text": "Call to Order"
+      },
+      {
+        "number": "2",
+        "text": "Adoption of Agenda"
+      },
+      {
+        "number": "3",
+        "text": "Approval of Minutes"
+      },
+      {
+        "number": "4",
+        "text": "Public Participation"
+      },
+      {
+        "number": "5",
+        "text": "Current Invoices"
+      },
+      {
+        "number": "6",
+        "text": "Closed Session"
+      },
+      {
+        "number": "7",
+        "text": "Union Bargaining Agreements"
+      },
+      {
+        "number": "8",
+        "text": "Finance Committee Recap"
+      },
+      {
+        "number": "9",
+        "text": "Finance - Jeff Ostermeyer and Emily Pelyak"
+      },
+      {
+        "number": "10",
+        "text": "Clinical Report - Christine Luyeho"
+      },
+      {
+        "number": "11",
+        "text": "Quality and Compliance - Andrea Schweiger"
+      },
+      {
+        "number": "12",
+        "text": "HR Director's Discussion - Carol Tucker"
+      },
+      {
+        "number": "13",
+        "text": "Approval Item(s)"
+      },
+      {
+        "number": "14",
+        "text": "Director's Report"
+      },
+      {
+        "number": "15",
+        "text": "Resident Family Thank You Note"
+      },
+      {
+        "number": "16",
+        "text": "Adjournment"
+      }
+    ],
     "votes": null
   },
   {

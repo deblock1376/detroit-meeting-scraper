@@ -1,191 +1,5 @@
 [
   {
-    "uid": "06dc1c6e14b2119dc14dfc37d47b46eb2616d263@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Veterans' Affairs Commission and Relief Fund",
-    "start": "2025-10-21T07:00:00-04:00",
-    "end": "2025-10-21T09:00:00-04:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21905,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21995,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1859",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "AGENDA 10-21-2025",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e72d9d2e-97a9-4149-99ee-f63c3399d644.pdf",
-        "file_id": 21905,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21905,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "MINUTES 10/21/2025",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/bc51345a-7cd6-4cfc-a9a0-b56b5aa9151c.pdf",
-        "file_id": 21995,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21995,plainText=false)"
-      }
-    ],
-    "agenda_text": "VETERANS SERVICES DEPARTMENT\n0\n21885 Dunham Road, Suite 3 • Clinton Township, Michigan 48036\n-<\nI Phone: (586) 469-5315 • Fax: (586) 469-5316\n* •\nWebsite: vets.macombg!)v.org • Email: veteran.tax@macombgov.org\nit,�,..,1ca►�\nMark A. Hackel\nCounty Executive Veterans Services\nCommittee members\nVETERANS SERVICE COMMISSION Therese Wrobel\nChairman\nTuesday, October 21, 2025 Michael Salyers\nVice Chairman\nAGENDA\nDon Martindale\nMember at Large\nJoel Rutherford\n1. Call to Order by Chairman Wrobel. Secretary\nManny Gonzales\n2. Pledge of Allegiance, Moment of Silence & attendance, Pittman excused Member at Large\n3. Adoption of Agenda David Archer\nMember at Large\n4. Approval of Minutes Robert Slavko\nMember at Large\n5. Public Participation (5 minutes mai<imum per speaker, at the discretion of the Chairperson)\nLaura Rios\n6. Move that the Board meet in closed session according to the Open Meetings Act, Chief Veterans\nServices Officer\nto Hear/Review request for assistance.\n7. Move the Board return to Open Session.\n& Unfin�hedBu�ne�\na.\nb.\nc.\n9. NewB usiness\na. Status of cases presented\nb.\nc.\n10. Adjournment. �ext meeting November 4, 2025, 11:00.",
-    "minutes_text": "VETERANS SERVICES DEPARTMENT\nTherese Wrobel, Chairman • Michael Salyers, Vice Chairman\nJoel Rutherford, Secretary • Lance Pittman, Member at Large\nManny Gonzales, Member at Large • David Archer, Member at Large\nRobert Slavko, Member at Large • Laura Rios, Chief Veterans Service Officer\nMark A. Hackel\nCounty Executive\nVETERANS SERVICE COMMITTEE\nTuesday, October 21, 2025\nMINUTES\n1. Meeting called to order by Chair Wrobel at 11:04AM\n2. Pledge of Allegiance and Moment of Silence for our POW’s, MIA’s and the brave men\nand women that serve our great Nation so we can meet here today.\n3. Adoption of the Agenda. Motioned by Gonzales, 2nd by Salyers. Motion carried.\n4. Approval of the Minutes of October 6, 2025. Motioned by Gonzales, 2nd by Slavko.\nMotion carried.\n5. Public Participation. None\n6. Move that the Board meets in closed session, according to the Open Meetings Act to\nhear/review requests for assistance. Motioned by Rutherford, 2nd by Gonzales. Motion\ncarried at 11:07AM\n7. Move that the Board returns to open session. Motion by Gonzales, 2nd by Salyers.\nMotion carried at 11:30AM\n8. Unfinished Business\na. Update on MVAA grants.\nb. Tax Program update.\n9. New Business\na. One case presented-one case approved.\nb. Update on VA and military ID cards.\n10. Adjournment: Motion by Gonzales, 2nd by Archer. Motion carried at 11:45AM\nNext Meeting October 21, 2025, at 11:00AM\n21885 Dunham Road, Suite 3 • Clinton Township, Michigan 48036\nPhone: (586) 469-5315 • Fax: (586) 469-5316\nmacombvets.org",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order by Chairman Wrobel. Secretary"
-      },
-      {
-        "number": "2",
-        "text": "Pledge of Allegiance, Moment of Silence & attendance, Pittman excused Member at Large"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda David Archer"
-      },
-      {
-        "number": "4",
-        "text": "Approval of Minutes Robert Slavko"
-      },
-      {
-        "number": "5",
-        "text": "Public Participation (5 minutes mai<imum per speaker, at the discretion of the Chairperson)"
-      },
-      {
-        "number": "6",
-        "text": "Move that the Board meet in closed session according to the Open Meetings Act, Chief Veterans"
-      },
-      {
-        "number": "7",
-        "text": "Move the Board return to Open Session."
-      },
-      {
-        "number": "9",
-        "text": "NewB usiness"
-      },
-      {
-        "number": "10",
-        "text": "Adjournment. �ext meeting November 4, 2025, 11:00."
-      }
-    ],
-    "votes": []
-  },
-  {
-    "uid": "4eed90d52fbfe6249970d0761ba7f158259d8511@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Board of Commissioners - Finance/Audit/Budget Committee",
-    "start": "2025-10-21T11:00:00-04:00",
-    "end": "2025-10-21T13:00:00-04:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21902,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21908,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1962",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "2025-10-21 BOC Finance/Audit/Budget Committee Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a6200f28-ff61-4dce-a60d-d6e0e05cc025.pdf",
-        "file_id": 21902,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21902,plainText=false)"
-      },
-      {
-        "type": "Agenda Packet",
-        "name": "2025-10-21 BOC Finance/Audit/Budget Committee Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c2e313ee-da20-4b1a-aa5a-96f06539ed80.pdf",
-        "file_id": 21903,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21903,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "2025-10-21 BOC Finance/Audit/Budget Committee Draft Minutes",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/447ab660-57af-4aad-b27c-889bd154cf9e.pdf",
-        "file_id": 21908,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21908,plainText=false)"
-      },
-      {
-        "type": "Notice",
-        "name": "2025-10-21 BOC Finance/Audit/Budget Committee Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/399d614c-1957-4d78-99e6-5df92f70c0a0.pdf",
-        "file_id": 21700,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21700,plainText=false)"
-      }
-    ],
-    "agenda_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraf t District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nAGENDA\nDATE/TIME: Tuesday, October 21, 2025, 3:00 PM\nCOMMITTEE: Finance/Audit/Budget Committee\nCHAIR: Chair Phil Kraft, Vice Chair Antoinette Wallace\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\n2. Pledge of Allegiance\n3. Adoption of Agenda\n4. Approval of Minutes\na) dated October 20, 2025\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\n6. Budget Reviews\na) Corporation Counsel\n(Budget Page C-22) / John Schapka, Corporation Counsel\nb) Ethics Board\n(Budget Page C-32) / Steve Krajnik, Chair, Ethics Board\nc) Human Resources & Labor Relations\n(Budget Page C-41) / Karlyn Semlow, Director of Human Resources and Labor Relations\nd) Board of Commissioners\n(Budget Page C-17) / Joe Sabatini, Board Chair and Crystal Richardson, Director of Board Operations\n7. Public Participation (three minutes max per speaker)\n8. Commissioners' Comments\n9. Adjournment\nbocmacomb.org",
-    "minutes_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraft District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nDRAFT MINUTES\nDATE/TIME: Tuesday, October 21, 2025, 3:00 PM\nCOMMITTEE: Finance/Audit/Budget Committee\nCHAIR: Chair Phil Kraft, Vice Chair Antoinette Wallace\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\nThe meeting was called to order by the Chairperson at 12:00 AM in the Administration Building, 1\nSouth Main Street, 9th Floor, Mount Clemens, Michigan 48043.\nPresent: Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nAbsent: None\n2. Pledge of Allegiance\n3. Adoption of Agenda\nMotion to adopt the agenda dated Tuesday, October 21, 2025. THE MOTION PASSED.\nMotioned by: Joseph V. Romano\nSeconded by: Michael J. Howard II\nVote Summary: (13 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n4. Approval of Minutes\na) dated October 20, 2025\nMotion to approve the minutes dated October 20, 2025. THE MOTION PASSED.\nMotioned by: James M. Perna\nSeconded by: Don VanSyckel\nVote Summary: (13 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James\nM. Perna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara\nbocmacomb.org\n\nMINUTES - PAGE 2\nZinner\nNay - None\nAbstain - None\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\nNone\n6. Budget Reviews\na) Corporation Counsel\n(Budget Page C-22) / John Schapka, Corporation Counsel\nb) Ethics Board\n(Budget Page C-32) / Steve Krajnik, Chair, Ethics Board\nc) Human Resources & Labor Relations\n(Budget Page C-41) / Karlyn Semlow, Director of Human Resources and Labor Relations\nd) Board of Commissioners\n(Budget Page C-17) / Joe Sabatini, Board Chair and Crystal Richardson, Director of Board Operations\nMotion to receive and file Budget Review items 6a - 6d. THE MOTION PASSED.\nMotioned by: Harold L. Haugh\nSeconded by: Don VanSyckel\nVote Summary: (13 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James\nM. Perna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara\nZinner\nNay - None\nAbstain - None\n7. Public Participation (three minutes max per speaker)\nNone\n8. Commissioners' Comments\nNone\n9. Adjournment\nMotion to adjourn the October 21, 2025 meeting at 03:28 PM. THE MOTION PASSED.\nMotioned by: Joseph V. Romano\nSeconded by: Antoinette Wallace\nVote Summary: (13 - 0 - 0)\n2025-10-21 BOC Finance/Audit/Budget Committee bocmacomb.org\n\nMINUTES - PAGE 3\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Antoinette Wallace, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n2025-10-21 BOC Finance/Audit/Budget Committee bocmacomb.org",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order"
-      },
-      {
-        "number": "2",
-        "text": "Pledge of Allegiance"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Approval of Minutes"
-      },
-      {
-        "number": "5",
-        "text": "Public Participation (three minutes max per speaker, related only to issues on the agenda)"
-      },
-      {
-        "number": "6",
-        "text": "Budget Reviews"
-      },
-      {
-        "number": "7",
-        "text": "Public Participation (three minutes max per speaker)"
-      },
-      {
-        "number": "8",
-        "text": "Commissioners' Comments"
-      },
-      {
-        "number": "9",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": [
-      {
-        "vote_type": "nay",
-        "voters": [
-          "- None Abstain - None 4. Approval of Minutes a) dated October 20",
-          "2025 Motion to approve the minutes dated October 20",
-          "2025. THE MOTION PASSED. Motioned by: James M. Perna Seconded by: Don VanSyckel Vote Summary: (13 - 0 - 0) Aye - Ken Goike",
-          "Sylvia Grot",
-          "Harold L. Haugh",
-          "Michael J. Howard II",
-          "Phil Kraft",
-          "Sarah Lucido",
-          "James M. Perna",
-          "Joseph V. Romano",
-          "Joe Sabatini",
-          "Don VanSyckel",
-          "Antoinette Wallace",
-          "Lisa Wojno",
-          "Barbara bocmacomb.org MINUTES - PAGE 2 Zinner Nay - None Abstain - None 5. Public Participation (three minutes max per speaker",
-          "related only to issues on the agenda) None 6. Budget Reviews a) Corporation Counsel (Budget Page C-22) / John Schapka",
-          "Corporation Counsel b) Ethics Board (Budget Page C-32) / Steve Krajnik",
-          "Chair",
-          "Ethics Board c) Human Resources & Labor Relations (Budget Page C-41) / Karlyn Semlow",
-          "Director of Human Resources"
-        ]
-      }
-    ]
-  },
-  {
     "uid": "101d781424261bda43cae74ce8ab894d85770570@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Civil Service Commission",
@@ -2682,7 +2496,7 @@
     "location": "",
     "address": "",
     "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22056,plainText=false)",
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22084,plainText=false)",
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1936",
     "source": "civicclerk-macombcomi",
@@ -2690,16 +2504,16 @@
       {
         "type": "Agenda",
         "name": "2025-11-20 BOC Full Board Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/04392494-15b2-42ed-bc0f-e5d37126011f.pdf",
-        "file_id": 22056,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22056,plainText=false)"
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f5025f63-7548-40a9-9e9a-c1f70f4e1176.pdf",
+        "file_id": 22084,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22084,plainText=false)"
       },
       {
         "type": "Agenda Packet",
         "name": "2025-11-20 BOC Full Board Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ed4efe14-5aa8-4490-8e2d-89a6d1fa4d5c.pdf",
-        "file_id": 22057,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22057,plainText=false)"
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a0a7e0c8-2dbe-44a3-a52d-bb9b05020f2a.pdf",
+        "file_id": 22082,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22082,plainText=false)"
       },
       {
         "type": "Notice",
@@ -2709,7 +2523,7 @@
         "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21233,plainText=false)"
       }
     ],
-    "agenda_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraf t District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nAGENDA\nDATE/TIME: Thursday, November 20, 2025, 3:00 PM\nCOMMITTEE: Full Board of Commissioners\nCHAIR: Chair Joe Sabatini, Vice Chair Harold L. Haugh\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\n2. Pledge of Allegiance\n3. Invocation\n4. Adoption of Agenda\n5. Approval of Minutes\na) Full Board Minutes dated October 23, 2025\nb) Closed Session Minutes dated November 4, 2025 and November 6, 2025\n6. Public Participation (three minutes max per speaker, related only to issues on the agenda)\n7. Appointments\na) Board of Commissioners Independent Counsel\nBoard Appointment\nEffective: December 1, 2025\nDickinson Wright PLLC\n8. Proclamations\na) A Proclamation Congratulating E.A. Graphics for Being Named 2025 Sterling Edge Business of the\nYear / Joe Sabatini, Board Chair, Joseph V. Romano, District 6, Don VanSyckel, District 5\nb) A Proclamation Congratulating Members of Butoku Karate Dojo on Earning Medals at the National\nand World Championships / Joe Sabatini, Board Chair, Sylvia Grot, Commissioner, District 3\nc) A Proclamation Congratulating Julie Bovenschen for Being Named Court Administrator of the Year /\nJoe Sabatini, Board Chair\nd) Receive and File - Full Board Approval at November 5, 2025 Internal Services Committee\nA Proclamation Awarding the 2025 Macomb County Pat Daniels Veteran of the Year Award / Harold\nL. Haugh, District 10 Commissioner and Joseph V. Romano, District 6 Commissioner\n9. Presentations\na) BOC Casual Day Recipient Recognition - Macomb Food Program (October 2025) / Macomb Food\nProgram Board Members Charlotte Carr-McIntyre, Bob Combs and Mike Fontana\n10. Finance/Audit/Budget Committee Recommendations\na) Budget Amendment: Central Intake and Assessment Center General Fund Fund Balance ($1,008,971)\nbocmacomb.org\n\nAGENDA – PAGE 2\nb) Contract: ABF Environmental - Amendment #2 CIAC/CIP Environmental Consulting Services\n($188,565)\nc) Purchase: LaFontaine Automotive Group - One (1) 2026 Chevrolet Equinox LT AWD ($31,310)\nd) Purchase: LaFontaine Automotive Group - (1) 2026 Chevrolet Colorado and (1) GMC Terrain for\nSheriff's Enforcement Team (SET) ($73,200)\ne) Macomb County Investment Policy\n11. Government Oversight Committee Recommendations\na) Settlement Agreement: USDC Court Case No. 21-cv-10750\nb) Request for Outside Counsel: Dykema Gossett, PLLC Court Case #25-451\n12. Internal Services Committee Recommendations\na) Agreements: Information Technology - Maintenance Agreements for 1st Quarter 2026\n($2,920,008.80)\n13. Health and Human Services Committee Recommendations\na) Contract: Paradigm Removal Service - Remains Removal and Transport Services ($75,000)\nb) Contract: Heritage Services LLC - Remains Removal and Transport Services ($75,000)\nc) Purchase: National Medical Service (NMS) - Forensic Laboratory Services ($150,000)\nd) Budget Amendment: Macomb Community Action - CS25-2025-50017 Grant Award\ne) Contract: AgeWays - No Wrong Door Program ($125,970)\n14. Public Services Committee Recommendations\na) Contract Modification: Z Contractors, Inc. - 18 Mile over the Plumbrook Drain Project (Total\nModification Cost: $105,309.57; Total County Cost 52,654.79)\nb) Contract Amendment: Michigan Department of Transportation (MDOT) - Garfield Road from 14 Mile\nRoad to 15 Mile Road (No Cost to County)\nc) Professional Services Agreement: VUEWorks Enterprise Asset Management Software (EAMS) - (Total\nCounty Cost: $1,183,000)\nd) Contract: Superior Contracting Group, LLC. - 2025 Roadside Ditch Program (Total County Cost:\n$565,932.25)\ne) Cost Share Agreement: Chesterfield Township - Roadside Ditch Program - (Total Cost $27,965; Total\nCounty Cost $13,983)\nf) Cost Share Agreement: Washington Township - Roadside Ditch Program (Total Cost $64,118; Total\nCounty Cost $32,059)\ng) Cost Share Agreement: Shelby Township - Roadside Ditch Program (Total Cost $246,538; Total\nCounty Cost $123,269)\nh) Cost Share Agreement: Clinton Township - Roadside Ditch Program (Total Cost $63,956; Total\nCounty Cost $31,978)\ni) Cost Share Agreement: Ray Township - Roadside Ditch Program (Total Cost $19,998; Total County\nCost $9,999)\nj) Michigan Department of Transportation (MDOT) 2025 Congestion Mitigation and Air Quality\nImprovement (CMAQ) Traffic Signal Upgrade Project (Total Cost $6,562,200, County Cost $662,200)\n2025-11-20 BOC Full Board bocmacomb.org\n\nAGENDA – PAGE 3\nk) Contract: Michigan Department of Transportation (MDOT) - 2025 Traffic Highway Safety\nImprovement Program (Total Cost: $2,714,750; County Cost: $1,214,750)\nl) Contract: Dan's Excavating, Inc., - 2025 Traffic Signal Modernization Project (Total County Cost:\n$3,684,365.23)\nm) Cost Share Agreement: City of Warren - Traffic Control Device #1115 - Mound Road at Eckstein\nStreet (Annual Maintenance Cost $3,000: Total County Cost $2,010)\nn) Cost Share Agreement: City of Sterling Heights and Utica Community Schools - Traffic Control Device\n#1124 - Clinton River Road at Donovan Park (Annual Maintenance $3,000: No Cost to County)\no) Cost Share Agreement: City of Warren - Traffic Control Device #1125 - Schoehnerr Road between 13\nMile Road and Common Road (Annual Maintenance $3,000: No Cost to County)\n15. Resolutions\na) Postponed from the October 23, 2025 Full Board Meeting\nResolution 2025-14186: A Resolution to Levy a Macomb County Millage to Support Capital\nImprovements at Martha T. Berry Medical Care Facility\nb) Resolution 2025-14157: A Resolution Authorizing Transfer of Certain County Real Property to\nMacomb Community College\nc) Resolution 2025-14288: A Resolution Approving the Macomb County 2025-2030 Hazard Mitigation\nPlan\n16. Ordinances\na) Ordinance 2025-02: FY 2026 Comprehensive General Appropriations Ordinance /\n17. Board Office Update\na) Monthly Update / Crystal Richardson, Director of Board Operations\n18. Correspondence\na) Casual Day Recipient Thank You Letter: Community Housing Network\nb) Casual Day Recipient Thank You Letter: Clinton River Watershed Council (CRWC)\nc) Invoice: Evans Law Group, P.C. ($6,435)\n19. Public Participation (three minutes max per speaker)\n20. Other Board/Commission Updates\n21. Commissioners' Comments\n22. Adjournment\n2025-11-20 BOC Full Board bocmacomb.org",
+    "agenda_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraf t District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nAGENDA\nDATE/TIME: Thursday, November 20, 2025, 3:00 PM\nCOMMITTEE: Full Board of Commissioners\nCHAIR: Chair Joe Sabatini, Vice Chair Harold L. Haugh\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\n2. Pledge of Allegiance\n3. Invocation by Commissioner Lisa Wojno\n4. Adoption of Agenda\n5. Approval of Minutes\na) dated October 23, 2025\n6. Public Participation (three minutes max per speaker, related only to issues on the agenda)\n7. Appointments\na) Board of Commissioners Independent Counsel\nBoard Appointment\nEffective: December 1, 2025\nDickinson Wright PLLC\n8. Proclamations\na) A Proclamation Congratulating Julie Bovenschen for Being Named Court Administrator of the Year /\nJoe Sabatini, Board Chair\nb) A Proclamation Congratulating Members of Butoku Karate Dojo on Earning Medals at the National\nand World Championships / Joe Sabatini, Board Chair, Sylvia Grot, Commissioner, District 3\nc) A Proclamation Congratulating E.A. Graphics for Being Named 2025 Sterling Edge Business of the\nYear / Joe Sabatini, Board Chair, Joseph V. Romano, District 6, Don VanSyckel, District 5\nd) Receive and File - Full Board Approval at November 5, 2025 Internal Services Committee\nA Proclamation Awarding the 2025 Macomb County Pat Daniels Veteran of the Year Award / Harold\nL. Haugh, District 10 Commissioner and Joseph V. Romano, District 6 Commissioner\n9. Presentations\na) BOC Casual Day Recipient Recognition - Macomb Food Program (October 2025) / Macomb Food\nProgram Board Members Charlotte Carr-McIntyre, Bob Combs and Mike Fontana\n10. Resolutions\nbocmacomb.org\n\nAGENDA – PAGE 2\na) Postponed from the October 23, 2025 Full Board Meeting\nResolution 2025-14186: A Resolution to Levy a Macomb County Millage to Support Capital\nImprovements at Martha T. Berry Medical Care Facility\nb) Resolution 2025-14157: A Resolution Authorizing Transfer of Certain County Real Property to\nMacomb Community College\nc) Resolution 2025-14288: A Resolution Approving the Macomb County 2025-2030 Hazard Mitigation\nPlan\n11. FY 2026 Budget Adoption\na) Ordinance 2025-02: FY 2026 Comprehensive General Appropriations Ordinance\nb) Resolution 2025-14470: A Resolution Deeming Prosecuting Attorney Positions Necessary and Fixing\nSalaries of Assistant Prosecuting Attorneys and Other Employees Appointed by Prosecuting\nAttorney Under Public Act 329 of 1925 as Amended\n12. Finance/Audit/Budget Committee Recommendations\na) Budget Amendment: Central Intake and Assessment Center General Fund Fund Balance\n($1,008,971)\nb) Contract: ABF Environmental - Amendment #2 CIAC/CIP Environmental Consulting Services\n($188,565)\nc) Purchase: LaFontaine Automotive Group - One (1) 2026 Chevrolet Equinox LT AWD ($31,310)\nd) Purchase: LaFontaine Automotive Group - (1) 2026 Chevrolet Colorado and (1) GMC Terrain for\nSheriff's Enforcement Team (SET) ($73,200)\ne) Macomb County Investment Policy\n13. Government Oversight Committee Recommendations\na) Settlement Agreement: USDC Court Case No. 21-cv-10750\nb) Request for Outside Counsel: Dykema Gossett, PLLC Court Case #25-451\n14. Internal Services Committee Recommendations\na) Agreements: Information Technology - Maintenance Agreements for 1st Quarter 2026\n($2,920,008.80)\n15. Health and Human Services Committee Recommendations\na) Contract: Paradigm Removal Service - Remains Removal and Transport Services ($75,000)\nb) Contract: Heritage Services LLC - Remains Removal and Transport Services ($75,000)\nc) Purchase: National Medical Service (NMS) - Forensic Laboratory Services ($150,000)\nd) Budget Amendment: Macomb Community Action - CS25-2025-50017 Grant Award\ne) Contract: AgeWays - No Wrong Door Program ($125,970)\n16. Public Services Committee Recommendations\na) Contract Modification: Z Contractors, Inc. - 18 Mile over the Plumbrook Drain Project (Total\nModification Cost: $105,309.57; Total County Cost 52,654.79)\nb) Contract Amendment: Michigan Department of Transportation (MDOT) - Garfield Road from 14\nMile Road to 15 Mile Road (No Cost to County)\n2025-11-20 BOC Full Board bocmacomb.org\n\nAGENDA – PAGE 3\nc) Professional Services Agreement: VUEWorks Enterprise Asset Management Software (EAMS) -\n(Total County Cost: $1,183,000)\nd) Contract: Superior Contracting Group, LLC. - 2025 Roadside Ditch Program (Total County Cost:\n$565,932.25)\ne) Cost Share Agreement: Chesterfield Township - Roadside Ditch Program - (Total Cost $27,965; Total\nCounty Cost $13,983)\nf) Cost Share Agreement: Washington Township - Roadside Ditch Program (Total Cost $64,118; Total\nCounty Cost $32,059)\ng) Cost Share Agreement: Shelby Township - Roadside Ditch Program (Total Cost $246,538; Total\nCounty Cost $123,269)\nh) Cost Share Agreement: Clinton Township - Roadside Ditch Program (Total Cost $63,956; Total\nCounty Cost $31,978)\ni) Cost Share Agreement: Ray Township - Roadside Ditch Program (Total Cost $19,998; Total County\nCost $9,999)\nj) Michigan Department of Transportation (MDOT) 2025 Congestion Mitigation and Air Quality\nImprovement (CMAQ) Traffic Signal Upgrade Project (Total Cost $6,562,200, County Cost $662,200)\nk) Contract: Michigan Department of Transportation (MDOT) - 2025 Traffic Highway Safety\nImprovement Program (Total Cost: $2,714,750; County Cost: $1,214,750)\nl) Contract: Dan's Excavating, Inc., - 2025 Traffic Signal Modernization Project (Total County Cost:\n$3,684,365.23)\nm) Cost Share Agreement: City of Warren - Traffic Control Device #1115 - Mound Road at Eckstein\nStreet (Annual Maintenance Cost $3,000: Total County Cost $2,010)\nn) Cost Share Agreement: City of Sterling Heights and Utica Community Schools - Traffic Control Device\n#1124 - Clinton River Road at Donovan Park (Annual Maintenance $3,000: No Cost to County)\no) Cost Share Agreement: City of Warren - Traffic Control Device #1125 - Schoehnerr Road between 13\nMile Road and Common Road (Annual Maintenance $3,000: No Cost to County)\n17. Correspondence\na) Memo from Office of County Executive dated November 18, 2025 RE: Budget Amendments to the\nFY 2026 Recommended Budget\nb) Memo from Public Works Commissioner dated November 19, 2025 RE: FY 26 Budget - Public Works\nPosition\nc) Invoice: Evans Law Group, P.C. ($6,435)\nd) Invoice: Fresard & Associates, P.C. ($3,525.10)\ne) Casual Day Recipient Thank You Letter: Community Housing Network\nf) Casual Day Recipient Thank You Letter: Clinton River Watershed Council (CRWC)\n18. Board Office Update\na) Monthly Update / Crystal Richardson, Director of Board Operations\n19. Public Participation (three minutes max per speaker)\n20. Other Board/Commission Updates\n21. Commissioners' Comments\n2025-11-20 BOC Full Board bocmacomb.org\n\nAGENDA – PAGE 4\n22. Closed Session\na) Closed Session to Discuss Confidential Attorney/Client Privileged Memorandum from Independent\nCounsel\n23. Adjournment\n2025-11-20 BOC Full Board bocmacomb.org",
     "minutes_text": null,
     "agenda_items": [
       {
@@ -2719,6 +2533,10 @@
       {
         "number": "2",
         "text": "Pledge of Allegiance"
+      },
+      {
+        "number": "3",
+        "text": "Invocation by Commissioner Lisa Wojno"
       },
       {
         "number": "4",
@@ -2746,35 +2564,39 @@
       },
       {
         "number": "10",
-        "text": "Finance/Audit/Budget Committee Recommendations"
-      },
-      {
-        "number": "11",
-        "text": "Government Oversight Committee Recommendations"
-      },
-      {
-        "number": "12",
-        "text": "Internal Services Committee Recommendations"
-      },
-      {
-        "number": "13",
-        "text": "Health and Human Services Committee Recommendations"
-      },
-      {
-        "number": "14",
-        "text": "Public Services Committee Recommendations"
-      },
-      {
-        "number": "15",
         "text": "Resolutions"
       },
       {
+        "number": "11",
+        "text": "FY 2026 Budget Adoption"
+      },
+      {
+        "number": "12",
+        "text": "Finance/Audit/Budget Committee Recommendations"
+      },
+      {
+        "number": "13",
+        "text": "Government Oversight Committee Recommendations"
+      },
+      {
+        "number": "14",
+        "text": "Internal Services Committee Recommendations"
+      },
+      {
+        "number": "15",
+        "text": "Health and Human Services Committee Recommendations"
+      },
+      {
+        "number": "16",
+        "text": "Public Services Committee Recommendations"
+      },
+      {
         "number": "17",
-        "text": "Board Office Update"
+        "text": "Correspondence"
       },
       {
         "number": "18",
-        "text": "Correspondence"
+        "text": "Board Office Update"
       },
       {
         "number": "19",
@@ -2790,6 +2612,10 @@
       },
       {
         "number": "22",
+        "text": "Closed Session"
+      },
+      {
+        "number": "23",
         "text": "Adjournment"
       },
       {

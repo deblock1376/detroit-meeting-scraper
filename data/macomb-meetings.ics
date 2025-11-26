@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Finance/Audit/Budget Committee: Meeting
 DTSTART;TZID="UTC-04:00":20251027T110000
 DTEND;TZID="UTC-04:00":20251027T130000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:72bfa75f2bc3a273e4e85a09e1602044d05276c1@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21937\,plainText=false)\\nMinutes: https://macombc
@@ -19,7 +19,7 @@ BEGIN:VEVENT
 SUMMARY:Older Adult Advisory Committee: Meeting
 DTSTART;TZID="UTC-04:00":20251028T110000
 DTEND;TZID="UTC-04:00":20251028T130000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:d2ab7361c1f5c92d59004d89eccdad535ac2b683@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21930\,plainText=false)\\nMinutes: https://macombc
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Finance/Audit/Budget Committee: Meeting
 DTSTART;TZID="UTC-04:00":20251029T110000
 DTEND;TZID="UTC-04:00":20251029T130000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:2e22a90f9d738dc912abf5d45ddddc0cc97982d7@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21932\,plainText=false)\\nMinutes: https://macombc
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Finance/Audit/Budget Committee: Meeting
 DTSTART;TZID="UTC-04:00":20251030T110000
 DTEND;TZID="UTC-04:00":20251030T130000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:397a8a9e7a5e36e3682b111686e1cda808535407@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21967\,plainText=false)\\nMinutes: https://macombc
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:Veterans' Affairs Commission and Relief Fund: Meeting
 DTSTART;TZID="UTC-05:00":20251104T060000
 DTEND;TZID="UTC-05:00":20251104T080000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:a87aa9fd671c4c975c3ec2930eb92b1a9cff67e7@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21996\,plainText=false)\\nMinutes: https://macombc
@@ -76,7 +76,7 @@ SUMMARY:Board of Commissioners - Joint Government Oversight and Finance/Au
  dit/Budget Committees: Meeting
 DTSTART;TZID="UTC-05:00":20251104T100000
 DTEND;TZID="UTC-05:00":20251104T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:fcf12b71d876a8bf20d6aead3612892e190f7771@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21990\,plainText=false)\\nMinutes: https://macombc
@@ -90,7 +90,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Canvassers: Meeting
 DTSTART;TZID="UTC-05:00":20251105T080000
 DTEND;TZID="UTC-05:00":20251105T100000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:051b401d55ac127d4a2e7d251ada7ba1201ca8bc@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1970
 STATUS:CONFIRMED
@@ -101,11 +101,11 @@ SUMMARY:Board of Commissioners - Joint Internal Services and Health and Hu
  man Services Committees: Meeting
 DTSTART;TZID="UTC-05:00":20251105T100000
 DTEND;TZID="UTC-05:00":20251105T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:edd3904bf3fb89576e019b6bb419aa28cbdfddda@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=21982\,plainText=false)\\nMinutes: https://macombc
- omi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22094\,plai
+ omi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22112\,plai
  nText=false)\\nDetails: https://macombcomi.portal.civicclerk.com/event/193
  4
 STATUS:CONFIRMED
@@ -116,11 +116,11 @@ SUMMARY:Board of Commissioners - Joint Public Services and Records and Pub
  lic Safety Committees: Meeting
 DTSTART;TZID="UTC-05:00":20251106T100000
 DTEND;TZID="UTC-05:00":20251106T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:28400842bc681fe2f3f7e038a96f041cf56eb32b@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22035\,plainText=false)\\nMinutes: https://macombc
- omi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22095\,plai
+ omi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22113\,plai
  nText=false)\\nDetails: https://macombcomi.portal.civicclerk.com/event/193
  5
 STATUS:CONFIRMED
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:Civil Service Commission: Meeting
 DTSTART;TZID="UTC-05:00":20251112T040000
 DTEND;TZID="UTC-05:00":20251112T060000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:0a47f56402fb06df0141097b48055b4df2260bc4@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22063\,plainText=false)\\nMinutes: https://macombc
@@ -146,7 +146,7 @@ SUMMARY:Community Mental Health Board - Program and Budget Committee: Meet
  ing
 DTSTART;TZID="UTC-05:00":20251112T130000
 DTEND;TZID="UTC-05:00":20251112T150000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:90335d8b83aacbc030e59d5bd682f8a6c45fe28c@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22033\,plainText=false)\\nDetails: https://macombc
@@ -159,7 +159,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Finance/Audit/Budget Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251113T100000
 DTEND;TZID="UTC-05:00":20251113T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:89db4ba05ba9794803142fae8e8cecfa3355ad06@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22043\,plainText=false)\\nMinutes: https://macombc
@@ -173,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:Macomb Orchard Trail Commission: Meeting
 DTSTART;TZID="UTC-05:00":20251118T033000
 DTEND;TZID="UTC-05:00":20251118T053000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:b892ce2d0565924c505ede3de2541248703a8cf9@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22054\,plainText=false)\\nDetails: https://macombc
@@ -185,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:Veterans' Affairs Commission and Relief Fund: Meeting
 DTSTART;TZID="UTC-05:00":20251118T060000
 DTEND;TZID="UTC-05:00":20251118T080000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:3f2c428b1bb70c281ef5b91c8a1eff17d07fe2ae@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22059\,plainText=false)\\nMinutes: https://macombc
@@ -199,7 +199,7 @@ BEGIN:VEVENT
 SUMMARY:Human Services Board - Martha T. Berry: Meeting
 DTSTART;TZID="UTC-05:00":20251120T053000
 DTEND;TZID="UTC-05:00":20251120T073000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:b3bc2731f24b52ab237d1cb3ea2e1c80ded1a004@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22070\,plainText=false)\\nDetails: https://macombc
@@ -212,7 +212,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Full Board: Meeting
 DTSTART;TZID="UTC-05:00":20251120T100000
 DTEND;TZID="UTC-05:00":20251120T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:e353602e7fc73d3cf10622325ae2b59df7f08a9f@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22084\,plainText=false)\\nMinutes: https://macombc
@@ -226,10 +226,10 @@ BEGIN:VEVENT
 SUMMARY:Older Adult Advisory Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251125T100000
 DTEND;TZID="UTC-05:00":20251125T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:2f197656e68c0c4d3cafdeac12b68c43370a284a@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
- eetingFileStream(fileId=22064\,plainText=false)\\nDetails: https://macombc
+ eetingFileStream(fileId=22107\,plainText=false)\\nDetails: https://macombc
  omi.portal.civicclerk.com/event/1949
 STATUS:CONFIRMED
 URL:https://macombcomi.portal.civicclerk.com/event/1949
@@ -238,7 +238,7 @@ BEGIN:VEVENT
 SUMMARY:Community Mental Health Board - Full Board: Meeting
 DTSTART;TZID="UTC-05:00":20251125T130000
 DTEND;TZID="UTC-05:00":20251125T150000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:451f116cb09a1fbd42516deb867abfb40f822cdb@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22088\,plainText=false)\\nDetails: https://macombc
@@ -251,7 +251,7 @@ BEGIN:VEVENT
 SUMMARY:Civil Service Commission: Meeting
 DTSTART;TZID="UTC-05:00":20251126T040000
 DTEND;TZID="UTC-05:00":20251126T060000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:b144e640c66724993be368e3dd0525f8b10d7ce2@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1908
 LOCATION:120 N. Main St.\, Mt. Clemens\, MI\, 48043
@@ -262,7 +262,7 @@ BEGIN:VEVENT
 SUMMARY:Veterans' Affairs Commission and Relief Fund: Meeting
 DTSTART;TZID="UTC-05:00":20251202T060000
 DTEND;TZID="UTC-05:00":20251202T080000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:e8beb51992d59a7b9816b24a98fdbeb15fbc0236@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1862
 STATUS:CONFIRMED
@@ -273,7 +273,7 @@ SUMMARY:Board of Commissioners - Joint Government Oversight and Finance/Au
  dit/Budget Committees: Meeting
 DTSTART;TZID="UTC-05:00":20251202T100000
 DTEND;TZID="UTC-05:00":20251202T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:d9e87bfb5d58433d0135388f071f004634d0f6e3@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1937
 STATUS:CONFIRMED
@@ -284,7 +284,7 @@ SUMMARY:Board of Commissioners - Joint Internal Services and Health and Hu
  man Services Committees: Meeting
 DTSTART;TZID="UTC-05:00":20251203T100000
 DTEND;TZID="UTC-05:00":20251203T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:61e9ed4e61792eb61650d9cb27b553d613194490@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1938
 STATUS:CONFIRMED
@@ -295,7 +295,7 @@ SUMMARY:Board of Commissioners - Joint Public Services and Records and Pub
  lic Safety Committees: Meeting
 DTSTART;TZID="UTC-05:00":20251204T100000
 DTEND;TZID="UTC-05:00":20251204T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:a57d1e504ca97cd285ac05511ef03279e09c8585@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1939
 STATUS:CONFIRMED
@@ -305,7 +305,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Canvassers: Meeting
 DTSTART;TZID="UTC-05:00":20251208T083000
 DTEND;TZID="UTC-05:00":20251208T103000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:5a9fbc69a306c3d62ff95a50f8c4bfe6fd9bde1b@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1972
 STATUS:CONFIRMED
@@ -315,7 +315,7 @@ BEGIN:VEVENT
 SUMMARY:Civil Service Commission: Meeting
 DTSTART;TZID="UTC-05:00":20251210T040000
 DTEND;TZID="UTC-05:00":20251210T060000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:b534f241ea29834d6bd731bd31cde536b5dae4a0@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1968
 LOCATION:120 N. Main St.\, Mt. Clemens\, MI\, 48043
@@ -326,7 +326,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Full Board: Meeting
 DTSTART;TZID="UTC-05:00":20251211T100000
 DTEND;TZID="UTC-05:00":20251211T120000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:16ca66efb3b3526b11c09c00f88699fe7124942a@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1940
 STATUS:CONFIRMED
@@ -336,7 +336,7 @@ BEGIN:VEVENT
 SUMMARY:Veterans' Affairs Commission and Relief Fund: Meeting
 DTSTART;TZID="UTC-05:00":20251216T060000
 DTEND;TZID="UTC-05:00":20251216T080000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:c260ecbb1992b0f8034132680022a5d6e4fe7bce@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1863
 STATUS:CONFIRMED
@@ -346,7 +346,7 @@ BEGIN:VEVENT
 SUMMARY:Community Mental Health Board - Full Board: Meeting
 DTSTART;TZID="UTC-05:00":20251217T130000
 DTEND;TZID="UTC-05:00":20251217T150000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:0f4dca27dd20d4ae26553d93b903872fcd50a4bb@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1838
 LOCATION:1 S. Main Street\, Mt. Clemens\, MI\, 48043
@@ -357,7 +357,7 @@ BEGIN:VEVENT
 SUMMARY:Human Services Board - Martha T. Berry: Meeting
 DTSTART;TZID="UTC-05:00":20251218T053000
 DTEND;TZID="UTC-05:00":20251218T073000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:b3f6a5a124263fef2cf1e302886de11af05803cf@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1802
 LOCATION:43533 Elizabeth Rd.\, Mt. Clemens\, MI\, 48043
@@ -369,11 +369,22 @@ SUMMARY:Community Mental Health Board - Program and Budget Committee: Meet
  ing
 DTSTART;TZID="UTC-05:00":20260114T130000
 DTEND;TZID="UTC-05:00":20260114T150000
-DTSTAMP:20251125T130419Z
+DTSTAMP:20251126T130429Z
 UID:f3bace1a029a40807693eadb0a8ee9bfea09df33@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1835
 LOCATION:1 S. Main Street\, Mt. Clemens\, MI\, 48043
 STATUS:CONFIRMED
 URL:https://macombcomi.portal.civicclerk.com/event/1835
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Human Services Board - Martha T. Berry: Meeting
+DTSTART;TZID="UTC-05:00":20260122T053000
+DTEND;TZID="UTC-05:00":20260122T073000
+DTSTAMP:20251126T130429Z
+UID:bbb9318eb7afed24c41dcec63fe80a12b4b29387@civicclerk-macombcomi
+DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1973
+LOCATION:43533 Elizabeth Rd.\, Mt. Clemens\, MI\, 48043
+STATUS:CONFIRMED
+URL:https://macombcomi.portal.civicclerk.com/event/1973
 END:VEVENT
 END:VCALENDAR

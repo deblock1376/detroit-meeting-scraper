@@ -1,118 +1,5 @@
 [
   {
-    "uid": "2e22a90f9d738dc912abf5d45ddddc0cc97982d7@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Board of Commissioners - Finance/Audit/Budget Committee",
-    "start": "2025-10-29T11:00:00-04:00",
-    "end": "2025-10-29T13:00:00-04:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21932,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21947,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1965",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "2025-10-29 BOC Finance/Audit/Budget Committee Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/5f54157d-36f8-423e-8804-b6fdee3a914f.pdf",
-        "file_id": 21932,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21932,plainText=false)"
-      },
-      {
-        "type": "Agenda Packet",
-        "name": "2025-10-29 BOC Finance/Audit/Budget Committee Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e8f5efb3-2978-48b3-b9c9-bda7a6e5e241.pdf",
-        "file_id": 21933,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21933,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "2025-10-29 BOC Finance/Audit/Budget Committee Draft Minutes",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/4f038d62-38aa-4206-8814-63b09bc484a8.pdf",
-        "file_id": 21947,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21947,plainText=false)"
-      },
-      {
-        "type": "Notice",
-        "name": "2025-10-29 BOC Finance/Audit/Budget Committee Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/fb6751d1-bbf6-450c-a1c4-243334820892.pdf",
-        "file_id": 21924,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21924,plainText=false)"
-      }
-    ],
-    "agenda_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraf t District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nAGENDA\nDATE/TIME: Wednesday, October 29, 2025, 3:00 PM\nCOMMITTEE: Finance/Audit/Budget Committee\nCHAIR: Chair Phil Kraft, Vice Chair Antoinette Wallace\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\n2. Pledge of Allegiance\n3. Adoption of Agenda\n4. Approval of Minutes\na) dated October 27, 2025\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\n6. Budget Reviews\na) Community Corrections\n(Special Revenue Fund pages D-6, 7) / Barbara Caskey, Director, Community Corrections\nOpioid Settlement Fund\n(Special Revenue Fund page D-26)\nb) Emergency Management\n(Budget pages C-29, 30; Special Revenue Fund pages D-8, 9, 10) / Brandon Lewis, Director of\nEmergency Management and Communications\nc) Sheriff\n(Budget pages C-57, 58, 59, 60; Special Revenue Fund pages D-36, 37) / Anthony Wickersham,\nSheriff\nd) E911 Sheriff Dispatch\n(Special Revenue Fund pages D-38, 39) / Angela Elsey, Dispatch Director\ne) Prosecuting Attorney\n(Budget page C-50, 51) / Peter Lucido, County Prosecutor\nFederal Forfeitures\n(Special Revenue Fund page D-29)\nForfeitures\n(Special Revenue Fund page D-30)\nGrants\n(Special Revenue Fund page D-31, 32)\nDistrict Court - Witness Fees\n(Budget Page C-27)\nbocmacomb.org\n\nAGENDA – PAGE 2\n7. Public Participation (three minutes max per speaker)\n8. Commissioners' Comments\n9. Adjournment\n2025-10-29 BOC Finance/Audit/Budget Committee bocmacomb.org",
-    "minutes_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraft District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nDRAFT MINUTES\nDATE/TIME: Wednesday, October 29, 2025, 3:00 PM\nCOMMITTEE: Finance/Audit/Budget Committee\nCHAIR: Chair Phil Kraft, Vice Chair Antoinette Wallace\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\nThe meeting was called to order by the Chairperson at 03:00 PM in the Administration Building, 1\nSouth Main Street, 9th Floor, Mount Clemens, Michigan 48043.\nPresent: Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Lisa Wojno, Barbara Zinner\nAbsent: Antoinette Wallace\n2. Pledge of Allegiance\n3. Adoption of Agenda\nMotion to adopt the agenda dated Wednesday, October 29, 2025. THE MOTION PASSED.\nMotioned by: Joseph V. Romano\nSeconded by: Barbara Zinner\nVote Summary: (11 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Phil Kraft, Sarah Lucido, James M. Perna, Joseph V.\nRomano, Joe Sabatini, Don VanSyckel, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n4. Approval of Minutes\na) dated October 27, 2025\nMotion to approve the minutes dated October 27, 2025. THE MOTION PASSED.\nMotioned by: Ken Goike\nSeconded by: James M. Perna\nVote Summary: (11 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Phil Kraft, Sarah Lucido, James M. Perna, Joseph V.\nRomano, Joe Sabatini, Don VanSyckel, Lisa Wojno, Barbara Zinner\nbocmacomb.org\n\nMINUTES - PAGE 2\nNay - None\nAbstain - None\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\nSpeakers\nSteve Fox\n6. Budget Reviews\na) Community Corrections\n(Special Revenue Fund pages D-6, 7) / Barbara Caskey, Director, Community Corrections\nOpioid Settlement Fund\n(Special Revenue Fund page D-26)\nb) Emergency Management\n(Budget pages C-29, 30; Special Revenue Fund pages D-8, 9, 10) / Brandon Lewis, Director of\nEmergency Management and Communications\nc) Sheriff\n(Budget pages C-57, 58, 59, 60; Special Revenue Fund pages D-36, 37) / Anthony Wickersham,\nSheriff\nd) E911 Sheriff Dispatch\n(Special Revenue Fund pages D-38, 39) / Angela Elsey, Dispatch Director\ne) Prosecuting Attorney\n(Budget page C-50, 51) / Peter Lucido, County Prosecutor\nFederal Forfeitures\n(Special Revenue Fund page D-29)\nForfeitures\n(Special Revenue Fund page D-30)\nGrants\n(Special Revenue Fund page D-31, 32)\nDistrict Court - Witness Fees\n(Budget Page C-27)\nMotion to receive and file Budget Review items 6a - 6e. THE MOTION PASSED.\n2025-10-29 BOC Finance/Audit/Budget Committee bocmacomb.org\n\nMINUTES - PAGE 3\nMotioned by: Don VanSyckel\nSeconded by: Ken Goike\nVote Summary: (12 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James\nM. Perna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n7. Public Participation (three minutes max per speaker)\nSpeakers\nSteve Fox\nJohn Paul Hunt\n8. Commissioners' Comments\nSpeakers\nKen Goike\nSarah Lucido\n9. Adjournment\nMotion to adjourn the October 29, 2025 meeting at 05:23 PM. THE MOTION PASSED.\nMotioned by: Joseph V. Romano\nSeconded by: Michael J. Howard II\nVote Summary: (12 - 0 - 0)\nAye - Ken Goike, Sylvia Grot, Harold L. Haugh, Michael J. Howard II, Phil Kraft, Sarah Lucido, James M.\nPerna, Joseph V. Romano, Joe Sabatini, Don VanSyckel, Lisa Wojno, Barbara Zinner\nNay - None\nAbstain - None\n2025-10-29 BOC Finance/Audit/Budget Committee bocmacomb.org",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order"
-      },
-      {
-        "number": "2",
-        "text": "Pledge of Allegiance"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Approval of Minutes"
-      },
-      {
-        "number": "5",
-        "text": "Public Participation (three minutes max per speaker, related only to issues on the agenda)"
-      },
-      {
-        "number": "6",
-        "text": "Budget Reviews"
-      },
-      {
-        "number": "7",
-        "text": "Public Participation (three minutes max per speaker)"
-      },
-      {
-        "number": "8",
-        "text": "Commissioners' Comments"
-      },
-      {
-        "number": "9",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": [
-      {
-        "vote_type": "nay",
-        "voters": [
-          "- None Abstain - None 4. Approval of Minutes a) dated October 27",
-          "2025 Motion to approve the minutes dated October 27",
-          "2025. THE MOTION PASSED. Motioned by: Ken Goike Seconded by: James M. Perna Vote Summary: (11 - 0 - 0) Aye - Ken Goike",
-          "Sylvia Grot",
-          "Harold L. Haugh",
-          "Phil Kraft",
-          "Sarah Lucido",
-          "James M. Perna",
-          "Joseph V. Romano",
-          "Joe Sabatini",
-          "Don VanSyckel",
-          "Lisa Wojno",
-          "Barbara Zinner bocmacomb.org MINUTES - PAGE 2 Nay - None Abstain - None 5. Public Participation (three minutes max per speaker",
-          "related only to issues on the agenda) Speakers Steve Fox 6. Budget Reviews a) Community Corrections (Special Revenue Fund pages D-6",
-          "7) / Barbara Caskey",
-          "Director",
-          "Community Corrections Opioid Settlement Fund (Special Revenue Fund page D-26) b) Emergency Management (Budget pages C-29",
-          "30; Special Revenue Fund pages D-8",
-          "9",
-          "10) / Br"
-        ]
-      }
-    ]
-  },
-  {
     "uid": "397a8a9e7a5e36e3682b111686e1cda808535407@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Board of Commissioners - Finance/Audit/Budget Committee",
@@ -2461,6 +2348,27 @@
     "agenda_url": null,
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1973",
+    "source": "civicclerk-macombcomi",
+    "published_files": null,
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "68aa25a104827cab2a3bc8206eb19ac6d1be0ae3@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Full Board",
+    "start": "2026-01-28T13:00:00-05:00",
+    "end": "2026-01-28T15:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1836",
     "source": "civicclerk-macombcomi",
     "published_files": null,
     "agenda_text": null,

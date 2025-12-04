@@ -1783,9 +1783,9 @@
       {
         "type": "Agenda Packet",
         "name": "2025-12-02 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f8ef3f68-178e-45ec-800b-c593816811ad.pdf",
-        "file_id": 22138,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22138,plainText=false)"
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/5702e462-246e-4460-99f1-fe96d22e057e.pdf",
+        "file_id": 22140,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22140,plainText=false)"
       },
       {
         "type": "Notice",

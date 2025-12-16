@@ -1799,14 +1799,90 @@
     "location": "1 S. Main Street, Mt. Clemens, MI, 48043",
     "address": "",
     "virtual_link": null,
-    "agenda_url": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22176,plainText=false)",
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1838",
     "source": "civicclerk-macombcomi",
-    "published_files": null,
-    "agenda_text": null,
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-12-17  CMH Full Board Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/bcbf69ba-25b2-4f5c-ac78-cdcf5d6a10f5.pdf",
+        "file_id": 22176,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22176,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-12-17  CMH Full Board Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/3d3e1523-1e3e-4a5e-ba09-a0735bbe8bb5.pdf",
+        "file_id": 22177,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22177,plainText=false)"
+      }
+    ],
+    "agenda_text": "Our Mission: Macomb County Community Mental Health,\nguided by the values, strengths, and informed choices of the PEOPLE WE SERVE,\nprovides quality services which promote\nrecovery, community participation, self-sufficiency, and independence.\nCommunity Mental Health Board\nPhil Kraft Selena M. Schmidt Lori Phillips\nChair Vice Chair Secretary/Treasurer\nMegan Burke Nick Ciaramitaro Sherita Harvey\nDonna Cangemi Wayne Conner Julia Mendyka\nJackie Catinella Dana Freers Antoinette Wallace\nPhil Kraft Antoinette Wallace Lori Phillips\nChair Vice Chair Secretary/Treasurer\nDATE/TIME: Wednesday, December 17, 2025, 6:00 PM\nCOMMITTEE: Full Board\nCOMMITTEE CHAIR/VICE CHAIR: Chair Kraft, Vice Chair Schmidt\nCOMMITTEE MEMBERS: Committee of the Whole\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\nAGENDA\n1. Call to Order\na) Pledge of Allegiance\n2. Reading of the Mission Statement\n3. Adoption of Agenda\n4. Hearing of the Public\n5. Minutes\na) Request to approve the CMH Full Board meeting minutes from November 25, 2025.\n6. Approval of Standing Committee Meetings Minutes/Recommendations\na) No CMH Board Program and Budget meeting in December 2025. No minutes to review.\n7. Request to Approve\na) Request to approve the contract with Traci Smith as MCCMH's CEO beginning 1/1/2026.\n(Approved by OCE & legal)\nb) Request to approve an engagement letter from Roslund, Prestage & Company in the amount of\n$25,000 for the FY25 Compliance Audit. (Approved by legal)\nc) Request for approval to contract for Occupational, Speech and Physical Therapy.\n8. Receive and File\na) No items.\n9. Resolutions\na) No items.\n10. Voucher Listings\na) Request to approve vouchers for 11-15-25 through 12-5-25\n11. Management Report\na) CFO Update\nb) CEO Update\n12. Other Possible Agenda Items\n\na) REMINDER: CMH Board - RRAC Meeting - Thursday, December 18, 2025 @8am - CMH Admin\nOffice\nb) REMINDER: CMH Board Program and Budget Meeting - Wednesday, January 14, 2026 @6pm\nc) REMINDER: CMH Full Board Meeting - Wednesday, January 28, 2026 @6pm\n13. Provider Comments\n14. Hearing of the Public\n15. Closed Session\na) To discuss attorney client privilege memo dated 12-17-25. Pursuant to MCL 15.268(1)(h)\n16. Adjournment",
     "minutes_text": null,
-    "agenda_items": null,
+    "agenda_items": [
+      {
+        "number": "1",
+        "text": "Call to Order"
+      },
+      {
+        "number": "2",
+        "text": "Reading of the Mission Statement"
+      },
+      {
+        "number": "3",
+        "text": "Adoption of Agenda"
+      },
+      {
+        "number": "4",
+        "text": "Hearing of the Public"
+      },
+      {
+        "number": "6",
+        "text": "Approval of Standing Committee Meetings Minutes/Recommendations"
+      },
+      {
+        "number": "7",
+        "text": "Request to Approve"
+      },
+      {
+        "number": "8",
+        "text": "Receive and File"
+      },
+      {
+        "number": "9",
+        "text": "Resolutions"
+      },
+      {
+        "number": "10",
+        "text": "Voucher Listings"
+      },
+      {
+        "number": "11",
+        "text": "Management Report"
+      },
+      {
+        "number": "12",
+        "text": "Other Possible Agenda Items"
+      },
+      {
+        "number": "13",
+        "text": "Provider Comments"
+      },
+      {
+        "number": "14",
+        "text": "Hearing of the Public"
+      },
+      {
+        "number": "15",
+        "text": "Closed Session"
+      },
+      {
+        "number": "16",
+        "text": "Adjournment"
+      }
+    ],
     "votes": null
   },
   {
@@ -1820,14 +1896,79 @@
     "location": "43533 Elizabeth Rd., Mt. Clemens, MI, 48043",
     "address": "",
     "virtual_link": null,
-    "agenda_url": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22178,plainText=false)",
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1802",
     "source": "civicclerk-macombcomi",
-    "published_files": null,
-    "agenda_text": null,
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1013ee64-f086-4af7-ad18-d2af187184eb.pdf",
+        "file_id": 22178,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22178,plainText=false)"
+      }
+    ],
+    "agenda_text": "DATE/TIME: Thursday, December 18, 2025, 10:30 AM\nHUMAN SERVICES BOARD: Martha T. Berry Governing Board Meeting\nCOMMITTEE CHAIR: Dr. Patrick Thompson\nLOCATION: 43533 Elizabeth Road, Mount Clemens, Michigan, 48043\nAGENDA\n1. Call to Order\n2. Adoption of Agenda\na) Motion to Receive and File\n3. Approval of Minutes\na) Motion to Receive and File\n4. Public Participation\n5. Current Invoices\na) Motion to Approve Batch Invoices as Presented\n6. Finance Committee Recap\na) Motion to Receive and File\n7. Finance - Jeff Ostermeyer and Emily Pelyak\na) Motion to Receive and File\nRevenue & Expenses\nCheck Registers\nAverage Daily Census\n8. Clinical Report - Christine Luyeho\na) Motion to Receive and File\nClinical Report\nAgency Usage Report\n9. Quality and Compliance - Andrea Schweiger\na) Motion to Receive and File\nQuality Assurance and Compliance Report\n10. HR Director's Discussion - Carol Tucker\na) Motion to Receive and File\nUnion Summary\nTurnover and Personnel Report\n\n11. Approval Item(s)\n12. Ralph Brown Letter\n13. Director's Report\na) Collective Bargaining Agreements\nb) Family Thank You Letter\n14. Adjournment",
     "minutes_text": null,
-    "agenda_items": null,
+    "agenda_items": [
+      {
+        "number": "1",
+        "text": "Call to Order"
+      },
+      {
+        "number": "2",
+        "text": "Adoption of Agenda"
+      },
+      {
+        "number": "3",
+        "text": "Approval of Minutes"
+      },
+      {
+        "number": "4",
+        "text": "Public Participation"
+      },
+      {
+        "number": "5",
+        "text": "Current Invoices"
+      },
+      {
+        "number": "6",
+        "text": "Finance Committee Recap"
+      },
+      {
+        "number": "7",
+        "text": "Finance - Jeff Ostermeyer and Emily Pelyak"
+      },
+      {
+        "number": "8",
+        "text": "Clinical Report - Christine Luyeho"
+      },
+      {
+        "number": "9",
+        "text": "Quality and Compliance - Andrea Schweiger"
+      },
+      {
+        "number": "10",
+        "text": "HR Director's Discussion - Carol Tucker"
+      },
+      {
+        "number": "11",
+        "text": "Approval Item(s)"
+      },
+      {
+        "number": "12",
+        "text": "Ralph Brown Letter"
+      },
+      {
+        "number": "13",
+        "text": "Director's Report"
+      },
+      {
+        "number": "14",
+        "text": "Adjournment"
+      }
+    ],
     "votes": null
   },
   {

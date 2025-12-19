@@ -1,196 +1,5 @@
 [
   {
-    "uid": "b892ce2d0565924c505ede3de2541248703a8cf9@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Macomb Orchard Trail Commission",
-    "start": "2025-11-18T03:30:00-05:00",
-    "end": "2025-11-18T05:30:00-05:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22054,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22146,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1952",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "2025-11-18 MOT Full Board Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c8d5c135-4927-4d6d-a76d-8e180b8ae25a.pdf",
-        "file_id": 22054,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22054,plainText=false)"
-      },
-      {
-        "type": "Agenda Packet",
-        "name": "2025-11-18 MOT Full Board Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/987210b5-fb79-4d7c-ae0c-5ed578eb1f0a.pdf",
-        "file_id": 22055,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22055,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "2025-11-18 MOT Full Board Draft Minutes",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/039bedb1-5f55-4e15-8e25-a2436dd32ed5.pdf",
-        "file_id": 22146,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22146,plainText=false)"
-      }
-    ],
-    "agenda_text": "``\nMacomb Orchard Trail Commission\nSylvia Grot, Chair Michele Milam Gary Hopp\nCounty Commissioner Trustee, Washington Township Eastern District Superintendent, HCMA\nTroy Jeschke Allan Goetzinger Joseph Youngblood\nDirector, Planning & Economic Development, Richmond Armada Township Representative Director, Parks & Recreation, Shelby Township\nAGENDA\nDATE/TIME: Tuesday, November 18, 2025, 8:30 AM\nCOMMITTEE: Macomb Orchard Trail Commission\nCHAIR: Chair Sylvia Grot\nLOCATION: Shelby Township Activities Center, 14975 21 Mile Road, Shelby Township, MI 48315\n1. Call to Order\n2. Roll Call\n3. Adoption of Agenda\n4. Approval of Minutes\na) dated May 20, 2025\n5. Public Participation\n6. Trail Update\n7. Other Discussion\na) e-Bike Discussion\n8. Public Participation\n9. Comments from Members\n10. Confirm Next Meeting\n11. Adjournment\nbocmacomb.org",
-    "minutes_text": "``\nMacomb Orchard Trail Commission\nSylvia Grot, Chair Michele Milam Gary Hopp\nCounty Commissioner Trustee, Washington Township Eastern District Superintendent, HCMA\nTroy Jeschke Allan Goetzinger Joseph Youngblood\nDirector, Planning & Economic Development, Richmond Armada Township Representative Director, Parks & Recreation, Shelby Township\nMINUTES\nDATE/TIME: Tuesday, November 18, 2025, 8:30 AM\nCOMMITTEE: Macomb Orchard Trail Commission\nCOMMITTEE CHAIR: Chair Sylvia Grot\nLOCATION: Shelby Township Activities Center, 14975 21 Mile Road, Shelby Township, MI 48315\n1. Call to Order\nThe meeting was called to order by the Chairperson at 08:32 AM in the Shelby Township Activities\nCenter, 14975 21 Mile Road, Shelby Township, Michigan 48315.\n2. Roll Call\nPresent:\nAllan Goetzinger, Armada Township Representative\nSylvia Grot, MOTC Chair, Board of Commissioners\nTroy Jeschke, Director, Planning & Economic Development, Richmond\nMichele Milam, Trustee, Washington Township\nJoseph Youngblood, Director, Parks & Recreation, Shelby Township\nAbsent:\nGary Hopp, Eastern District Superintendent, HCMA\n3. Adoption of Agenda\nMotion to adopt the agenda dated Tuesday, November 18, 2025. THE MOTION PASSED.\nMotioned by: Troy Jeschke\nSeconded by: Michele Milam\nVote Summary: (5 - 0 - 0)\nAye - Allan Goetzinger, Sylvia Grot, Troy Jeschke, Michele Milam, Joseph Youngblood\nNay - None\nAbstain - None\n4. Approval of Minutes\na) dated May 20, 2025\nMotion to approve the minutes dated Tuesday, May 20, 2025. THE MOTION PASSED.\nMotioned by: Troy Jeschke\nSeconded by: Michele Milam\nMINUTES – PAGE 1 bocmacomb.org\n\nVote Summary: (5 - 0 - 0)\nAye - Allan Goetzinger, Sylvia Grot, Troy Jeschke, Michele Milam, Joseph Youngblood\nNay - None\nAbstain - None\n5. Public Participation\nNone\n6. Trail Update\n7. Other Discussion\na) e-Bike Discussion\nMotion to receive and file the Trail Update and Other Discussion - e-Bike Discussion. THE\nMOTION PASSED.\nMotioned by: Troy Jeschke\nSeconded by: Allan Goetzinger\nVote Summary: (5 - 0 - 0)\nAye - Allan Goetzinger, Sylvia Grot, Troy Jeschke, Michele Milam, Joseph Youngblood\nNay - None\nAbstain - None\n8. Public Participation\nNone\n9. Comments from Members\nNone\n10. Confirm Next Meeting\nMotion to adopt the following meeting schedule for 2026:\nFebruary 24, 2026\nMay 26, 2026\nAugust 25, 2026\nNovember 24, 2026\nTHE MOTION PASSED.\nMotioned by: Troy Jeschke\nSeconded by: Joseph Youngblood\nVote Summary: (5 - 0 - 0)\nAye - Allan Goetzinger, Sylvia Grot, Troy Jeschke, Michele Milam, Joseph Youngblood\nNay - None\nAbstain - None\n11. Adjournment\nMotion to adjourn the November 18, 2025 meeting at 09:10 AM. THE MOTION PASSED.\nAGENDA – PAGE 2 Tuesday, November 18, 2025, 8:30 AM\n\nMotioned by: Allan Goetzinger\nSeconded by: Troy Jeschke\nVote Summary: (5 - 0 - 0)\nAye - Allan Goetzinger, Sylvia Grot, Troy Jeschke, Michele Milam, Joseph Youngblood\nNay - None\nAbstain - None\nAGENDA – PAGE 3 Tuesday, November 18, 2025, 8:30 AM",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Approval of Minutes"
-      },
-      {
-        "number": "5",
-        "text": "Public Participation"
-      },
-      {
-        "number": "6",
-        "text": "Trail Update"
-      },
-      {
-        "number": "7",
-        "text": "Other Discussion"
-      },
-      {
-        "number": "8",
-        "text": "Public Participation"
-      },
-      {
-        "number": "9",
-        "text": "Comments from Members"
-      },
-      {
-        "number": "10",
-        "text": "Confirm Next Meeting"
-      },
-      {
-        "number": "11",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": [
-      {
-        "vote_type": "nay",
-        "voters": [
-          "- None Abstain - None 4. Approval of Minutes a) dated May 20",
-          "2025 Motion to approve the minutes dated Tuesday",
-          "May 20",
-          "2025. THE MOTION PASSED. Motioned by: Troy Jeschke Seconded by: Michele Milam MINUTES – PAGE 1 bocmacomb.org Vote Summary: (5 - 0 - 0) Aye - Allan Goetzinger",
-          "Sylvia Grot",
-          "Troy Jeschke",
-          "Michele Milam",
-          "Joseph Youngblood Nay - None Abstain - None 5. Public Participation None 6. Trail Update 7. Other Discussion a) e-Bike Discussion Motion to receive",
-          "file the Trail Update",
-          "Other Discussion - e-Bike Discussion. THE MOTION PASSED. Motioned by: Troy Jeschke Seconded by: Allan Goetzinger Vote Summary: (5 - 0 - 0) Aye - Allan Goetzinger",
-          "Sylvia Grot",
-          "Troy Jeschke",
-          "Michele Milam",
-          "Joseph Youngblood Nay - None Abstain - None 8. Public Participation None 9. Comments from Members None 10. Confirm Next Meeting Motion to adopt the following meeting schedule for 2026: February 24",
-          "2026 May 26",
-          "2026 August 25",
-          "2026 November 24",
-          "2026 THE MOTION PASSED. Motioned by: Troy Jeschke Seconded by: Joseph Youngblood Vote Summary: (5 - 0 - 0) Aye - Allan Goetzinger",
-          "Sylvia Grot",
-          "Troy Jeschke"
-        ]
-      }
-    ]
-  },
-  {
-    "uid": "3f2c428b1bb70c281ef5b91c8a1eff17d07fe2ae@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Veterans' Affairs Commission and Relief Fund",
-    "start": "2025-11-18T06:00:00-05:00",
-    "end": "2025-11-18T08:00:00-05:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22059,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22069,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1861",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "AGENDA 11/18/2025",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/bcf64cdc-0946-4dbd-9474-5a9cfc21a9bf.pdf",
-        "file_id": 22059,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22059,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "MINUTES 11/18/2025",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/6a1d26b2-985a-47d9-a778-10ca58f4ce79.pdf",
-        "file_id": 22069,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22069,plainText=false)"
-      }
-    ],
-    "agenda_text": "i\nVETERANS SERVICES DEPARTMENT\n0\n21885 Dunham Road, Suite 3 • Clinton Township, Michigan 48036\nI <\nPhone: (586) 469-5315 • Fax: (586) 469-5316\n* *\nWebsite: vets.macombgov.org • Email: veteran.tax@macombgov.org\n1',~,.,,ca►~\nMark A. Hackel\nCounty Executive Veterans Services\nCommittee members\nTherese Wrobel\nVETERANS SERVICE COMMISSION\nChairman\nTuesday, November 18, 2025 Michael Salyers\nVice Chairman\nAGENDA\nDon Martindale\nMember at Large\nJoel Rutherford\nSecretary\n1. Call to Order by Chairman Wrobel.\nManny Gonzales\n2. Pledge of Allegiance, Moment of Silence & attendance . Member at Large •\nDavid Archer\n3. Adoption of Agenda\nMember at Large\n4. Approval of Minutes Robert Slavko\nMember at Large\n5. Public Participation (S minutes maximum per speaker, at the discretion of the Chairperson)\nLaura Rios\n6. Move that the Board meet in closed session according to the Open Meetings Act, Chief Veterans\nServices Officer\nto Hear/Review request for assistance.\n7. Move the Board return to Open Session.\n8. Unfinished Business\na.\nb.\nc.\n9. New Business\na. Status of cases presented\nb.\nC.\n10. Adjournment. Next meeting December 2, 2025, 11:00.",
-    "minutes_text": "VETERANS SERVICES DEPARTMENT\nTherese Wrobel, Chairman • Michael Salyers, Vice Chairman\nJoel Rutherford, Secretary • Lance Pittman, Member at Large\nManny Gonzales, Member at Large • David Archer, Member at Large\nRobert Slavko, Member at Large • Laura Rios, Chief Veterans Service Officer\nMark A. Hackel\nCounty Executive\nVETERANS SERVICE COMMITTEE\nTuesday, November 18, 2025\nMINUTES\n1. Meeting called to order by Chair Wrobel at 11:03AM\n2. Pledge of Allegiance and Moment of Silence for our POW’s, MIA’s and the brave men\nand women that serve our great Nation so we can meet here today.\n3. Adoption of the Agenda. Motioned by Gonzales, 2nd by Rutherford. Motion carried.\n4. Approval of the Minutes of November 4, 2025. Motioned by Slavko, 2nd by Gonzales.\nMotion carried.\n5. Public Participation. None\n6. Move that the Board meets in closed session, according to the Open Meetings Act to\nhear/review requests for assistance. Motioned by Gonzales, 2nd by Slavko. Motion\ncarried at 11:05AM\n7. Move that the Board returns to open session. Motion by Gonzales, 2nd by Slavko.\nMotion carried at 11:35AM\n8. Unfinished Business\na. Holiday party updates.\nb. Discussed updated grant information.\n9. New Business\na. Three cases presented-Three cases approved.\nb. Discussed committee voting procedures.\nc.\n10. Adjournment: Motion by Rutherford, 2nd by Gonzales. Motion carried at 11:40AM\nNext Meeting December 2, 2025, at 11:00AM\n21885 Dunham Road, Suite 3 • Clinton Township, Michigan 48036\nPhone: (586) 469-5315 • Fax: (586) 469-5316\nmacombvets.org",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order by Chairman Wrobel."
-      },
-      {
-        "number": "2",
-        "text": "Pledge of Allegiance, Moment of Silence & attendance . Member at Large •"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Approval of Minutes Robert Slavko"
-      },
-      {
-        "number": "5",
-        "text": "Public Participation (S minutes maximum per speaker, at the discretion of the Chairperson)"
-      },
-      {
-        "number": "6",
-        "text": "Move that the Board meet in closed session according to the Open Meetings Act, Chief Veterans"
-      },
-      {
-        "number": "7",
-        "text": "Move the Board return to Open Session."
-      },
-      {
-        "number": "8",
-        "text": "Unfinished Business"
-      },
-      {
-        "number": "9",
-        "text": "New Business"
-      },
-      {
-        "number": "10",
-        "text": "Adjournment. Next meeting December 2, 2025, 11:00."
-      },
-      {
-        "number": "C",
-        "text": "10. Adjournment. Next meeting December 2, 2025, 11:00."
-      }
-    ],
-    "votes": []
-  },
-  {
     "uid": "b3bc2731f24b52ab237d1cb3ea2e1c80ded1a004@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Human Services Board - Martha T. Berry",
@@ -1952,11 +1761,25 @@
     "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
     "address": "",
     "virtual_link": null,
-    "agenda_url": null,
-    "minutes_url": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22187,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22188,plainText=false)",
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1990",
     "source": "civicclerk-macombcomi",
     "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1f4fb7bc-b9cc-40d6-9380-13c33392614d.pdf",
+        "file_id": 22187,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22187,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c58d1009-ee9f-480a-a542-3451349d3dd4.pdf",
+        "file_id": 22188,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22188,plainText=false)"
+      },
       {
         "type": "Notice",
         "name": "NOTICE",
@@ -1965,10 +1788,35 @@
         "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22171,plainText=false)"
       }
     ],
-    "agenda_text": null,
-    "minutes_text": null,
-    "agenda_items": null,
-    "votes": null
+    "agenda_text": "MACOMB COUNTY\nCIVIL SERVICE COMMISSION MEETING\nWednesday, December 17, 2025, 9:00 AM\n120 N. Main, Mount Clemens, 48043\n1st Floor Small Conference Room\nAGENDA\n1. Call to Order and Roll Call\n2. Adoption of Agenda\na) Review and approve the agenda for December 17, 2025\n3. Minutes\na) Review and approve the minutes of December 10, 2025\n4. Public Participation\n5. Business\n6. Personnel\na) Review and approve the Corrections Deputy eligibility list\nb) Review and approve the Dispatch eligibility list\nc) Review and approve the Deputy eligibility list\nd) Review and approve the Dispatch Supervisor eligibility list\ne) Review and approve the Law Enforcement Sergeant eligibility list\nf) Review and approve the Lieutenant eligibility list\ng) Review and approve the Captain eligibility list\nh) Receive and file memo from Undersheriff Darga and Recommendation to Fill Position forms for:\nKristijan Dushaj Deputy Recruit Hired effective January 5, 2026\nCalib Hall Deputy Recruit Hired effective January 5, 2026\ni) Review pre-employment physical and psychological evaluations and recommend hiring:\nJoshua Baier Deputy\n7. Old Business\na) Review pre-employment psychological evaluation for Theophanis Goudiotis and recommend for\nhire, TABLED from December 17, 2025\n8. New Business\n9. Adjournment",
+    "minutes_text": "MACOMB COUNTY\nCIVIL SERVICE COMMISSION MEETING\nWednesday, December 17, 2025, 9:00 AM\n120 N. Main, Mount Clemens, 48043\n1ST Floor Conference Room\nMINUTES\n1. Call to Order and Roll Call\nThe meeting was called to order by the Chairperson at 9:00 AM at 120 N. Main Street, 1st Floor,\nMount Clemens, Michigan 48043.\nPresent: Robert Stanley, Thomas Stawski, Patrick Maceroni\nOthers: HRLR, Mia Mezini, Sheriff's Office Lt. Jason Conklin\nAbsent: Corporation Counsel John Schapka\n2. Adoption of Agenda\na) Review and approve the agenda for December 17, 2025\nMotion to adopt the agenda dated Wednesday, December 17, 2025. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n3. Minutes\na) Review and approve the minutes of December 10, 2025\nMotion to approve the minutes of December 10, 2025. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n\n4. Public Participation\nNONE.\n5. Business\nNONE.\n6. Personnel\na) Review and approve the Corrections Deputy eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nb) Review and approve the Dispatch eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nc) Review and approve the Deputy eligiblility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123\n\nd) Review and approve the Dispatch Supervisor eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\ne) Review and approve the Law Enforcement Sergeant eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nf) Review and approve the Lieutenant eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\ng) Review and approve the Captain eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123\n\nh) Receive and file memo from Undersheriff Darga and Recommendation to Fill Position forms for:\nKristijan Dushaj Deputy Recruit Hired effective January 5, 2026\nCalib Hall Deputy Recruit Hired effective January 5, 2026\nMotion to receive and file the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\ni) Review pre-employment physical and psychological evaluations and recommend hiring:\nJoshua Baier Deputy\nMotion to approve the above for hire. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n7. Old Business\na) Review pre-employment psychological evaluation for Theophanis Goudiotis and recommend for\nhire, TABLED from December 17, 2025\nMotion to approve the above for hire. THE MOTION PASSED.\nMotioned by: Thomas Stawski\nSeconded by: Patrick Maceroni\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n8. New Business\nNONE.\n9. Adjournment\nMotion to adjourn the December 17, 2025 meeting at 09:36 AM. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123",
+    "agenda_items": [
+      {
+        "number": "1",
+        "text": "Call to Order and Roll Call"
+      },
+      {
+        "number": "2",
+        "text": "Adoption of Agenda"
+      },
+      {
+        "number": "4",
+        "text": "Public Participation"
+      },
+      {
+        "number": "7",
+        "text": "Old Business"
+      },
+      {
+        "number": "8",
+        "text": "New Business"
+      },
+      {
+        "number": "9",
+        "text": "Adjournment"
+      }
+    ],
+    "votes": []
   },
   {
     "uid": "0f4dca27dd20d4ae26553d93b903872fcd50a4bb@civicclerk-macombcomi",
@@ -2175,6 +2023,35 @@
     "votes": null
   },
   {
+    "uid": "66d37cdfd02cf80b4c8b71e22ef9625a1d2bc0ee@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2026-01-14T04:00:00-05:00",
+    "end": "2026-01-14T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1994",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "NOTICE",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ca579d09-4551-4594-959d-221cbd79cccc.pdf",
+        "file_id": 22189,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22189,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
     "uid": "310cc9d537a10cf8c3da0ce7ab9480a24737b66c@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Board of Commissioners - Joint Finance/Audit/Budget and Internal Services Committees",
@@ -2259,6 +2136,35 @@
     "votes": null
   },
   {
+    "uid": "fb690208690008ae2162c8194124ff5703b79fab@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2026-01-28T04:00:00-05:00",
+    "end": "2026-01-28T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1995",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "NOTICE",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7f60e2a1-3a41-412e-91d3-83ff7f3e06ee.pdf",
+        "file_id": 22190,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22190,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
     "uid": "68aa25a104827cab2a3bc8206eb19ac6d1be0ae3@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Community Mental Health Board - Full Board",
@@ -2274,6 +2180,35 @@
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1836",
     "source": "civicclerk-macombcomi",
     "published_files": null,
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "ddc181b0b26e75ac6a6eedec0720b4b55528c4a9@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2026-02-11T04:00:00-05:00",
+    "end": "2026-02-11T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1996",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "NOTICE",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/3ee2f090-5278-4871-b6be-a2479e078b58.pdf",
+        "file_id": 22191,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22191,plainText=false)"
+      }
+    ],
     "agenda_text": null,
     "minutes_text": null,
     "agenda_items": null,

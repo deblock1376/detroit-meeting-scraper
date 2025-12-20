@@ -2016,7 +2016,15 @@
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1991",
     "source": "civicclerk-macombcomi",
-    "published_files": null,
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-01-13 BOC Joint Government Oversight and Health and Human Services Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b667acbb-9f22-4a8d-9eab-ad111f981ad2.pdf",
+        "file_id": 22216,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22216,plainText=false)"
+      }
+    ],
     "agenda_text": null,
     "minutes_text": null,
     "agenda_items": null,
@@ -2066,7 +2074,15 @@
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1992",
     "source": "civicclerk-macombcomi",
-    "published_files": null,
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-01-14 BOC Joint Finance/Audit/Budget and Internal Services Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/9ec00926-980b-4f04-aed6-4bcda94fa924.pdf",
+        "file_id": 22219,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22219,plainText=false)"
+      }
+    ],
     "agenda_text": null,
     "minutes_text": null,
     "agenda_items": null,
@@ -2108,7 +2124,15 @@
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1993",
     "source": "civicclerk-macombcomi",
-    "published_files": null,
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-01-15 BOC Joint Public Services and Records and Public Safety Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/424f9108-6f3c-4723-95f3-e39b1978829a.pdf",
+        "file_id": 22222,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22222,plainText=false)"
+      }
+    ],
     "agenda_text": null,
     "minutes_text": null,
     "agenda_items": null,
@@ -2130,6 +2154,35 @@
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1973",
     "source": "civicclerk-macombcomi",
     "published_files": null,
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "53fc80946e4f09deac6c1ab75443c10016c28eeb@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Full Board",
+    "start": "2026-01-22T10:00:00-05:00",
+    "end": "2026-01-22T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2018",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-01-22 BOC Full Board Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/40e4e9ef-ba72-4106-b81a-f98616da7b52.pdf",
+        "file_id": 22225,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22225,plainText=false)"
+      }
+    ],
     "agenda_text": null,
     "minutes_text": null,
     "agenda_items": null,
@@ -2186,6 +2239,35 @@
     "votes": null
   },
   {
+    "uid": "21e0a1d90d0ba55c2704a26edc071e68ef25077a@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Goverment Oversight and Health and Human Services Committees",
+    "start": "2026-02-10T10:00:00-05:00",
+    "end": "2026-02-10T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2019",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-02-10 BOC Joint Government Oversight and Health and Human Services Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7914b8cf-e477-456a-8f35-807970df3519.pdf",
+        "file_id": 22228,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22228,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
     "uid": "ddc181b0b26e75ac6a6eedec0720b4b55528c4a9@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Civil Service Commission",
@@ -2207,6 +2289,64 @@
         "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/3ee2f090-5278-4871-b6be-a2479e078b58.pdf",
         "file_id": 22191,
         "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22191,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "4ddf42ce6d3899e0a1b33637491a5655e6138c69@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Finance/Audit/Budget and Internal Services Committees",
+    "start": "2026-02-11T10:00:00-05:00",
+    "end": "2026-02-11T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2020",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-02-11 BOC Joint Finance/Audit/Budget and Internal Services Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ad910a68-ab88-4013-91b5-314b3167e716.pdf",
+        "file_id": 22231,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22231,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "c96e373af1845ee56578636f76be7c2837d59650@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Public Services and Records and Public Safety Committees",
+    "start": "2026-02-12T10:00:00-05:00",
+    "end": "2026-02-12T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2021",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-02-12 BOC Joint Public Services and Records and Public Safety Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b413f482-0617-4610-8261-f7872cd99112.pdf",
+        "file_id": 22234,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22234,plainText=false)"
       }
     ],
     "agenda_text": null,

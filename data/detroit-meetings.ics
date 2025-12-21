@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:Public Health and Safety Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251103T100000
 DTEND;TZID="UTC-05:00":20251103T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:fa91886e9f29dabe23b1497434a9224168a4a9f4@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=238414\\nDetails: https://pub-detroitmi.escribemeetings.com
@@ -20,7 +20,7 @@ BEGIN:VEVENT
 SUMMARY:Internal Operations Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251105T100000
 DTEND;TZID="UTC-05:00":20251105T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:63f6ca6a6f7bf83e7ba25c0d199123f8394e9da9@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=238450\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -37,7 +37,7 @@ BEGIN:VEVENT
 SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251105T130000
 DTEND;TZID="UTC-05:00":20251105T140000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:36ccd1e6ae7562ab6ba5b41e75afcd896cfd9bc7@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=238464\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -54,7 +54,7 @@ BEGIN:VEVENT
 SUMMARY:Planning and Economic Development Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251106T100000
 DTEND;TZID="UTC-05:00":20251106T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:4531de3a469cc7a8c517b77972d2b0cc5f55004d@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=238506\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -71,7 +71,7 @@ BEGIN:VEVENT
 SUMMARY:Public Health and Safety Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251110T100000
 DTEND;TZID="UTC-05:00":20251110T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:6c8f3e281f12a8ce12c5f506202857c2b0e72dc7@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=238795\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -88,7 +88,7 @@ BEGIN:VEVENT
 SUMMARY:Internal Operations Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251112T100000
 DTEND;TZID="UTC-05:00":20251112T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:19390969180b0d08359c8a3bd944f3c97abf1255@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=239190\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -105,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:Planning and Economic Development Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251113T100000
 DTEND;TZID="UTC-05:00":20251113T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:9f8f0eeb85da84db26cf0f8b7c947f9a1ee394c5@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=239242\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -122,7 +122,7 @@ BEGIN:VEVENT
 SUMMARY:City Council Formal Session: Meeting
 DTSTART;TZID="UTC-05:00":20251114T100000
 DTEND;TZID="UTC-05:00":20251114T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:1261aabe2ebfd29fad8fd8dcc87538b2b18c558b@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=239171\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -139,7 +139,7 @@ BEGIN:VEVENT
 SUMMARY:Public Health and Safety Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251117T100000
 DTEND;TZID="UTC-05:00":20251117T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:102609a6196240e8f095c44bde5d678d408f2ccd@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=239742\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -156,7 +156,7 @@ BEGIN:VEVENT
 SUMMARY:City Council Formal Session: Meeting
 DTSTART;TZID="UTC-05:00":20251118T100000
 DTEND;TZID="UTC-05:00":20251118T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:88abefb3c204f0864425c51169094e4435118e77@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=240036\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -173,7 +173,7 @@ BEGIN:VEVENT
 SUMMARY:City Council Special Session: Meeting
 DTSTART;TZID="UTC-05:00":20251118T140000
 DTEND;TZID="UTC-05:00":20251118T150000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:eba913f865bc3fbdab83a01c87dd9bce714cd744@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=239752\\nDetails: https://pub-detroitmi.escribemeetings.com
@@ -188,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:Internal Operations Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251119T100000
 DTEND;TZID="UTC-05:00":20251119T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:381bb1a9cf18bfad37bef54bf6b9c0ebbb82d23a@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=240175\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -205,7 +205,7 @@ BEGIN:VEVENT
 SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251119T130000
 DTEND;TZID="UTC-05:00":20251119T140000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:bbf93876bf69fba903134ada932fc4bc40eee125@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=240195\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -222,7 +222,7 @@ BEGIN:VEVENT
 SUMMARY:Planning and Economic Development Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251120T100000
 DTEND;TZID="UTC-05:00":20251120T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:c8b84698589a0e217a11fd3dc7108a79c61fa93d@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=240642\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -239,7 +239,7 @@ BEGIN:VEVENT
 SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251120T130000
 DTEND;TZID="UTC-05:00":20251120T140000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:9b9a5e5af3e7a7c98338fba87455e9422b8e894f@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=240530\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -256,7 +256,7 @@ BEGIN:VEVENT
 SUMMARY:Public Health and Safety Standing Committee: Meeting
 DTSTART;TZID="UTC-05:00":20251124T100000
 DTEND;TZID="UTC-05:00":20251124T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:ba8ea19067475885976ebec0fcdab2215ba85ebb@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=241115\\nMinutes: https://pub-detroitmi.escribemeetings.com
@@ -273,7 +273,7 @@ BEGIN:VEVENT
 SUMMARY:City Council Formal Session: Meeting
 DTSTART;TZID="UTC-05:00":20251125T100000
 DTEND;TZID="UTC-05:00":20251125T110000
-DTSTAMP:20251220T132020Z
+DTSTAMP:20251221T131503Z
 UID:54c8a8c0255692dad1bfdd7850b965024e8d5105@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
  shx?DocumentId=242318\\nMinutes: https://pub-detroitmi.escribemeetings.com

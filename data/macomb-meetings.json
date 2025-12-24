@@ -1710,9 +1710,9 @@
       {
         "type": "Notice",
         "name": "2026-01-13 BOC Joint Government Oversight and Health and Human Services Committees Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b667acbb-9f22-4a8d-9eab-ad111f981ad2.pdf",
-        "file_id": 22216,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22216,plainText=false)"
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/d689f308-815a-46de-9e96-fec7084f6e0c.pdf",
+        "file_id": 22241,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22241,plainText=false)"
       }
     ],
     "agenda_text": null,
@@ -1947,9 +1947,9 @@
       {
         "type": "Notice",
         "name": "2026-02-10 BOC Joint Government Oversight and Health and Human Services Committees Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7914b8cf-e477-456a-8f35-807970df3519.pdf",
-        "file_id": 22228,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22228,plainText=false)"
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e5aa0851-648b-4655-ad11-0d05cbb50a1b.pdf",
+        "file_id": 22244,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22244,plainText=false)"
       }
     ],
     "agenda_text": null,

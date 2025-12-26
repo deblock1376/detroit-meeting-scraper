@@ -1,187 +1,5 @@
 [
   {
-    "uid": "2f197656e68c0c4d3cafdeac12b68c43370a284a@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Older Adult Advisory Committee",
-    "start": "2025-11-25T10:00:00-05:00",
-    "end": "2025-11-25T12:00:00-05:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22107,plainText=false)",
-    "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1949",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "2025-11-25 OAA Older Adult Advisory Committee Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/246e5178-4646-40c6-8771-4744547d007b.pdf",
-        "file_id": 22107,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22107,plainText=false)"
-      },
-      {
-        "type": "Agenda Packet",
-        "name": "2025-11-25 OAA Older Adult Advisory Committee Agenda Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/d6bff4d3-6297-439b-98e7-73b6d63313b8.pdf",
-        "file_id": 22108,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22108,plainText=false)"
-      }
-    ],
-    "agenda_text": "Older Adult Advisory Committee\nCommissioner Barbara Zinner - Older Adult Advisory Committee Chair\nCommissioner James M. Perna – Older Adult Advisory Committee Vice Chair\nDistrict 1 – Tom Matthews District 7 – Marcia Relyea District 13 – Walter J. Martin\nDistrict 2 – Vacant District 8 – Joe Silbernagel At-Large – Rochelle Fuqua\nDistrict 3 – Vacant District 9 – Jennifer Hammel At-Large – Meghan Mott\nDistrict 4 – Kathy Western District 10 – Carol Weidenbach At-Large – Kathleen Rubino\nDistrict 5 – Barbara VanSyckel District 11 – Carole Wiseman At-Large – Carol Thompson\nDistrict 6 – Moira Smith District 12 – Suzanne Ostosh\nAGENDA\nDATE/TIME: Tuesday, November 25, 2025, 3:00 PM\nCOMMITTEE: Older Adult Advisory Committee, an advisory committee to the Board of Commissioners\nCOMMITTEE CHAIR: Commissioner Barbara Zinner, Vice Chair James M. Perna\nLOCATION: Chesterfield Community Center, 48400 Sugarbush Road, Chesterfield, MI 48047\n1. Call to Order\n2. Pledge of Allegiance\n3. Attendance Roll Call\n4. Adoption of Agenda\n5. Approval of Minutes\na) dated October 28, 2025\n6. Public Participation (three minutes max per speaker related only to issues on the agenda)\n7. Presentations\na) Board of Commissioners: Introduction from District 2 / Phil Kraft, District 2 Commissioner\nb) Chesterfield Township Senior Center Services / Michele Vannerson, CPRP, Director of Parks and\nRecreation\nc) PACE of Southeast Michigan: Update / Jacquelyn Hasenfratz, Outreach Liaison\n8. Committee Items\na) 2026 Meeting Schedule\nb) BOC Monthly Updates: November 2025\nc) OAAC Action Item Tracker (No updates)\n9. Correspondence\na) MDHHS Seeks Input from Older Adults for New State Plan - Press Release, Survey and Community\nConversation Schedule\nb) 2026 Executive Recommended Budget Pages - Office of Senior Services\n10. Public Participation (three minutes max per speaker)\n11. District Reports from Members\n12. Comments from Members\n13. Adjournment\nAGENDA – PAGE 1 boc.macombgov.org",
-    "minutes_text": null,
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order"
-      },
-      {
-        "number": "2",
-        "text": "Pledge of Allegiance"
-      },
-      {
-        "number": "3",
-        "text": "Attendance Roll Call"
-      },
-      {
-        "number": "4",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "5",
-        "text": "Approval of Minutes"
-      },
-      {
-        "number": "6",
-        "text": "Public Participation (three minutes max per speaker related only to issues on the agenda)"
-      },
-      {
-        "number": "7",
-        "text": "Presentations"
-      },
-      {
-        "number": "8",
-        "text": "Committee Items"
-      },
-      {
-        "number": "9",
-        "text": "Correspondence"
-      },
-      {
-        "number": "10",
-        "text": "Public Participation (three minutes max per speaker)"
-      },
-      {
-        "number": "11",
-        "text": "District Reports from Members"
-      },
-      {
-        "number": "12",
-        "text": "Comments from Members"
-      },
-      {
-        "number": "13",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": null
-  },
-  {
-    "uid": "451f116cb09a1fbd42516deb867abfb40f822cdb@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Community Mental Health Board - Full Board",
-    "start": "2025-11-25T13:00:00-05:00",
-    "end": "2025-11-25T15:00:00-05:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "1 S. Main Street, Mt. Clemens, MI, 48043",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22088,plainText=false)",
-    "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1833",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "2025-11-25  CMH Full Board Meeting Agenda",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ed559879-e424-489d-84c5-c30f8466bef0.pdf",
-        "file_id": 22088,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22088,plainText=false)"
-      },
-      {
-        "type": "Agenda Packet",
-        "name": "2025-11-25 CMH Full Board Meeting Packet",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/8bf0dcda-317b-418f-adf8-e2e7ba65255e.pdf",
-        "file_id": 22096,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22096,plainText=false)"
-      }
-    ],
-    "agenda_text": "Our Mission: Macomb County Community Mental Health,\nguided by the values, strengths, and informed choices of the PEOPLE WE SERVE,\nprovides quality services which promote\nrecovery, community participation, self-sufficiency, and independence.\nCommunity Mental Health Board\nPhil Kraft Selena M. Schmidt Lori Phillips\nChair Vice Chair Secretary/Treasurer\nMegan Burke Nick Ciaramitaro Sherita Harvey\nDonna Cangemi Wayne Conner Julia Mendyka\nJackie Catinella Dana Freers Antoinette Wallace\nPhil Kraft Antoinette Wallace Lori Phillips\nChair Vice Chair Secretary/Treasurer\nDATE/TIME: Tuesday, November 25, 2025, 6:00 PM\nCOMMITTEE: Full Board\nCOMMITTEE CHAIR/VICE CHAIR: Chair Kraft, Vice Chair Schmidt\nCOMMITTEE MEMBERS: Committee of the Whole\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\nAGENDA\n1. Call to Order\na) Pledge of Allegiance\n2. Reading of the Mission Statement\n3. Adoption of Agenda\n4. Hearing of the Public\n5. Minutes\na) Approval of the CMH Full Board Meeting Minutes from 10-22-25.\n6. Approval of Standing Committee Meetings Minutes/Recommendations\na) Approval of CMH Program and Budget Meeting minutes from 11-12-25.\nb) Approval of CMH Board Recipient Rights Advisory Committee Meeting minutes from 10-16-25.\n7. Request to Approve\na) Request to approve a Special Assessment for the Community Mental Health Association (CMHA) of\nMichigan in the amount of $31,022. (Approved by legal)\nb) Request to approve a $5,000 voluntary Special Assessment to support the Community Mental\nHealth Association (CMHA) of Michigan's technical assistance for Certified Community\nBehavioral Health Clinics (CCBHC).\nc) Request to approve the state amendment to add Infant and Early Childhood Mental Health\nConsultation (IECMHC) subgrant agreement to the master agreement for Comprehensive\nBehavioral Health (CBH) 2026 between MDHHS and MCCMH. (Approved by legal.)\nd) Request to approve the use of the MDHHS approved grant funds for technology-based recovery\nsupports for materials, programs and software to enhance data collection, care coordination and\nengagement with services and supports provided in the MCCMH network.\ne) Request to approve the use of the MDHHS approved grant funds for integrated healthcare supplies,\nevents, promotional materials and evidence-based practice training for the MCCMH network.\nf) Request to approve an agreement with Train for Change to provide ASAM 4th Training to\nMCCMH contracted SUD providers.\ng) Request to approve purchasing Naloxone Bags as a part of the SOR 4 grant not to exceed $15,358.\n\nh) **NEW ITEM: Request to approve HVAC expense in the amount not to exceed $28,000 for West\nlocation.\n8. Receive and File\n9. Resolutions\n10. Voucher Listings\na) Request to approve vouchers for 10-11-25 through 11-14-25\n11. Management Report\na) CEO Update\n12. Other Possible Agenda Items\na) REMINDER: No December 2025 CMH Board Program and Budget Meeting\nb) REMINDER: CMH Full Board Meeting - Wednesday, December 17, 2025 @6pm\nc) REMINDER: CMH Board - Recipient Rights Advisory Committee Meeting - Thursday, December 18,\n2025 @8am\n13. Provider Comments\n14. Hearing of the Public\n15. Adjournment",
-    "minutes_text": null,
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order"
-      },
-      {
-        "number": "2",
-        "text": "Reading of the Mission Statement"
-      },
-      {
-        "number": "3",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Hearing of the Public"
-      },
-      {
-        "number": "6",
-        "text": "Approval of Standing Committee Meetings Minutes/Recommendations"
-      },
-      {
-        "number": "7",
-        "text": "Request to Approve"
-      },
-      {
-        "number": "8",
-        "text": "Receive and File"
-      },
-      {
-        "number": "9",
-        "text": "Resolutions"
-      },
-      {
-        "number": "10",
-        "text": "Voucher Listings"
-      },
-      {
-        "number": "11",
-        "text": "Management Report"
-      },
-      {
-        "number": "12",
-        "text": "Other Possible Agenda Items"
-      },
-      {
-        "number": "13",
-        "text": "Provider Comments"
-      },
-      {
-        "number": "14",
-        "text": "Hearing of the Public"
-      },
-      {
-        "number": "15",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": null
-  },
-  {
     "uid": "b144e640c66724993be368e3dd0525f8b10d7ce2@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Civil Service Commission",
@@ -2071,6 +1889,76 @@
     "agenda_text": null,
     "minutes_text": null,
     "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "e32d6a9bd85414b699db371435cf0492cf40e09e@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Macomb Orchard Trail Commission",
+    "start": "2026-02-24T03:30:00-05:00",
+    "end": "2026-02-24T05:30:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22152,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1986",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2026-02-24 MOT Full Board Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/5e120e86-dc94-41c1-a1be-35afcb493fa1.pdf",
+        "file_id": 22152,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22152,plainText=false)"
+      }
+    ],
+    "agenda_text": "``\nMacomb Orchard Trail Commission\nSylvia Grot, Chair Michele Milam Gary Hopp\nCounty Commissioner Trustee, Washington Township Eastern District Superintendent, HCMA\nTroy Jeschke Allan Goetzinger Joseph Youngblood\nDirector, Planning & Economic Development, Richmond Armada Township Representative Director, Parks & Recreation, Shelby Township\nAGENDA\nDATE/TIME: Tuesday, February 24, 2026, 8:30 AM\nCOMMITTEE: Macomb Orchard Trail Commission\nCHAIR: Chair Sylvia Grot\nLOCATION: Shelby Township Activities Center, 14975 21 Mile Road, Shelby Township, MI 48315\n1. Call to Order\n2. Roll Call\n3. Adoption of Agenda\n4. Approval of Minutes\na) dated November 18, 2025\n5. Public Participation\n6. Trail Update\n7. Other Discussion\n8. Public Participation\n9. Comments from Members\n10. Confirm Next Meeting\n11. Adjournment\nbocmacomb.org",
+    "minutes_text": null,
+    "agenda_items": [
+      {
+        "number": "1",
+        "text": "Call to Order"
+      },
+      {
+        "number": "3",
+        "text": "Adoption of Agenda"
+      },
+      {
+        "number": "4",
+        "text": "Approval of Minutes"
+      },
+      {
+        "number": "5",
+        "text": "Public Participation"
+      },
+      {
+        "number": "6",
+        "text": "Trail Update"
+      },
+      {
+        "number": "7",
+        "text": "Other Discussion"
+      },
+      {
+        "number": "8",
+        "text": "Public Participation"
+      },
+      {
+        "number": "9",
+        "text": "Comments from Members"
+      },
+      {
+        "number": "10",
+        "text": "Confirm Next Meeting"
+      },
+      {
+        "number": "11",
+        "text": "Adjournment"
+      }
+    ],
     "votes": null
   }
 ]

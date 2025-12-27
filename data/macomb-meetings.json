@@ -1,73 +1,5 @@
 [
   {
-    "uid": "b144e640c66724993be368e3dd0525f8b10d7ce2@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Civil Service Commission",
-    "start": "2025-11-26T04:00:00-05:00",
-    "end": "2025-11-26T06:00:00-05:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "120 N. Main St., Mt. Clemens, MI, 48043",
-    "address": "Meeting Notice",
-    "virtual_link": null,
-    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22119,plainText=false)",
-    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22118,plainText=false)",
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1908",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Agenda",
-        "name": "AGENDA",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0675e8c2-b0c0-4489-b2d4-17e210b5560a.pdf",
-        "file_id": 22119,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22119,plainText=false)"
-      },
-      {
-        "type": "Minutes",
-        "name": "MINUTES",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b7ff4008-758e-4e54-8fa8-9fa2681cd4f3.pdf",
-        "file_id": 22118,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22118,plainText=false)"
-      },
-      {
-        "type": "Notice",
-        "name": "Meeting Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/2268455c-b54c-48d1-9269-92f54984996e.pdf",
-        "file_id": 21670,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21670,plainText=false)"
-      }
-    ],
-    "agenda_text": "MACOMB COUNTY\nCIVIL SERVICE COMMISSION MEETING\nWednesday, November 26, 2025, 9:00 AM\n120 N. Main, Mount Clemens, 48043\n2nd Floor Conference Room\nAGENDA\n1. Call to Order and Roll Call\n2. Adoption of Agenda\na) Review and approve the agenda for November 26, 2025\n3. Minutes\na) Review and approve the minutes of November 12, 2025\n4. Public Participation\n5. Business\na) Review and approve the Civil Service Commission budget as of November 2025\n6. Personnel\na) Review and approve the Corrections Deputy eligibility list\nb) Review and approve the Dispatch eligibility list\nc) Review and approve the Deputy eligibility list\nd) Review and approve the Sergeant's eligibility list\ne) Review and approve the Lieutenant's eligibility list\nf) Receive and file requests for pre-employment physical and psychological evaluations for:\nJoshua Baier Deputy\nKristijan Dushaj Deputy Recruit\nTheophanis Goudiotis Deputy Recruit\n\ng) Receive and file memo from Undersheriff Darga and Recommendation to Fill Vacant position\nform for:\nOwen Mandoky Corrections Deputy Hired effective December 1, 2025\nShane Stec Deputy Recruit Hired effective January 5, 2026\nh) Receive and file resignation letters and termination forms for:\nJason Berndt Dispatcher Resigned effective November 24, 2025\nJoshua Mazzola Corrections Deputy Resigned effective November 13, 2025\nJacob Meldrum Corrections Deputy Resigned effective November 20, 2025\nDakota Perry Deputy Resigned effective November 30, 2025\ni) Review pre-employment physical and psychological evaluations and recommend hiring:\nJesse Skiendzior Deputy Recruit\n7. Old Business\n8. New Business\na) Review and approve payment to Ascension, invoice #584375 dated 10/31/2025 in the amount of\n$150.00 for pre-employment physical evaluation for Shane Stec\nb) Review and approve payment to Harold J. Love & Associates, invoice #2284 dated 11/17/2025 in\nthe amount of $1,500.00 for pre-employment psychological evaluations for:\nCody Knapchuck Corrections Deputy\nParr King Deputy Recruit\n9. Adjournment\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123",
-    "minutes_text": "MACOMB COUNTY\nCIVIL SERVICE COMMISSION MEETING\nWednesday, November 26, 2025, 9:00 AM\n120 N. Main, Mount Clemens, 48043\n2nd Floor Conference Room\nMINUTES\n1. Call to Order and Roll Call\nThe meeting was called to order by the Chairperson at 09:00 AM 120 N. Main Street, 2nd Floor,\nMount Clemens, Michigan 48043.\nPresent: Robert Stanley, Thomas Stawski, Patrick Maceroni\nOthers: HRLR, Mia Mezini, Sheriff's Office Lt. Jason Conklin\nExcused: John Schapka\n2. Adoption of Agenda\na) Review and approve the agenda for November 26, 2025\nMotion to adopt the agenda dated Wednesday, November 26, 2025. THE MOTION PASSED.\nMotioned by: None\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n3. Minutes\na) Review and approve the minutes of November 12, 2025\nMotion to approve the minutes of November 12, 2025. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n4. Public Participation\nNONE.\n\n5. Business\na) Review and approve the Civil Service Commission budget as of November 2025\nMotion to approve the budget. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n6. Personnel\na) Review and approve the Corrections Deputy eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: None\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nb) Review and approve the Dispatch eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nc) Review and approve the Deputy eligibility list\nMotion to approve above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123\n\nd) Review and approve the Sergeant's eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\ne) Review and approve the Lieutenant's eligibility list\nMotion to approve the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nf) Receive and file requests for pre-employment physical and psychological evaluations for:\nJoshua Baier Deputy\nKristijan Dushaj Deputy Recruit\nTheophanis Goudiotis Deputy Recruit\nMotion to receive and file the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\ng) Receive and file memo from Undersheriff Darga and Recommendation to Fill Vacant position\nform for:\nOwen Mandoky Corretions Deputy Hired effective December 1, 2025\nShane Stec Deputy Recruit HIred effective January 5, 2026\nMotion to receive and file the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123\n\nh) Receive and file resignation letters and termination forms for:\nJason Berndt Dispatcher Resigned effective November 24, 2025\nJoshua Mazzola Corrections Deputy Resigned effective November 13, 2025\nJacob Meldrum Corrections Deputy Resigned effective November 20, 2025\nDakota Perry Deputy Resigned effective November 30, 2025\nMotion to receive and file the above. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\ni) Review pre-employment physical and psychological evaluations and recommend hiring:\nJoesse Skiendzior Deputy Recruit\nMotion to approve the above for hire. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n7. Old Business\nNONE.\n8. New Business\na) Review and approve payment to Ascension, invoice #584375 dated 10/31/2025 in the amount of\n$150.00 for pre-employment physical evaluation for Shane Stec\nMotion to approve the above payment. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123\n\nb) Review and approve payment to Harold J. Love & Associates, invoice #2284 dated 11/17/2025 in\nthe amount of $1,500.00 for pre-employment psychological evaluations for:\nCody Knapchuck Corrections Deputy\nParr King Deputy Recruit\nMotion to approve the above payment. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\n9. Adjournment\nMotion to adjourn the November 26, 2025 meeting at 09:15 AM. THE MOTION PASSED.\nMotioned by: Patrick Maceroni\nSeconded by: Thomas Stawski\nVote Summary: (3 - 0 - 0)\nAye - Robert Stanley, Patrick Maceroni, Thomas Stawski\nMacomb County Clerk’s Office  120 N. Main, Mount Clemens, MI 48043  (586) 783-8142  Fax: (586) 469-5123",
-    "agenda_items": [
-      {
-        "number": "1",
-        "text": "Call to Order and Roll Call"
-      },
-      {
-        "number": "2",
-        "text": "Adoption of Agenda"
-      },
-      {
-        "number": "4",
-        "text": "Public Participation"
-      },
-      {
-        "number": "7",
-        "text": "Old Business"
-      },
-      {
-        "number": "8",
-        "text": "New Business"
-      },
-      {
-        "number": "9",
-        "text": "Adjournment"
-      }
-    ],
-    "votes": []
-  },
-  {
     "uid": "e8beb51992d59a7b9816b24a98fdbeb15fbc0236@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Veterans' Affairs Commission and Relief Fund",
@@ -1959,6 +1891,35 @@
         "text": "Adjournment"
       }
     ],
+    "votes": null
+  },
+  {
+    "uid": "7a6596d4341760e52a914f6479cc6c2d5156120f@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2026-02-25T04:00:00-05:00",
+    "end": "2026-02-25T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1997",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "NOTICE",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e6b8baaa-5b20-4974-a69d-e56b2ffd4f2c.pdf",
+        "file_id": 22192,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22192,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
     "votes": null
   }
 ]

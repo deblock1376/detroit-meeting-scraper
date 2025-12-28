@@ -1921,5 +1921,26 @@
     "minutes_text": null,
     "agenda_items": null,
     "votes": null
+  },
+  {
+    "uid": "a7417ddc7a02046ab76f88b14b2d87d9cbe7bb2e@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Human Services Board - Martha T. Berry",
+    "start": "2026-02-26T05:30:00-05:00",
+    "end": "2026-02-26T07:30:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "43533 Elizabeth Rd., Mt. Clemens, MI, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1974",
+    "source": "civicclerk-macombcomi",
+    "published_files": null,
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
   }
 ]

@@ -2,303 +2,1432 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Detroit eScribe Scraper//EN
 BEGIN:VEVENT
-SUMMARY:Public Health and Safety Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251103T100000
-DTEND;TZID="UTC-05:00":20251103T110000
-DTSTAMP:20251231T132113Z
-UID:fa91886e9f29dabe23b1497434a9224168a4a9f4@escribe-detroitmi
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250107T100000
+DTEND;TZID="UTC-05:00":20250107T120000
+DTSTAMP:20260101T131858Z
+UID:b81700dd2b879659dd71b344a1af5c9a52cef0aa@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=238414\\nDetails: https://pub-detroitmi.escribemeetings.com
- /MeetingsCalendarView.aspx/Meeting?Id=3cd0663b-4ccd-44ef-8d59-3c3667012d24
+ shx?DocumentId=197216\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=198457\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=7b1b2eb4-46b0-4fb6-802a
+ -b126917ec180
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=3cd0663b-4ccd-44ef-8d59-3c3667012d24
+ eting?Id=7b1b2eb4-46b0-4fb6-802a-b126917ec180
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internal Operations Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251105T100000
-DTEND;TZID="UTC-05:00":20251105T110000
-DTSTAMP:20251231T132113Z
-UID:63f6ca6a6f7bf83e7ba25c0d199123f8394e9da9@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250108T100000
+DTEND;TZID="UTC-05:00":20250108T110000
+DTSTAMP:20260101T131858Z
+UID:fe6d8a90c33c7ef0cd1184d9c2c6bc4482a79775@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=238450\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=238465\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=d564450c-6ac9-46a6-a7ef
- -3fc900aa89df
+ shx?DocumentId=196329\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=196691\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=cff0240f-bc2e-4c9c-8b22
+ -912188c39c71
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=d564450c-6ac9-46a6-a7ef-3fc900aa89df
+ eting?Id=cff0240f-bc2e-4c9c-8b22-912188c39c71
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251105T130000
-DTEND;TZID="UTC-05:00":20251105T140000
-DTSTAMP:20251231T132113Z
-UID:36ccd1e6ae7562ab6ba5b41e75afcd896cfd9bc7@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250108T130000
+DTEND;TZID="UTC-05:00":20250108T140000
+DTSTAMP:20260101T131858Z
+UID:a79ec733e5750e8c013e8b7fbce9f0821f25911b@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=238464\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=238488\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=b2df99ce-141a-4cdc-a8dc
- -a15f5519ec97
+ shx?DocumentId=196511\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=196692\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=325f390c-8082-4d8c-8911
+ -2ace0b91bf87
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=b2df99ce-141a-4cdc-a8dc-a15f5519ec97
+ eting?Id=325f390c-8082-4d8c-8911-2ace0b91bf87
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Planning and Economic Development Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251106T100000
-DTEND;TZID="UTC-05:00":20251106T110000
-DTSTAMP:20251231T132113Z
-UID:4531de3a469cc7a8c517b77972d2b0cc5f55004d@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250109T100000
+DTEND;TZID="UTC-05:00":20250109T110000
+DTSTAMP:20260101T131858Z
+UID:7cedbb20cfe32ada5d5bbb7802556f51ffe63c2d@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=238506\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=238822\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=cace55f0-3798-4208-a3ac
- -cd7b86a4b85f
+ shx?DocumentId=197217\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=201509\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=d7fe0b3c-485c-4ece-bda6
+ -90bb62dfcd43
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=cace55f0-3798-4208-a3ac-cd7b86a4b85f
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Public Health and Safety Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251110T100000
-DTEND;TZID="UTC-05:00":20251110T110000
-DTSTAMP:20251231T132113Z
-UID:6c8f3e281f12a8ce12c5f506202857c2b0e72dc7@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=238795\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=238799\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=5aeae146-4532-4c4c-b1a0
- -1172c39dcde2
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=5aeae146-4532-4c4c-b1a0-1172c39dcde2
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Internal Operations Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251112T100000
-DTEND;TZID="UTC-05:00":20251112T110000
-DTSTAMP:20251231T132113Z
-UID:19390969180b0d08359c8a3bd944f3c97abf1255@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=239190\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=239246\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=1000a687-be1a-47a8-bbcf
- -d675442890b3
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=1000a687-be1a-47a8-bbcf-d675442890b3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Planning and Economic Development Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251113T100000
-DTEND;TZID="UTC-05:00":20251113T110000
-DTSTAMP:20251231T132113Z
-UID:9f8f0eeb85da84db26cf0f8b7c947f9a1ee394c5@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=239242\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=239249\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=2e13d5f3-e036-43a9-97d0
- -74bf276376f9
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=2e13d5f3-e036-43a9-97d0-74bf276376f9
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Formal Session: Meeting
-DTSTART;TZID="UTC-05:00":20251114T100000
-DTEND;TZID="UTC-05:00":20251114T110000
-DTSTAMP:20251231T132113Z
-UID:1261aabe2ebfd29fad8fd8dcc87538b2b18c558b@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=239171\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=242043\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=6906eb32-a9d3-4747-b347
- -3ea9d7d7f936
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=6906eb32-a9d3-4747-b347-3ea9d7d7f936
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Public Health and Safety Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251117T100000
-DTEND;TZID="UTC-05:00":20251117T110000
-DTSTAMP:20251231T132113Z
-UID:102609a6196240e8f095c44bde5d678d408f2ccd@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=239742\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=240105\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=fc1295f9-0623-4160-aa78
- -326e6f73b911
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=fc1295f9-0623-4160-aa78-326e6f73b911
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Formal Session: Meeting
-DTSTART;TZID="UTC-05:00":20251118T100000
-DTEND;TZID="UTC-05:00":20251118T110000
-DTSTAMP:20251231T132113Z
-UID:88abefb3c204f0864425c51169094e4435118e77@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=240036\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=240798\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=172f9bd4-cba2-46f7-a26b
- -29d58888aef5
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=172f9bd4-cba2-46f7-a26b-29d58888aef5
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:City Council Special Session: Meeting
-DTSTART;TZID="UTC-05:00":20251118T140000
-DTEND;TZID="UTC-05:00":20251118T150000
-DTSTAMP:20251231T132113Z
-UID:eba913f865bc3fbdab83a01c87dd9bce714cd744@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=239752\\nDetails: https://pub-detroitmi.escribemeetings.com
- /MeetingsCalendarView.aspx/Meeting?Id=7438ee98-8e01-441c-9599-19469bbbc007
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=7438ee98-8e01-441c-9599-19469bbbc007
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Internal Operations Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251119T100000
-DTEND;TZID="UTC-05:00":20251119T110000
-DTSTAMP:20251231T132113Z
-UID:381bb1a9cf18bfad37bef54bf6b9c0ebbb82d23a@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=240175\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=241683\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=95f92932-10f0-417d-9b2c
- -9e8102d2a2e8
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=95f92932-10f0-417d-9b2c-9e8102d2a2e8
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251119T130000
-DTEND;TZID="UTC-05:00":20251119T140000
-DTSTAMP:20251231T132113Z
-UID:bbf93876bf69fba903134ada932fc4bc40eee125@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=240195\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=241332\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=a7b8c988-7d95-41b7-9ad0
- -fe1c856c884b
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=a7b8c988-7d95-41b7-9ad0-fe1c856c884b
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Planning and Economic Development Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251120T100000
-DTEND;TZID="UTC-05:00":20251120T110000
-DTSTAMP:20251231T132113Z
-UID:c8b84698589a0e217a11fd3dc7108a79c61fa93d@escribe-detroitmi
-DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=240642\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=241068\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=41fdbd5f-92c7-493c-bc36
- -cb6ccb3e5f8b
-LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
- I 48226
-STATUS:CONFIRMED
-URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=41fdbd5f-92c7-493c-bc36-cb6ccb3e5f8b
+ eting?Id=d7fe0b3c-485c-4ece-bda6-90bb62dfcd43
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251120T130000
-DTEND;TZID="UTC-05:00":20251120T140000
-DTSTAMP:20251231T132113Z
-UID:9b9a5e5af3e7a7c98338fba87455e9422b8e894f@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250109T130000
+DTEND;TZID="UTC-05:00":20250109T140000
+DTSTAMP:20260101T131858Z
+UID:42482ade82564111321d43bf2ab7682fbd173e6c@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=240530\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=242322\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=aecf09e9-cbb9-4360-b0e6
- -1dd6d158fe7e
+ shx?DocumentId=196599\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=196780\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=9a55749f-eacd-4046-ba0b
+ -77c6f583b68f
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=aecf09e9-cbb9-4360-b0e6-1dd6d158fe7e
+ eting?Id=9a55749f-eacd-4046-ba0b-77c6f583b68f
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Public Health and Safety Standing Committee: Meeting
-DTSTART;TZID="UTC-05:00":20251124T100000
-DTEND;TZID="UTC-05:00":20251124T110000
-DTSTAMP:20251231T132113Z
-UID:ba8ea19067475885976ebec0fcdab2215ba85ebb@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250113T100000
+DTEND;TZID="UTC-05:00":20250113T110000
+DTSTAMP:20260101T131858Z
+UID:0e029163145f782a0b7cd73b39cbe25819f59e8a@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=241115\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=242324\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=f45a4a4f-377c-4279-979a
- -31f377c5957b
+ shx?DocumentId=203020\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=201619\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=08bc67f2-0c4f-4126-bea9
+ -959a436cf940
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=f45a4a4f-377c-4279-979a-31f377c5957b
+ eting?Id=08bc67f2-0c4f-4126-bea9-959a436cf940
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:City Council Formal Session: Meeting
-DTSTART;TZID="UTC-05:00":20251125T100000
-DTEND;TZID="UTC-05:00":20251125T110000
-DTSTAMP:20251231T132113Z
-UID:54c8a8c0255692dad1bfdd7850b965024e8d5105@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250114T100000
+DTEND;TZID="UTC-05:00":20250114T120000
+DTSTAMP:20260101T131858Z
+UID:55155f24cfe6b285cb555036ed122af937bda4a6@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=242318\\nMinutes: https://pub-detroitmi.escribemeetings.com
- /FileStream.ashx?DocumentId=243277\\nDetails: https://pub-detroitmi.escrib
- emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=84bd5225-02d0-4679-879e
- -4808940b8175
+ shx?DocumentId=197739\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=208908\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=d5e02aa0-60ab-453e-a997
+ -f1ef900557ae
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=84bd5225-02d0-4679-879e-4808940b8175
+ eting?Id=d5e02aa0-60ab-453e-a997-f1ef900557ae
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250115T100000
+DTEND;TZID="UTC-05:00":20250115T110000
+DTSTAMP:20260101T131858Z
+UID:abfde9c69f57c48e4b7f018407e002444f28c377@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202578\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202579\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=feb5de0b-49bc-436f-97ed
+ -c0c2b0e270fc
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=feb5de0b-49bc-436f-97ed-c0c2b0e270fc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250115T130000
+DTEND;TZID="UTC-05:00":20250115T140000
+DTSTAMP:20260101T131858Z
+UID:fc5c720a8f3a7dcd1623a9db8f4ec40b2ab8d853@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=197831\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=197912\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=d69ae308-2682-4e7f-aa1c
+ -7600bb708ffb
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=d69ae308-2682-4e7f-aa1c-7600bb708ffb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250116T100000
+DTEND;TZID="UTC-05:00":20250116T110000
+DTSTAMP:20260101T131858Z
+UID:dafcacd96a73fe7b8914eecc559c4de4ae988738@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=197867\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=197913\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=02599b69-2f5d-4402-9d42
+ -4736c9e3c675
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=02599b69-2f5d-4402-9d42-4736c9e3c675
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250116T130000
+DTEND;TZID="UTC-05:00":20250116T140000
+DTSTAMP:20260101T131858Z
+UID:b64401031697efac6eae081c1759e22c171895f5@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202581\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202582\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=fc24f3d7-cd6c-442d-8a1f
+ -bf847931d790
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=fc24f3d7-cd6c-442d-8a1f-bf847931d790
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:City Council Formal Session: Meeting
-DTSTART;TZID="UTC-05:00":20260106T100000
-DTEND;TZID="UTC-05:00":20260106T120000
-DTSTAMP:20251231T132113Z
-UID:90617995cf84184a9617fb01854992988ee05478@escribe-detroitmi
+DTSTART;TZID="UTC-05:00":20250121T100000
+DTEND;TZID="UTC-05:00":20250121T120000
+DTSTAMP:20260101T131858Z
+UID:797d329ac6535cad15cca4d267116ab3c067905a@escribe-detroitmi
 DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
- shx?DocumentId=243385\\nDetails: https://pub-detroitmi.escribemeetings.com
- /MeetingsCalendarView.aspx/Meeting?Id=0148c904-beda-4b54-93e5-d502bf70d50e
+ shx?DocumentId=198453\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=200265\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=9607a854-2d77-4928-8be3
+ -c54b4148bb9a
 LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
  I 48226
 STATUS:CONFIRMED
 URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
- eting?Id=0148c904-beda-4b54-93e5-d502bf70d50e
+ eting?Id=9607a854-2d77-4928-8be3-c54b4148bb9a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250122T100000
+DTEND;TZID="UTC-05:00":20250122T110000
+DTSTAMP:20260101T131858Z
+UID:462f4962adef6c3029f2605f3a5d3f502a0e01ee@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=198504\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=203417\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=acb97d5c-d781-4062-a16a
+ -8fe3b6b701cb
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=acb97d5c-d781-4062-a16a-8fe3b6b701cb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250122T130000
+DTEND;TZID="UTC-05:00":20250122T140000
+DTSTAMP:20260101T131858Z
+UID:97e1f7c8e7045d7b1dfd6abc762d6baf2e272423@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202583\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202584\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=d9f3ab1d-c8d2-49c5-8241
+ -8a0ca69a2815
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=d9f3ab1d-c8d2-49c5-8241-8a0ca69a2815
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250123T100000
+DTEND;TZID="UTC-05:00":20250123T110000
+DTSTAMP:20260101T131858Z
+UID:17767a340ee6017d4eefa8a7d4a2aa404e07065e@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=198557\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=198810\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=ea1fcb52-d9dd-40b3-a350
+ -7376dd6cafa1
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=ea1fcb52-d9dd-40b3-a350-7376dd6cafa1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250123T130000
+DTEND;TZID="UTC-05:00":20250123T140000
+DTSTAMP:20260101T131858Z
+UID:d32576cb6e54e9e8bedfc5105420aeccb0858f29@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=198570\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=198686\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=68122054-ccb3-42b1-ba43
+ -ef0617aa2898
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=68122054-ccb3-42b1-ba43-ef0617aa2898
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250127T100000
+DTEND;TZID="UTC-05:00":20250127T110000
+DTSTAMP:20260101T131858Z
+UID:42930060b598df3be3f281348eae9f1e5a3790f9@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=199906\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=200061\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=3a2f87f7-4888-48f4-afd6
+ -e779653dbcfc
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=3a2f87f7-4888-48f4-afd6-e779653dbcfc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250128T100000
+DTEND;TZID="UTC-05:00":20250128T120000
+DTSTAMP:20260101T131858Z
+UID:65d7a429103e4dbb55d36f7e6643f29de51fd07b@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=200852\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=201052\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=b636f682-bdb7-4454-9bc2
+ -2da6ffab922c
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=b636f682-bdb7-4454-9bc2-2da6ffab922c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250129T100000
+DTEND;TZID="UTC-05:00":20250129T110000
+DTSTAMP:20260101T131858Z
+UID:e509ec2219575c1dba05087f05569b03631dc41e@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202585\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202586\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=2e8b2cc1-ff4e-400f-ba99
+ -4376257fc74f
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=2e8b2cc1-ff4e-400f-ba99-4376257fc74f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250129T130000
+DTEND;TZID="UTC-05:00":20250129T140000
+DTSTAMP:20260101T131858Z
+UID:11dfa82b18b090f5dc232aee24657160dc7fcd1a@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=200124\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=200266\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=82d99e39-ff2f-426c-a226
+ -b8ccc93348b4
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=82d99e39-ff2f-426c-a226-b8ccc93348b4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250130T100000
+DTEND;TZID="UTC-05:00":20250130T110000
+DTSTAMP:20260101T131858Z
+UID:08bc431e97f19d216bf36cb139e81dcc8c6aa988@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=200123\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=200406\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=296c201a-bf15-463d-8a0b
+ -c288629042f7
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=296c201a-bf15-463d-8a0b-c288629042f7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250130T130000
+DTEND;TZID="UTC-05:00":20250130T140000
+DTSTAMP:20260101T131858Z
+UID:ac48f687e037b2237a87292834130f79fedfcbaf@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202143\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202144\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=70872d98-dc11-4728-8088
+ -6ace6e593422
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=70872d98-dc11-4728-8088-6ace6e593422
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250203T100000
+DTEND;TZID="UTC-05:00":20250203T110000
+DTSTAMP:20260101T131858Z
+UID:529146fe1cbaa3eee06fd3bd92ba130bbe8988c3@escribe-detroitmi
+DESCRIPTION:Details: 
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250204T100000
+DTEND;TZID="UTC-05:00":20250204T120000
+DTSTAMP:20260101T131858Z
+UID:a0849e6cdc786aa95110466d5fd9e69b82234172@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=200851\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202145\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=ffdb0f30-b166-40a9-a41a
+ -105d3e7d693f
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=ffdb0f30-b166-40a9-a41a-105d3e7d693f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250205T100000
+DTEND;TZID="UTC-05:00":20250205T110000
+DTSTAMP:20260101T131858Z
+UID:863873c340c5dbf6e0d11acf9e567b6f6ad6b7ef@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=201407\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202540\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=c3134a49-cc44-4eee-849b
+ -7f2ded422ea9
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=c3134a49-cc44-4eee-849b-7f2ded422ea9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250205T130000
+DTEND;TZID="UTC-05:00":20250205T140000
+DTSTAMP:20260101T131858Z
+UID:70ff75c00a980129679f1d9789fa5af21a6c819d@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=201332\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=201759\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=6ee52037-e009-459b-8774
+ -46cbceea4f9c
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=6ee52037-e009-459b-8774-46cbceea4f9c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250206T100000
+DTEND;TZID="UTC-05:00":20250206T110000
+DTSTAMP:20260101T131858Z
+UID:f155f4fb78d6d35c374b9200bd576ef067e6504f@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=201508\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202509\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=aba7e603-faef-4c44-a3fa
+ -24956ef085ba
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=aba7e603-faef-4c44-a3fa-24956ef085ba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250206T130000
+DTEND;TZID="UTC-05:00":20250206T140000
+DTSTAMP:20260101T131858Z
+UID:05a76ca4449bfe464168c4a338217f33098153e6@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202587\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=202588\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=3c64a0e1-aec2-490e-a3e5
+ -5267f7471238
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=3c64a0e1-aec2-490e-a3e5-5267f7471238
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250210T100000
+DTEND;TZID="UTC-05:00":20250210T110000
+DTSTAMP:20260101T131858Z
+UID:8e8ceb64bf51dd1fdf44a39cba74d0c926cac3a4@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=202104\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=203188\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=975ae95b-b21d-4fc1-a907
+ -74584414129d
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=975ae95b-b21d-4fc1-a907-74584414129d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250211T100000
+DTEND;TZID="UTC-05:00":20250211T120000
+DTSTAMP:20260101T131858Z
+UID:fd8a1e6e822d12a7592a395ab888f176c740cc6d@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=203851\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=209300\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=7e814ef4-a6cb-42fb-be2f
+ -784d8e7c50ab
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=7e814ef4-a6cb-42fb-be2f-784d8e7c50ab
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250212T130000
+DTEND;TZID="UTC-05:00":20250212T140000
+DTSTAMP:20260101T131858Z
+UID:9180fd878c0457b7c1b506e06daaf01b15314bc0@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=212720\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=203220\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=35661a27-5d6f-41f6-b224
+ -82f05b06ab00
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=35661a27-5d6f-41f6-b224-82f05b06ab00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250212T130000
+DTEND;TZID="UTC-05:00":20250212T140000
+DTSTAMP:20260101T131858Z
+UID:466e488acec487c9037a3d57e0838120a3b7e888@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=203189\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=203190\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=db8489ab-d5f1-44cc-8ca8
+ -8a7dcaeffaeb
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=db8489ab-d5f1-44cc-8ca8-8a7dcaeffaeb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250213T100000
+DTEND;TZID="UTC-05:00":20250213T110000
+DTSTAMP:20260101T131858Z
+UID:9ff60db0b34ba44d211afe45c4d987c431a96e90@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=203048\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=203656\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=2c999736-43aa-43f7-bad4
+ -cf92277f75a8
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=2c999736-43aa-43f7-bad4-cf92277f75a8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250213T130000
+DTEND;TZID="UTC-05:00":20250213T140000
+DTSTAMP:20260101T131858Z
+UID:19b5fdbdf0ab97eb385ef1523b0dfd94443bc466@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=203082\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=204121\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=f000ae85-22ce-43bb-804e
+ -26c204cf2ae8
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=f000ae85-22ce-43bb-804e-26c204cf2ae8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250217T100000
+DTEND;TZID="UTC-05:00":20250217T110000
+DTSTAMP:20260101T131858Z
+UID:c10524401deb1081a41f2992dedce6d2b390961c@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=203545\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=204047\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=5b2aae13-f052-46be-9d00
+ -84e3865dedfb
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=5b2aae13-f052-46be-9d00-84e3865dedfb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250218T100000
+DTEND;TZID="UTC-05:00":20250218T120000
+DTSTAMP:20260101T131858Z
+UID:a9151a6261c7391afb7e5268bebc58ad0a122afc@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=203852\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /Meeting.aspx?Id=f7762c2d-cab6-419f-82fe-a206f829c0d6&Agenda=PostMinutes&l
+ ang=English\\nDetails: https://pub-detroitmi.escribemeetings.com/MeetingsC
+ alendarView.aspx/Meeting?Id=f7762c2d-cab6-419f-82fe-a206f829c0d6
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=f7762c2d-cab6-419f-82fe-a206f829c0d6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250219T100000
+DTEND;TZID="UTC-05:00":20250219T110000
+DTSTAMP:20260101T131858Z
+UID:cf37b3f75a8286fa398508b684fa253f27dcb5c9@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204208\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=204600\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=f88baca3-e210-4032-981f
+ -a0ecad3addf4
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=f88baca3-e210-4032-981f-a0ecad3addf4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250219T130000
+DTEND;TZID="UTC-05:00":20250219T140000
+DTSTAMP:20260101T131858Z
+UID:ec9071911f366e5a638420c5e0375dd6f81f773d@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204145\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=204382\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=3715acda-ed2b-4253-8dc4
+ -8b71392b6c56
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=3715acda-ed2b-4253-8dc4-8b71392b6c56
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250220T100000
+DTEND;TZID="UTC-05:00":20250220T110000
+DTSTAMP:20260101T131858Z
+UID:0a2bafa140cc4a5db962abff1b851fe36419915f@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204272\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=204293\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=1544bca2-58f8-4671-84f3
+ -8daf8457c54c
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=1544bca2-58f8-4671-84f3-8daf8457c54c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250220T130000
+DTEND;TZID="UTC-05:00":20250220T140000
+DTSTAMP:20260101T131858Z
+UID:cb5fd9e02fce77e825a4fef30b114d55df4e6cab@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204601\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=204602\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=ef297568-d8e6-48d2-8923
+ -c39db27bb450
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=ef297568-d8e6-48d2-8923-c39db27bb450
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250224T100000
+DTEND;TZID="UTC-05:00":20250224T110000
+DTSTAMP:20260101T131858Z
+UID:b8ab229b7a9aa45c2ba9bf7fdd01d91fb1b10b86@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204599\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=205057\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=63fb252b-4715-4e24-b002
+ -fe078ab97934
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=63fb252b-4715-4e24-b002-fe078ab97934
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250225T100000
+DTEND;TZID="UTC-05:00":20250225T120000
+DTSTAMP:20260101T131858Z
+UID:dcf532d3f4a802483f3053e84927425349243aec@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204946\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=205388\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=597a7e7e-6446-4573-b91c
+ -2fd26967a7ce
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=597a7e7e-6446-4573-b91c-2fd26967a7ce
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Closed Session: Meeting
+DTSTART;TZID="UTC-05:00":20250225T150000
+DTEND;TZID="UTC-05:00":20250225T160000
+DTSTAMP:20260101T131858Z
+UID:82991235f0d725d69ee67e3178f2a011101170b5@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=204276\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=96ab9343-0590-43b0-8ff5-3698332aed12
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=96ab9343-0590-43b0-8ff5-3698332aed12
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250226T100000
+DTEND;TZID="UTC-05:00":20250226T110000
+DTSTAMP:20260101T131858Z
+UID:d4a5619026a5a4bf5b66de99a2c8f17ccbcfce8c@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205545\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=205546\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=9e306d8a-aee8-4fad-ad64
+ -a8c43f60f72e
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=9e306d8a-aee8-4fad-ad64-a8c43f60f72e
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250226T130000
+DTEND;TZID="UTC-05:00":20250226T140000
+DTSTAMP:20260101T131858Z
+UID:c0535a0b65652048cf9471babae564c5d89dde3d@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205040\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=205204\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=82fb5cbe-a562-41a2-9a0a
+ -da82227b7491
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=82fb5cbe-a562-41a2-9a0a-da82227b7491
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250227T100000
+DTEND;TZID="UTC-05:00":20250227T110000
+DTSTAMP:20260101T131858Z
+UID:1f07c1ff75fc57c6ac8484077b418dd9f393b2eb@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205196\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=205389\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=9a984b95-7c3c-42c9-931a
+ -1475208f834f
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=9a984b95-7c3c-42c9-931a-1475208f834f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250227T130000
+DTEND;TZID="UTC-05:00":20250227T140000
+DTSTAMP:20260101T131858Z
+UID:cd468d37a54790cd6deee5ebe29e2e78a4d16864@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205951\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=205962\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=b7b3a47b-a6e7-49b2-aef3
+ -782f1357443c
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=b7b3a47b-a6e7-49b2-aef3-782f1357443c
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250303T100000
+DTEND;TZID="UTC-05:00":20250303T110000
+DTSTAMP:20260101T131858Z
+UID:10495418cf94f62441cde32a89be069abd030c83@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205544\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=206477\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=cf21e844-a428-4e74-af6f
+ -d4d0e2208937
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=cf21e844-a428-4e74-af6f-d4d0e2208937
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Development Block Grant: Meeting
+DTSTART;TZID="UTC-05:00":20250303T130000
+DTEND;TZID="UTC-05:00":20250303T140000
+DTSTAMP:20260101T131858Z
+UID:2773b5cf9c533492ade21e94f1e9adf75c805f08@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205213\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=425e29e3-842c-41b8-8749-82166eb3b7dc
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=425e29e3-842c-41b8-8749-82166eb3b7dc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-05:00":20250304T100000
+DTEND;TZID="UTC-05:00":20250304T110000
+DTSTAMP:20260101T131858Z
+UID:b6fd191d586e631175f24e95c838447b4aebad71@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=206404\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=209530\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=b8046614-665e-428d-8adb
+ -5548e37d8e5a
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=b8046614-665e-428d-8adb-5548e37d8e5a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250305T100000
+DTEND;TZID="UTC-05:00":20250305T110000
+DTSTAMP:20260101T131858Z
+UID:ab0e06eef7bfdf3075d6c55c8a7ae363f2634c8b@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=206525\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=207095\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=431edcb8-97db-4088-bd2d
+ -745bf6e8a1a4
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=431edcb8-97db-4088-bd2d-745bf6e8a1a4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250305T130000
+DTEND;TZID="UTC-05:00":20250305T140000
+DTSTAMP:20260101T131858Z
+UID:43d892180154e7a261be26b1d05ba812aa89962b@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=206561\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=206805\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=b3b54334-b89c-46d7-b168
+ -ea21eb8ced57
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=b3b54334-b89c-46d7-b168-ea21eb8ced57
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Development Block Grant: Meeting
+DTSTART;TZID="UTC-05:00":20250305T140000
+DTEND;TZID="UTC-05:00":20250305T150000
+DTSTAMP:20260101T131858Z
+UID:23a70f4be0e907ceaa57e85b2b9bad3c8e44dadf@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205221\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=206811\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=fdef807f-a36a-4c03-825f
+ -19a8083e75c9
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=fdef807f-a36a-4c03-825f-19a8083e75c9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250306T100000
+DTEND;TZID="UTC-05:00":20250306T110000
+DTSTAMP:20260101T131858Z
+UID:73cedacf18a0af31ec5a0acdf5610501493da309@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=206560\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=207817\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=8c891c2c-4127-4877-95a1
+ -2ba7bdbd9c6f
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=8c891c2c-4127-4877-95a1-2ba7bdbd9c6f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-05:00":20250306T130000
+DTEND;TZID="UTC-05:00":20250306T140000
+DTSTAMP:20260101T131858Z
+UID:d09d5aa60315ec73ceb8fc6670edaeb9288fa7e3@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=206602\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=207443\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=cd3c06c8-39c5-4b0f-8d7c
+ -41eff81a63b0
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=cd3c06c8-39c5-4b0f-8d7c-41eff81a63b0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Development Block Grant: Meeting
+DTSTART;TZID="UTC-05:00":20250306T140000
+DTEND;TZID="UTC-05:00":20250306T150000
+DTSTAMP:20260101T131858Z
+UID:2ef2a09396aa67538047cb07491b3ec657bfeeb5@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205721\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=207813\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=216490aa-6c53-4fc5-b809
+ -8547bdbc4086
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=216490aa-6c53-4fc5-b809-8547bdbc4086
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250310T100000
+DTEND;TZID="UTC-04:00":20250310T110000
+DTSTAMP:20260101T131858Z
+UID:9eea258f47c45e383e578487f6e83ef7363b6933@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207086\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=207630\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=b79b1bd4-90c8-42ba-8bf0
+ -0548d00be238
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=b79b1bd4-90c8-42ba-8bf0-0548d00be238
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Development Block Grant: Meeting
+DTSTART;TZID="UTC-04:00":20250310T140000
+DTEND;TZID="UTC-04:00":20250310T150000
+DTSTAMP:20260101T131858Z
+UID:1c976278e916d7a4670b3af4c8d1a80751fee7bf@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=205735\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=207692\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=7314e03d-4587-4046-8347
+ -ba1c09816799
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=7314e03d-4587-4046-8347-ba1c09816799
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-04:00":20250311T100000
+DTEND;TZID="UTC-04:00":20250311T110000
+DTSTAMP:20260101T131858Z
+UID:61afdfe153beaa27e4d632dda3af99cc22806ab5@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207629\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210364\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=c4bae410-791c-4e0b-bb50
+ -23e566ba9823
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=c4bae410-791c-4e0b-bb50-23e566ba9823
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250312T090000
+DTEND;TZID="UTC-04:00":20250312T100000
+DTSTAMP:20260101T131858Z
+UID:086e410e42b273375d59dcec927e9f47ce975329@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207718\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=fa13729b-1a7a-4cd3-b932-f8b42452097d
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=fa13729b-1a7a-4cd3-b932-f8b42452097d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250312T100000
+DTEND;TZID="UTC-04:00":20250312T150000
+DTSTAMP:20260101T131858Z
+UID:6913fcb49101a2579988b0201c82f606fb64bd10@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207104\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=5d6fbcd0-700c-4255-b75e-41f638c500ae
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=5d6fbcd0-700c-4255-b75e-41f638c500ae
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250312T130000
+DTEND;TZID="UTC-04:00":20250312T140000
+DTSTAMP:20260101T131858Z
+UID:1094d90d572a626148523d578330f161ccb41708@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207739\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210368\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=e14a5371-3dcd-4416-a05d
+ -421cadf87ab6
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=e14a5371-3dcd-4416-a05d-421cadf87ab6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250313T090000
+DTEND;TZID="UTC-04:00":20250313T100000
+DTSTAMP:20260101T131858Z
+UID:a3264a94d4041beb076b35ca0f018b8ed4300d3f@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207809\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=208111\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=ebfc217c-63fb-4bbc-bfa8
+ -55c4193e22e1
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=ebfc217c-63fb-4bbc-bfa8-55c4193e22e1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250313T100000
+DTEND;TZID="UTC-04:00":20250313T150000
+DTSTAMP:20260101T131858Z
+UID:cbcf180a84b55d82da5af671cd443b029f82840c@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207906\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=84dd368d-ed7a-4aea-9bd0-40cfa8bb1635
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=84dd368d-ed7a-4aea-9bd0-40cfa8bb1635
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250313T130000
+DTEND;TZID="UTC-04:00":20250313T140000
+DTSTAMP:20260101T131858Z
+UID:d3cbd97b8d8d2168437bca0dc67425bc9a520e82@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207766\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210219\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=d9dd6df4-9b8e-46cf-92b6
+ -a4cc4e137506
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=d9dd6df4-9b8e-46cf-92b6-a4cc4e137506
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250314T100000
+DTEND;TZID="UTC-04:00":20250314T150000
+DTSTAMP:20260101T131858Z
+UID:6a76d5c7d27444165bcb617e678a3439abdd4ab6@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=207942\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=9147c2d0-fbcf-4a85-8506-4ddc296a7f7a
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=9147c2d0-fbcf-4a85-8506-4ddc296a7f7a
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250317T090000
+DTEND;TZID="UTC-04:00":20250317T100000
+DTSTAMP:20260101T131858Z
+UID:582c19caa3c03d48d0573332fabc1f2854987ef7@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=208110\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=209980\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=6f562d8f-d88c-4228-8b8c
+ -f651fde31bda
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=6f562d8f-d88c-4228-8b8c-f651fde31bda
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250317T100000
+DTEND;TZID="UTC-04:00":20250317T150000
+DTSTAMP:20260101T131858Z
+UID:f08ff434cb0822a9149c64ccf8edc81c90589d4a@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210002\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=a009c04c-2505-4368-95a8-7e31a9abb0fc
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=a009c04c-2505-4368-95a8-7e31a9abb0fc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-04:00":20250318T100000
+DTEND;TZID="UTC-04:00":20250318T120000
+DTSTAMP:20260101T131858Z
+UID:d8c4c3437db5dc2efee2756f958f5ed231c1b298@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=208907\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210171\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=bced12b4-9d88-4309-af7d
+ -9b724e32c14d
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=bced12b4-9d88-4309-af7d-9b724e32c14d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250319T090000
+DTEND;TZID="UTC-04:00":20250319T100000
+DTSTAMP:20260101T131858Z
+UID:8fa72b2fb867994501e357b5ae215c8d6618d94e@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=209529\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210172\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=cfd59f66-5ed3-46ea-8c59
+ -5ca97d9d6470
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=cfd59f66-5ed3-46ea-8c59-5ca97d9d6470
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250319T100000
+DTEND;TZID="UTC-04:00":20250319T150000
+DTSTAMP:20260101T131858Z
+UID:8287abe480a99c303a720d8a04ad4d85c7b74963@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210204\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=fc36b809-0a2f-424b-9f38-cd6f0ccdfa0d
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=fc36b809-0a2f-424b-9f38-cd6f0ccdfa0d
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250319T130000
+DTEND;TZID="UTC-04:00":20250319T140000
+DTSTAMP:20260101T131858Z
+UID:f1a34c561a8d95742841e9e0a54facabf56d2d1e@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=209999\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210214\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=60a03098-e1d7-4ae0-8647
+ -21da598471f4
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=60a03098-e1d7-4ae0-8647-21da598471f4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250320T090000
+DTEND;TZID="UTC-04:00":20250320T100000
+DTSTAMP:20260101T131858Z
+UID:7b4f709c319c4515e427d4e413640e2cb16f81ed@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210027\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=882c3c50-9181-4e9a-be28-5d65cda2db27
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=882c3c50-9181-4e9a-be28-5d65cda2db27
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250320T100000
+DTEND;TZID="UTC-04:00":20250320T150000
+DTSTAMP:20260101T131858Z
+UID:661996308e252cd8b31e733b433947a2ae2705bd@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210210\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=b9d8636a-f327-4e0f-a720-8312a0cebce5
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=b9d8636a-f327-4e0f-a720-8312a0cebce5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250320T130000
+DTEND;TZID="UTC-04:00":20250320T140000
+DTSTAMP:20260101T131858Z
+UID:5e7a6a1f88c966c2542586c5a5d0051beafc5d3b@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210202\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210345\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=1c7b2dde-00b7-49e5-b259
+ -bd967ba2b0d3
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=1c7b2dde-00b7-49e5-b259-bd967ba2b0d3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250321T100000
+DTEND;TZID="UTC-04:00":20250321T150000
+DTSTAMP:20260101T131858Z
+UID:d31670d7871900c7df7d9bf8bc097494fe3f3ca1@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210234\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=9870a7d4-a025-45bb-a845-294f2b944db1
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=9870a7d4-a025-45bb-a845-294f2b944db1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Public Health and Safety Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250324T090000
+DTEND;TZID="UTC-04:00":20250324T100000
+DTSTAMP:20260101T131858Z
+UID:42ac497dae48d37de6bf13e84455abe5e709db0b@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210269\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210537\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=dc3fc1eb-9418-4c31-84ba
+ -ca4b7862f877
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=dc3fc1eb-9418-4c31-84ba-ca4b7862f877
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250324T100000
+DTEND;TZID="UTC-04:00":20250324T150000
+DTSTAMP:20260101T131858Z
+UID:61f658773d799c8566c3e823821f66e52b0ccfa2@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210362\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=9091dd02-d2d2-4d9f-a122-3726959fe323
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=9091dd02-d2d2-4d9f-a122-3726959fe323
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Formal Session: Meeting
+DTSTART;TZID="UTC-04:00":20250325T100000
+DTEND;TZID="UTC-04:00":20250325T120000
+DTSTAMP:20260101T131858Z
+UID:4ca37a8070713c16a04da64d4b8cdefd6b964ff8@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210502\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=212927\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=82af490f-8077-4877-8617
+ -c58c00572448
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=82af490f-8077-4877-8617-c58c00572448
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Internal Operations Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250326T090000
+DTEND;TZID="UTC-04:00":20250326T100000
+DTSTAMP:20260101T131858Z
+UID:bcb15be4be2b0cc06e39e6eb8fae3df4daf7c478@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210559\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210582\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=09a62b04-7b49-436a-8526
+ -ed4c6059abdb
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=09a62b04-7b49-436a-8526-ed4c6059abdb
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250326T100000
+DTEND;TZID="UTC-04:00":20250326T150000
+DTSTAMP:20260101T131858Z
+UID:4a988dee149062ae2e6eba32cdbd586b6783fd16@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210541\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=9f9e751d-c519-4641-bf68-ecd228b0f7c0
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=9f9e751d-c519-4641-bf68-ecd228b0f7c0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Budget\, Finance And Audit Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250326T130000
+DTEND;TZID="UTC-04:00":20250326T140000
+DTSTAMP:20260101T131858Z
+UID:f54739196fe806bea5f2cd1eaff0fe9964e13614@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210573\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210650\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=f1b9a8a3-6600-4b23-a435
+ -668445aca8a0
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=f1b9a8a3-6600-4b23-a435-668445aca8a0
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planning and Economic Development Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250327T090000
+DTEND;TZID="UTC-04:00":20250327T100000
+DTSTAMP:20260101T131858Z
+UID:7ea2dd1ace5c9b2a7ac15eaee4f0073794835c9a@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210625\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210803\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=1980c86f-8112-4360-a5cb
+ -ee5ab5b65cb1
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=1980c86f-8112-4360-a5cb-ee5ab5b65cb1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250327T100000
+DTEND;TZID="UTC-04:00":20250327T150000
+DTSTAMP:20260101T131858Z
+UID:4f0237cf46c2bfca4fd02509e9f1b20ccecdd7b4@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210577\\nDetails: https://pub-detroitmi.escribemeetings.com
+ /MeetingsCalendarView.aspx/Meeting?Id=e7e9ef14-8aa0-452e-9523-a5115aa11db7
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=e7e9ef14-8aa0-452e-9523-a5115aa11db7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Neighborhood and Community Services Standing Committee: Meeting
+DTSTART;TZID="UTC-04:00":20250327T130000
+DTEND;TZID="UTC-04:00":20250327T140000
+DTSTAMP:20260101T131858Z
+UID:e14916e0ae53a0a9e326728289fe040e5be83aee@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210636\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=210651\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=e5b9c757-82fb-4abb-9928
+ -c41ba8471a95
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=e5b9c757-82fb-4abb-9928-c41ba8471a95
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City Council Budget Hearings: Meeting
+DTSTART;TZID="UTC-04:00":20250328T100000
+DTEND;TZID="UTC-04:00":20250328T150000
+DTSTAMP:20260101T131858Z
+UID:45c639ae7eddf7bbaeb3c4245074578e7efd1d0e@escribe-detroitmi
+DESCRIPTION:Agenda: https://pub-detroitmi.escribemeetings.com/FileStream.a
+ shx?DocumentId=210581\\nMinutes: https://pub-detroitmi.escribemeetings.com
+ /FileStream.ashx?DocumentId=211310\\nDetails: https://pub-detroitmi.escrib
+ emeetings.com/MeetingsCalendarView.aspx/Meeting?Id=4718e3a0-fcdd-4886-88a8
+ -46d8236e189b
+LOCATION:1340 Coleman A. Young Municipal Center (313) 224-3443 Detroit\, M
+ I 48226
+STATUS:CONFIRMED
+URL:https://pub-detroitmi.escribemeetings.com/MeetingsCalendarView.aspx/Me
+ eting?Id=4718e3a0-fcdd-4886-88a8-46d8236e189b
 END:VEVENT
 END:VCALENDAR

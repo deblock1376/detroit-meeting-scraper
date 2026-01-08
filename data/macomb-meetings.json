@@ -1,26 +1,5 @@
 [
   {
-    "uid": "5a9fbc69a306c3d62ff95a50f8c4bfe6fd9bde1b@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Board of Canvassers",
-    "start": "2025-12-08T08:30:00-05:00",
-    "end": "2025-12-08T10:30:00-05:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": null,
-    "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1972",
-    "source": "civicclerk-macombcomi",
-    "published_files": null,
-    "agenda_text": null,
-    "minutes_text": null,
-    "agenda_items": null,
-    "votes": null
-  },
-  {
     "uid": "b534f241ea29834d6bd731bd31cde536b5dae4a0@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Civil Service Commission",
@@ -821,11 +800,25 @@
     "location": "",
     "address": "",
     "virtual_link": null,
-    "agenda_url": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22307,plainText=false)",
     "minutes_url": null,
     "detail_url": "https://macombcomi.portal.civicclerk.com/event/1991",
     "source": "civicclerk-macombcomi",
     "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2026-01-13 BOC Joint Government Oversight and Health and Human Services Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/59f82b71-0598-4c77-aa9e-24202a0af872.pdf",
+        "file_id": 22307,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22307,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2026-01-13 BOC Joint Government Oversight and Health and Human Services Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/4324c488-045d-4d65-afc9-afff4dfc595f.pdf",
+        "file_id": 22308,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22308,plainText=false)"
+      },
       {
         "type": "Notice",
         "name": "2026-01-13 BOC Joint Government Oversight and Health and Human Services Committees Agenda Notice",
@@ -834,9 +827,70 @@
         "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22241,plainText=false)"
       }
     ],
-    "agenda_text": null,
+    "agenda_text": "``\nMacomb County Board of Commissioners\nJoe Sabatini, Board Chair Harold L. Haugh, Vice Chair Sylvia Grot, Sergeant-At-Arms\nDistrict 04 District 10 District 03\nDistrict 01 – Ken Goike District 02 – Phil Kraf t District 05 – Don VanSyckel District 06 – Joseph V. Romano District 07 – James M. Perna\nDistrict 08 – Antoinette Wallace District 09 – Barbara Zinner District 11 – Lisa Wojno District 12 – Michael J. Howard II District 13 – Sarah Lucido\nAGENDA\nDATE/TIME: Tuesday, January 13, 2026, 3:00 PM\nCOMMITTEE: Joint Government Oversight and Health and Human Services Committees\nCHAIR: Government Oversight Chair Harold L. Haugh; Health and Human Services Chair Sarah Lucido\nLOCATION: Administration Building, One South Main Street, 9th Floor, Mount Clemens, MI 48043\n1. Call to Order\n2. Pledge of Allegiance\n3. Adoption of Agenda\n4. Approval of Minutes\na) Joint Government Oversight and Finance/Audit/Budget Committees Minutes dated December 2,\n2025 (Including Closed Session)\nb) Joint Internal Services and Health and Human Services Committees Minutes dated December 3,\n2025\n5. Public Participation (three minutes max per speaker, related only to issues on the agenda)\n6. Appointment Interviews\na) Solid Waste Planning Committee\nExecutive appointment with Board concur\n2 vacancies; 2 -year term to expire on September 30, 2027\nGus Ghanam\nJosh Bocks\nb) Solid Waste Planning Committee\nExecutive Appointment with Board concur\n1 vacancy; 2-year term to expire on September 30, 2027\nVicky Rowinski\nc) Friend of the Court Advisory Board\nExecutive reappointment with Board concur\n1 vacancy; 3-year term to expire on December 31, 2028\nDanielle Burd\nd) Macomb County Ethics Board\nExecutive reappointment with Board concur\n1 vacancy; 5-year term to expire on January 31, 2031\nKaren Smith\n7. Government Oversight Committee Department Recommendations\nbocmacomb.org\n\nAGENDA – PAGE 2\na) Collective Bargaining Agreement: Administrative and Technical Employees Association (ADTECH) -\nJanuary 1, 2026 to December 31, 2028 / Karlyn Semlow, Director of Human Resources and Labor\nRelations\nb) Collective Bargaining Agreement: Road Technicians Association (ROADTECH) - January 1, 2026\nto December 31, 2028 / Karlyn Semlow, Director of Human Resources and Labor Relations\n8. Resolutions\na) Receive and File Only - Item Pending Appraisal\nResolution 2025-14157: A Resolution Authorizing Transfer of Certain County Real Property to\nMacomb Community College\n9. Proclamations\na) A Proclamation Celebrating the 75th Anniversary of the City of St. Clair Shores / Sarah Lucido,\nCommissioner, District 13, Barbara Zinner, Commissioner, District 9, Joe Sabatini, Board Chair,\nDistrict 4\n10. Health and Human Services Committee\n11. Health and Human Services Committee Department Recommendations\na) Budget Amendment: Macomb Community Action - Every Family Fed Fund New Grant Award\n($50,000) / Edward Scott, Director, Macomb Community Action\n12. Health and Human Services Committee Correspondence\na) Resignation Letter: Rev. Ralph Brown - Macomb County Human Services Board and the Martha T.\nBerry Medical Care Facility Board of Directors effective January 31, 2026\n13. Public Participation (three minutes max per speaker)\n14. Commissioners' Comments\n15. Adjournment\n2026-01-13 BOC Joint Government Oversight and Health and Human Services Committees bocmacomb.org",
     "minutes_text": null,
-    "agenda_items": null,
+    "agenda_items": [
+      {
+        "number": "1",
+        "text": "Call to Order"
+      },
+      {
+        "number": "2",
+        "text": "Pledge of Allegiance"
+      },
+      {
+        "number": "3",
+        "text": "Adoption of Agenda"
+      },
+      {
+        "number": "4",
+        "text": "Approval of Minutes"
+      },
+      {
+        "number": "5",
+        "text": "Public Participation (three minutes max per speaker, related only to issues on the agenda)"
+      },
+      {
+        "number": "6",
+        "text": "Appointment Interviews"
+      },
+      {
+        "number": "7",
+        "text": "Government Oversight Committee Department Recommendations"
+      },
+      {
+        "number": "8",
+        "text": "Resolutions"
+      },
+      {
+        "number": "9",
+        "text": "Proclamations"
+      },
+      {
+        "number": "10",
+        "text": "Health and Human Services Committee"
+      },
+      {
+        "number": "11",
+        "text": "Health and Human Services Committee Department Recommendations"
+      },
+      {
+        "number": "12",
+        "text": "Health and Human Services Committee Correspondence"
+      },
+      {
+        "number": "13",
+        "text": "Public Participation (three minutes max per speaker)"
+      },
+      {
+        "number": "14",
+        "text": "Commissioners' Comments"
+      },
+      {
+        "number": "15",
+        "text": "Adjournment"
+      }
+    ],
     "votes": null
   },
   {

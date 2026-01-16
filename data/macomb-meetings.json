@@ -450,5 +450,34 @@
     "minutes_text": null,
     "agenda_items": null,
     "votes": null
+  },
+  {
+    "uid": "76a4857ba3b93c274e7420afb5ccaeb25e6b62ea@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Goverment Oversight and Health and Human Services Committees",
+    "start": "2026-03-17T11:00:00-04:00",
+    "end": "2026-03-17T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2023",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-02-10 BOC Joint Government Oversight and Health and Human Services Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/bc77d40c-f254-4e50-a638-47380256eb40.pdf",
+        "file_id": 22247,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22247,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
   }
 ]

@@ -508,5 +508,34 @@
     "minutes_text": null,
     "agenda_items": null,
     "votes": null
+  },
+  {
+    "uid": "126a27b1a3112cb33a45491690af1c243b99bb9c@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Public Services and Records and Public Safety Committees",
+    "start": "2026-03-19T11:00:00-04:00",
+    "end": "2026-03-19T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2025",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-03-19 BOC Joint Public Services and Records and Public Safety Committees Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7b1712f8-3b39-4d71-8495-872d3b31b073.pdf",
+        "file_id": 22253,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22253,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
   }
 ]

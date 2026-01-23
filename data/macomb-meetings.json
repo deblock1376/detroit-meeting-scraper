@@ -421,5 +421,34 @@
     "minutes_text": null,
     "agenda_items": null,
     "votes": null
+  },
+  {
+    "uid": "ed957c2733fabdbec269b16afac5df1cfb3c6557@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Older Adult Advisory Committee",
+    "start": "2026-03-24T11:00:00-04:00",
+    "end": "2026-03-24T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2047",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "2026-03-24 OAA Older Adult Advisory Committee Agenda Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e6acdf22-1f7e-4a26-b4f4-b8a25b13b797.pdf",
+        "file_id": 22336,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22336,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
   }
 ]

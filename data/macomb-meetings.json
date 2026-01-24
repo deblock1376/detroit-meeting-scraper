@@ -450,5 +450,34 @@
     "minutes_text": null,
     "agenda_items": null,
     "votes": null
+  },
+  {
+    "uid": "484b3f721c9b55cd51553a3a3f31d312086f9b0d@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2026-03-25T05:00:00-04:00",
+    "end": "2026-03-25T07:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1999",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "NOTICE",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/6bc01492-c70d-4867-aa29-4d41600b3238.pdf",
+        "file_id": 22194,
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22194,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
   }
 ]

@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:Community Mental Health Board - Full Board: Meeting
 DTSTART;TZID="UTC-05:00":20260128T130000
 DTEND;TZID="UTC-05:00":20260128T150000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:68aa25a104827cab2a3bc8206eb19ac6d1be0ae3@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1836
 LOCATION:1 S. Main Street\, Mt. Clemens\, MI\, 48043
@@ -17,7 +17,7 @@ SUMMARY:Board of Commissioners - Joint Goverment Oversight and Health and
  Human Services Committees: Meeting
 DTSTART;TZID="UTC-05:00":20260210T100000
 DTEND;TZID="UTC-05:00":20260210T120000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:21e0a1d90d0ba55c2704a26edc071e68ef25077a@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2019
 STATUS:CONFIRMED
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:Civil Service Commission: Meeting
 DTSTART;TZID="UTC-05:00":20260211T040000
 DTEND;TZID="UTC-05:00":20260211T060000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:ddc181b0b26e75ac6a6eedec0720b4b55528c4a9@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1996
 LOCATION:120 N. Main Street\, Mt. Clemens\, Michigan\, 48043
@@ -39,7 +39,7 @@ SUMMARY:Board of Commissioners - Joint Finance/Audit/Budget and Internal S
  ervices Committees: Meeting
 DTSTART;TZID="UTC-05:00":20260211T100000
 DTEND;TZID="UTC-05:00":20260211T120000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:4ddf42ce6d3899e0a1b33637491a5655e6138c69@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2020
 STATUS:CONFIRMED
@@ -50,7 +50,7 @@ SUMMARY:Community Mental Health Board - Program and Budget Committee: Meet
  ing
 DTSTART;TZID="UTC-05:00":20260211T130000
 DTEND;TZID="UTC-05:00":20260211T150000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:269ad125a24f80948b29577178db2ae5a940e77a@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2081
 LOCATION:1 S. Main Street\, Mt. Clemens\, MI\, 48043
@@ -62,7 +62,7 @@ SUMMARY:Board of Commissioners - Joint Public Services and Records and Pub
  lic Safety Committees: Meeting
 DTSTART;TZID="UTC-05:00":20260212T100000
 DTEND;TZID="UTC-05:00":20260212T120000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:c96e373af1845ee56578636f76be7c2837d59650@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2021
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ BEGIN:VEVENT
 SUMMARY:Board of Commissioners - Full Board: Meeting
 DTSTART;TZID="UTC-05:00":20260219T100000
 DTEND;TZID="UTC-05:00":20260219T120000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:316dd2697481ca1c3b56aa9a8b5c7717f99065aa@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2022
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:Macomb Orchard Trail Commission: Meeting
 DTSTART;TZID="UTC-05:00":20260224T033000
 DTEND;TZID="UTC-05:00":20260224T053000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:e32d6a9bd85414b699db371435cf0492cf40e09e@civicclerk-macombcomi
 DESCRIPTION:Agenda: https://macombcomi.api.civicclerk.com/v1/Meetings/GetM
  eetingFileStream(fileId=22152\,plainText=false)\\nDetails: https://macombc
@@ -94,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:Civil Service Commission: Meeting
 DTSTART;TZID="UTC-05:00":20260225T040000
 DTEND;TZID="UTC-05:00":20260225T060000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:7a6596d4341760e52a914f6479cc6c2d5156120f@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1997
 LOCATION:120 N. Main Street\, Mt. Clemens\, Michigan\, 48043
@@ -105,7 +105,7 @@ BEGIN:VEVENT
 SUMMARY:Human Services Board - Martha T. Berry: Meeting
 DTSTART;TZID="UTC-05:00":20260226T053000
 DTEND;TZID="UTC-05:00":20260226T073000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:a7417ddc7a02046ab76f88b14b2d87d9cbe7bb2e@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1974
 LOCATION:43533 Elizabeth Rd.\, Mt. Clemens\, MI\, 48043
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:Civil Service Commission: Meeting
 DTSTART;TZID="UTC-04:00":20260311T050000
 DTEND;TZID="UTC-04:00":20260311T070000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:4afe641889a6a41603ee7f54ab44f9e81f0d819f@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1998
 LOCATION:120 N. Main Street\, Mt. Clemens\, Michigan\, 48043
@@ -128,7 +128,7 @@ SUMMARY:Board of Commissioners - Joint Goverment Oversight and Health and
  Human Services Committees: Meeting
 DTSTART;TZID="UTC-04:00":20260317T110000
 DTEND;TZID="UTC-04:00":20260317T130000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:76a4857ba3b93c274e7420afb5ccaeb25e6b62ea@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2023
 STATUS:CONFIRMED
@@ -139,7 +139,7 @@ SUMMARY:Board of Commissioners - Joint Finance/Audit/Budget and Internal S
  ervices Committees: Meeting
 DTSTART;TZID="UTC-04:00":20260318T110000
 DTEND;TZID="UTC-04:00":20260318T130000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:7a0483db50b288bd49e7fa1f08750b5dd73e027a@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2024
 STATUS:CONFIRMED
@@ -150,7 +150,7 @@ SUMMARY:Board of Commissioners - Joint Public Services and Records and Pub
  lic Safety Committees: Meeting
 DTSTART;TZID="UTC-04:00":20260319T110000
 DTEND;TZID="UTC-04:00":20260319T130000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:126a27b1a3112cb33a45491690af1c243b99bb9c@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2025
 STATUS:CONFIRMED
@@ -160,10 +160,21 @@ BEGIN:VEVENT
 SUMMARY:Older Adult Advisory Committee: Meeting
 DTSTART;TZID="UTC-04:00":20260324T110000
 DTEND;TZID="UTC-04:00":20260324T130000
-DTSTAMP:20260123T131038Z
+DTSTAMP:20260124T130205Z
 UID:ed957c2733fabdbec269b16afac5df1cfb3c6557@civicclerk-macombcomi
 DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/2047
 STATUS:CONFIRMED
 URL:https://macombcomi.portal.civicclerk.com/event/2047
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Civil Service Commission: Meeting
+DTSTART;TZID="UTC-04:00":20260325T050000
+DTEND;TZID="UTC-04:00":20260325T070000
+DTSTAMP:20260124T130205Z
+UID:484b3f721c9b55cd51553a3a3f31d312086f9b0d@civicclerk-macombcomi
+DESCRIPTION:Details: https://macombcomi.portal.civicclerk.com/event/1999
+LOCATION:120 N. Main Street\, Mt. Clemens\, Michigan\, 48043
+STATUS:CONFIRMED
+URL:https://macombcomi.portal.civicclerk.com/event/1999
 END:VEVENT
 END:VCALENDAR

@@ -1,10 +1,898 @@
 [
   {
-    "uid": "ed957c2733fabdbec269b16afac5df1cfb3c6557@civicclerk-macombcomi",
+    "uid": "c30f29a2b1629bd26273ae8ce9608258c65d0a9f@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2024-12-17T06:00:00-05:00",
+    "end": "2024-12-17T08:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20599,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20601,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1619",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA 12/17/2024",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a61c1f58-82e5-45d3-b718-5697aa5ac6ef.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20599,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES 12/17/2024",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f0f86585-2456-43f3-87cc-37156f3b5b44.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20601,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "d67823979206619c180430e59a1139603fc05134@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2024-12-18T04:00:00-05:00",
+    "end": "2024-12-18T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20606,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20607,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1785",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/51d0d5b7-a2fa-481c-a6eb-62265f96c3d5.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20606,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/d0de21a7-42ac-469a-9475-8b37e767755f.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20607,plainText=false)"
+      },
+      {
+        "type": "Notice",
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/97e06bdb-9bba-4601-8edb-8463e9664566.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20372,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "a07493636995dce24c0ff0b4cec5e11f3256c1d7@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Full Board",
+    "start": "2024-12-18T13:00:00-05:00",
+    "end": "2024-12-18T15:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20597,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20778,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1727",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2024-12-18  CMH Full Board Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/34ec4053-c481-4aed-9959-ce99c568d3bd.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20597,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2024-12-18  CMH Full Board Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/3630fc38-21a7-4ef7-94e1-04b66013e4bc.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20598,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2024-12-18  CMH Full Board Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1ccbc1ca-5ed8-4264-90d6-93c8dc233e88.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20778,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "d04293d64f2d1e828bf4ac543c0943fa77b57baf@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Human Services Board - Martha T. Berry",
+    "start": "2024-12-19T05:30:00-05:00",
+    "end": "2024-12-19T07:30:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "Martha T. Berry MCF, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20590,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1585",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b5a46d69-9207-4b2e-ad65-b2988af5e1bd.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20590,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "32acde2620bd6d9a68077727c90bfed4851fb0bd@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-01-07T06:00:00-05:00",
+    "end": "2025-01-07T08:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20677,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20678,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1840",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA 01-07-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/324c5637-7291-450c-94c6-424c8e5d5285.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20677,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES 01-07-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/98af0221-3cf4-4977-bcfc-a07f492ce59f.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20678,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "bc3cdc1179785711edc5973af46092be8a16a975@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2025-01-08T04:00:00-05:00",
+    "end": "2025-01-08T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21053,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21054,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1807",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ac4f7cd9-0e36-4fbe-a628-f872d3153ce1.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21053,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c2b6cdac-afcc-4677-a258-f1a154039609.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21054,plainText=false)"
+      },
+      {
+        "type": "Notice",
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f2b6711e-18cc-4ab5-8eca-20c62306233c.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20615,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "b30844cf3351f7e705675ab1a559e615602060e9@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Program and Budget Committee",
+    "start": "2025-01-08T13:00:00-05:00",
+    "end": "2025-01-08T15:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20621,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21033,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1729",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-08  CMH Program and Budget Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c69e9a4f-4cec-4744-8bb8-ce028d234ca2.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20621,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-08  CMH Program and Budget Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/d4af162d-e7a3-45a1-8cd6-d0abeeb7cfce.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20622,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-08  CMH Program and Budget Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/167b13c8-cd21-48af-bb68-8b398f7f7489.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21033,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "063abc57a242f2ee32c4a457e9c4ecb596b48d11@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Full Board",
+    "start": "2025-01-09T10:00:00-05:00",
+    "end": "2025-01-09T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20883,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20887,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1774",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-09 BOC Organizational Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/096303a8-ce17-40bc-90b3-72b5b210346e.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20883,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-09 BOC Organizational Meeting Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/79721f78-37c6-4180-8075-96db622a9487.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20885,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-09 BOC Organizational Meeting Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/740901ef-9339-4113-ba08-176ecb5bf046.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20887,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "b80a89c7bf7c6840f484422356dfb8dc795613de@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-01-14T10:00:00-05:00",
+    "end": "2025-01-14T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20664,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20892,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1803",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-14 BOC Joint Internal Services and Health and Human Services Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/8c5d7629-5a62-4271-a161-f96fa93d38a1.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20664,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-14 BOC Joint Internal Services and Health and Human Services Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/21215169-6e6d-4e77-aab0-bb6dd187bb0a.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20665,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-14 BOC Joint Internal Services and Health and Human Services Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/8bd59833-8267-4b7d-878c-c57fc9339976.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20892,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "d642eeb5829d57d5752233b62d86806df5d44f4d@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-01-15T10:00:00-05:00",
+    "end": "2025-01-15T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20695,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20891,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1804",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-15 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/07c63c8c-152d-40ac-a40a-5947a0495d85.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20695,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-15 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1ba3e3e0-a440-4acf-95b6-8895f185082d.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20696,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-15 BOC Joint Government Oversight and Finance/Audit/Budget Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/30148887-8eaf-4f8b-9fc5-77828e59dff9.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20891,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "97e2e88e9de12222b841ef6259be58b8d9bf09d4@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-01-16T10:00:00-05:00",
+    "end": "2025-01-16T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20709,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20893,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1805",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-16 BOC Joint Public Services and Records and Public Safety Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/259a1b6f-9819-4baf-82f2-63f22d16eda5.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20709,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-16 BOC Joint Public Services and Records and Public Safety Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/8d630104-d7bf-4ee1-a9b8-30361e63166a.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20710,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-16 BOC Joint Public Services and Records and Public Safety Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b6469386-7905-4e6c-a89d-147b3ca163e9.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20893,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "99b8b89d5b938fa2a95ed2d7d42db10caa60b529@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-01-21T06:00:00-05:00",
+    "end": "2025-01-21T08:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20733,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20767,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1841",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA 01-21-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/d15ce299-ef08-4ff6-bb7c-a1d977979e79.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20733,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES 01-21-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0e880fa4-20b3-47bc-bc35-2ca23eb3f33c.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20767,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "fabfe31d7e45ca2798fb3ee46558b125286204e3@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2025-01-22T04:00:00-05:00",
+    "end": "2025-01-22T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1808",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Notice",
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/da63111f-8764-4a64-b5d7-84fea432b9b3.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21055,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "a0752a42c391fe987c73117508bfd607c3e86211@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Full Board",
+    "start": "2025-01-22T13:00:00-05:00",
+    "end": "2025-01-22T15:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20726,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21034,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1730",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-22  CMH Full Board Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/8ef7cac8-63dd-4ac5-91ee-611cd9b2d360.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20726,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-22  CMH Full Board Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/fe9f7307-3389-469d-96a5-ddf121f509ba.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20728,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-22  CMH Full Board Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b975ed81-480d-4d54-a8ce-9af1e69cc050.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21034,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "a64208aa97faf32fa173db8cf65d0d756d3cf91b@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Human Services Board - Martha T. Berry",
+    "start": "2025-01-23T05:30:00-05:00",
+    "end": "2025-01-23T07:30:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "43533 Elizabeth Rd., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20721,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1791",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c96f36f1-e909-4de4-af02-69b4277cbe5e.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20721,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "ec3f68a97a93ccf1134e5227ad1bb412a70bf3c7@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Building Authority",
+    "start": "2025-01-23T06:00:00-05:00",
+    "end": "2025-01-23T08:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20730,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1885",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-23 Building Authority Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f556a9e5-b2f1-4c8e-8f03-96f181820307.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20730,plainText=false)"
+      },
+      {
+        "type": "Notice",
+        "name": "2025-01-23 Building Authority Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/57144298-c8ef-4ba3-9ee4-9db3c861442c.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20729,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "3a4cd1e45897d893397e4b2661b59fa754273b9f@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Full Board",
+    "start": "2025-01-23T10:00:00-05:00",
+    "end": "2025-01-23T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20760,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20971,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1806",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-23 BOC Full Board Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/da9e97a3-d7a7-4b25-a8dd-e2e7e7edc7f7.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20760,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-23 BOC Full Board Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/bfd41374-282d-4e0a-a792-6e5c8c908589.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20761,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-23 BOC Full Board Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f8898d91-6477-4de6-80fb-35545b3fce2d.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20971,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "0f52aa23fe4547a0c140ed6fac3ab7af069c5102@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Older Adult Advisory Committee",
-    "start": "2026-03-24T11:00:00-04:00",
-    "end": "2026-03-24T13:00:00-04:00",
+    "start": "2025-01-28T10:00:00-05:00",
+    "end": "2025-01-28T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20748,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20928,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1809",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-01-28 OAA Older Adult Advisory Committee Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1cf9e36d-702b-4e0d-bb02-aa4754b20028.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20748,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-01-28 OAA Older Adult Advisory Committee Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/43e89d73-6f33-4adf-8377-5f6b8d684ecb.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20771,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-01-28 OAA Older Adult Advisory Committee Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/24f19956-202d-4178-b48f-7e29f0891b40.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20928,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "c7ec2d184839a1e6e605f054afe3c64f6f04a4a9@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-02-04T06:00:00-05:00",
+    "end": "2025-02-04T08:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20786,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20789,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1842",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA 02-04-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c0a309a8-78dc-478e-9a9a-6970c79d0035.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20786,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES 02-04-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/6226bd0d-e58e-477d-b431-539b8aec54e6.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20789,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "3a67e5f1eacb50288305a62464e83d9925a4977d@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-02-11T10:00:00-05:00",
+    "end": "2025-02-11T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20863,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21003,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1864",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-11 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/6801c9e9-e91e-47cc-9c33-a6a65d8faed2.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20863,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-11 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/5d501617-7dfc-4159-b175-3f824c5ba070.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20864,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-11 BOC Joint Government Oversight and Finance/Audit/Budget Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/40f96f12-b4c6-43bf-a381-cf6ac7f37f55.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21003,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "83c03187daa4ff5efc3b45795e4ebf87255f2cf8@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2025-02-12T04:00:00-05:00",
+    "end": "2025-02-12T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20877,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20878,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1813",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/4bd32fca-3ea8-4e2a-8b10-69a7af8c82c4.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20877,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/13df089a-bcb3-4d9b-a21c-ef1b25b04bc4.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20878,plainText=false)"
+      },
+      {
+        "type": "Notice",
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/9e93365c-afa9-46c3-a6e6-7dc332bd5cf6.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20806,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "b2274401828982adac26ead2b41979cae3306634@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-02-12T10:00:00-05:00",
+    "end": "2025-02-12T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20861,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20986,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1865",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-12 BOC Joint Internal Services and Health and Human Services Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c51dc4f3-232d-4276-b417-2c5ddc9d4536.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20861,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-12 BOC Joint Internal Services and Health and Human Services Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c38d2a3c-8c5f-4a69-972d-106244f286bd.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20862,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-12 BOC Joint Internal Services and Health and Human Services Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/fe2fdb5e-4a83-4578-8855-efb96e2f908b.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20986,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "cf1bc86ad7befd17a6f04a554ff288d271fd6820@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Program and Budget Committee",
+    "start": "2025-02-12T13:00:00-05:00",
+    "end": "2025-02-12T15:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20849,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1814",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-12  CMH Program and Budget Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/df9d17cc-6076-4dea-ad7a-7c913e8599dc.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20849,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-12 CMH Program and Budget Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ba3e8e87-11e6-49cd-a4e3-9679c1166b1e.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20857,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "eeb6ae478c64281815324cb0d5132fbe6f6c5581@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-02-13T10:00:00-05:00",
+    "end": "2025-02-13T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20851,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21022,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1866",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-13 BOC Joint Public Services and Records and Public Safety Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/1d65fecb-ed68-452a-ad26-4e63b53cbb76.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20851,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-13 BOC Joint Public Services and Records and Public Safety Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c42f3f83-a71b-4af5-8160-e3200da335d2.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20852,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-13 BOC Joint Public Services and Records and Public Safety Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a9cea75e-7e18-4556-873b-fa78385570ec.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21022,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "345e9390c56526ef321ffee7b41ff4d53dd30cb7@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-02-18T06:00:00-05:00",
+    "end": "2025-02-18T08:00:00-05:00",
     "all_day": false,
     "timezone": "America/Detroit",
     "location": "",
@@ -12,65 +900,7 @@
     "virtual_link": null,
     "agenda_url": null,
     "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2047",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Notice",
-        "name": "2026-03-24 OAA Older Adult Advisory Committee Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e6acdf22-1f7e-4a26-b4f4-b8a25b13b797.pdf",
-        "file_id": 22336,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22336,plainText=false)"
-      }
-    ],
-    "agenda_text": null,
-    "minutes_text": null,
-    "agenda_items": null,
-    "votes": null
-  },
-  {
-    "uid": "484b3f721c9b55cd51553a3a3f31d312086f9b0d@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Civil Service Commission",
-    "start": "2026-03-25T05:00:00-04:00",
-    "end": "2026-03-25T07:00:00-04:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "120 N. Main Street, Mt. Clemens, Michigan, 48043",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": null,
-    "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1999",
-    "source": "civicclerk-macombcomi",
-    "published_files": [
-      {
-        "type": "Notice",
-        "name": "NOTICE",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/6bc01492-c70d-4867-aa29-4d41600b3238.pdf",
-        "file_id": 22194,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22194,plainText=false)"
-      }
-    ],
-    "agenda_text": null,
-    "minutes_text": null,
-    "agenda_items": null,
-    "votes": null
-  },
-  {
-    "uid": "afef86d6a9dc3a565d390d28b397f7b59c862a97@civicclerk-macombcomi",
-    "title": "Meeting",
-    "body": "Human Services Board - Martha T. Berry",
-    "start": "2026-03-26T06:30:00-04:00",
-    "end": "2026-03-26T08:30:00-04:00",
-    "all_day": false,
-    "timezone": "America/Detroit",
-    "location": "43533 Elizabeth Rd., Mt. Clemens, MI, 48043",
-    "address": "",
-    "virtual_link": null,
-    "agenda_url": null,
-    "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1975",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1843",
     "source": "civicclerk-macombcomi",
     "published_files": null,
     "agenda_text": null,
@@ -79,11 +909,239 @@
     "votes": null
   },
   {
-    "uid": "1dde6e3b2b65940bed4283aeb7bfd03c1ab54d24@civicclerk-macombcomi",
+    "uid": "5976de9219e5ef00fd5cba3d4ddfc2576ffca9f8@civicclerk-macombcomi",
     "title": "Meeting",
     "body": "Board of Commissioners - Full Board",
-    "start": "2026-03-26T11:00:00-04:00",
-    "end": "2026-03-26T13:00:00-04:00",
+    "start": "2025-02-20T10:00:00-05:00",
+    "end": "2025-02-20T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20910,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21023,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1867",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-20 BOC Full Board Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/be462d21-8458-4263-a8f1-68765037c69d.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20910,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-20 BOC Full Board Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/267a3a80-d094-48f6-95a8-47ad679416d5.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20911,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-20 BOC Full Board Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/2f13a291-f571-4b4c-98b1-0d1c2c76da08.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21023,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "37cc589be477a572e5eeac6cff0a18d7989fbfc6@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Macomb Orchard Trail Commission",
+    "start": "2025-02-25T03:30:00-05:00",
+    "end": "2025-02-25T05:30:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20918,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21370,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1909",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-25 MOT Full Board Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f2feb200-a97c-4ed2-be85-ec22a97e97ac.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20918,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-25 MOT Full Board Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f6376572-06aa-4a5d-b30c-daea5b666ef5.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20919,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-25 MOT Full Board Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ae8667a9-5ac7-4522-95cb-54fab6673e5e.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21370,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "90c1a585af2abbac4b657bd2fbe0bfaf0550c190@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Older Adult Advisory Committee",
+    "start": "2025-02-25T10:00:00-05:00",
+    "end": "2025-02-25T12:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20924,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21106,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1890",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-25 OAA Older Adult Advisory Committee Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0438801a-52b2-48b7-b652-0c47279658c7.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20924,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-25 OAA Older Adult Advisory Committee Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e0277aed-e180-478e-af27-6d37e5e77f0c.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20925,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-25 OAA Older Adult Advisory Committee Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/4870955a-ea74-42e0-90fa-dded087e18ca.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21106,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "11c5bd3689d7cc031296fb8d505683eaf53884fd@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2025-02-26T04:00:00-05:00",
+    "end": "2025-02-26T06:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "Meeting Notice",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21040,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21027,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1891",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/065de162-8726-43b8-b1f9-fc8b048da1c1.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21040,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b2629835-43f8-451c-b1b0-f8f774cc1e8d.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21027,plainText=false)"
+      },
+      {
+        "type": "Notice",
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/90a07541-8686-4414-9dc1-54127ba024c9.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20827,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "baaeb071400001fcdfd6b2db6c65bf85d280b7e0@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Full Board",
+    "start": "2025-02-26T13:00:00-05:00",
+    "end": "2025-02-26T15:00:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20922,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21417,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1817",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-02-26  CMH Full Board Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c87bde60-1b02-42be-94b7-5a44ee7ca089.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20922,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-02-26  CMH Full Board Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/26e294de-2d59-4b3b-9cf1-d2b1a1840c14.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20923,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-02-26 CMH Full Board Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/437cc59f-ab10-4c1c-88b8-244f88e0f237.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21417,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "bc8138e78951b7976974488998461056e9bf8a8a@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Human Services Board - Martha T. Berry",
+    "start": "2025-02-27T05:30:00-05:00",
+    "end": "2025-02-27T07:30:00-05:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "43533 Elizabeth Rd., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20881,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1792",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/60a1f534-7989-49c4-b3ef-bb50eacc64b0.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20881,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "6c19a86cb188c8432b2fd55e9ce1a88921ef5edc@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-03-04T06:00:00-05:00",
+    "end": "2025-03-04T08:00:00-05:00",
     "all_day": false,
     "timezone": "America/Detroit",
     "location": "",
@@ -91,15 +1149,684 @@
     "virtual_link": null,
     "agenda_url": null,
     "minutes_url": null,
-    "detail_url": "https://macombcomi.portal.civicclerk.com/event/2026",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1844",
+    "source": "civicclerk-macombcomi",
+    "published_files": null,
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "2c1a4ac81cb43e4dccb2eb66d3907f4b86a6a9a7@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-03-10T11:00:00-04:00",
+    "end": "2025-03-10T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20972,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21104,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1868",
     "source": "civicclerk-macombcomi",
     "published_files": [
       {
+        "type": "Agenda",
+        "name": "2025-03-10 BOC Joint Internal Services and Health and Human Services Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0d12a67c-9953-4da8-b060-74fb5b1b528f.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20972,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-10 BOC Joint Internal Services and Health and Human Services Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/5e79a109-07b3-435e-9862-0d1bb193d7ed.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20973,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-10 BOC Joint Internal Services and Health and Human Services Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/dbb1fdd6-8833-415c-afe8-4be46a8dba6c.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21104,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "03abfa001493e8f95630e4837c79793bb4e6650e@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-03-11T11:00:00-04:00",
+    "end": "2025-03-11T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20999,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21087,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1887",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-03-11 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a570d7ae-3fb1-4126-b0a6-d272ec93ab00.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20999,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-11 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/72d67190-d2b4-4255-b4dd-472df12a413e.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21000,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-11 BOC Joint Government Oversight and Finance/Audit/Budget Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/db778d91-6b75-4a34-8439-0fcdc21c5da6.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21087,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "c71ca1732cbb719d98a2fa5f8a16dbf94a2532c9@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2025-03-12T05:00:00-04:00",
+    "end": "2025-03-12T07:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "Meeting Notice",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21038,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21119,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1892",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/b20542cb-b90b-4ca3-b5fa-3e6a5dd4a761.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21038,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e0deefe3-0e69-45ad-b31b-8ce1fe4a64c1.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21119,plainText=false)"
+      },
+      {
         "type": "Notice",
-        "name": "2026-03-26 BOC Full Board Agenda Notice",
-        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/00889064-5219-4308-a6fa-7253bfee5200.pdf",
-        "file_id": 22256,
-        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=22256,plainText=false)"
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/116e0b81-dd18-46f5-8f26-ff418a0f4413.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20828,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "d7d0120b0c993b706e92cccb622a6348603ae62d@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-03-12T11:00:00-04:00",
+    "end": "2025-03-12T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21004,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21109,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1870",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-03-12 BOC Joint Public Services and Records and Public Safety Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ae967541-7934-4565-8fce-f653a5815e66.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21004,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-12 BOC Joint Public Services and Records and Public Safety Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/dd1a5e31-1a83-4e93-840d-a9feb3d81d94.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21005,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-12 BOC Joint Public Services and Records and Public Safety Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/2f77236b-a280-45b3-930c-6c2a86cdadf8.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21109,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "b31c0ba0626e158947a9dbc195ff0fdf9aa503d2@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Program and Budget Committee",
+    "start": "2025-03-12T14:00:00-04:00",
+    "end": "2025-03-12T16:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20979,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21792,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1816",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-03-12  CMH Board Program and Budget Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7f70b858-d542-4a43-bd0f-d908c69edb78.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20979,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-12 CMH Program and Budget Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/aa1fd22a-43b0-4466-ad59-424b276da183.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20980,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-12  CMH Board Program and Budget Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/4a2a69a3-be99-403f-b221-496d3ea75d61.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21792,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "a8f1dce07e2ec00d74bf7ec13980935a7138b45a@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Full Board",
+    "start": "2025-03-13T11:00:00-04:00",
+    "end": "2025-03-13T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21015,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21094,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1871",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-03-13 BOC Full Board Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/4638481b-6122-4347-8985-0ae58e311e77.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21015,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-13 BOC Full Board Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/cafa928f-58a8-4f87-9d6d-0e3df47555a6.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21010,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-13 BOC Full Board Draft Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0b0c9060-dd4f-4d00-8719-aa56adf84f05.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21094,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "3cd441155403939dde44860db0534adebc5105cb@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-03-18T07:00:00-04:00",
+    "end": "2025-03-18T09:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21037,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21043,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1845",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA 03-18-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/74b01116-400f-4fb9-ae87-011e79382305.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21037,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES 03-18-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/aa3735ac-ba31-4faa-90ae-791ddef3a71e.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21043,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "97a480c55fd32346b8be1e44f7cc8dcde5dc1fe8@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Older Adult Advisory Committee",
+    "start": "2025-03-25T11:00:00-04:00",
+    "end": "2025-03-25T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21056,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21305,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1910",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-03-25 OAA Older Adult Advisory Committee Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/6362f711-2c12-41dc-9465-44edad295795.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21056,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-25 OAA Older Adult Advisory Committee Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/52013eba-e0a5-4fc5-bfa3-24edd1642e7f.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21061,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-25 OAA Older Adult Advisory Committee Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/70158541-bfe6-488c-9148-ee939d423a68.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21305,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "d81e93caae75ec1919477089c84c739d253450ea@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Full Board",
+    "start": "2025-03-26T14:00:00-04:00",
+    "end": "2025-03-26T16:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21063,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21418,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1820",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-03-26  CMH Full Board Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/0ed399e8-cc01-4dfa-ab2f-f2580ac79b35.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21063,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-03-26  CMH Full Board Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/3fd5c50b-a1ab-43b5-9d26-a951ea1ad8e4.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21065,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-03-26  CMH Full Board Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ee83b218-18f7-4d41-b54f-42f7a6464f21.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21418,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "af94972d21be48728e72c08f02f1a94f0c31dff9@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Human Services Board - Martha T. Berry",
+    "start": "2025-03-27T06:30:00-04:00",
+    "end": "2025-03-27T08:30:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "43533 Elizabeth Rd., Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21031,plainText=false)",
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1793",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a4330a2e-c633-448b-ae18-59530686a2e5.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21031,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "4acf3f2e966cb2fb6b387a62c1e4e50403539d1e@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-04-01T07:00:00-04:00",
+    "end": "2025-04-01T09:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": null,
+    "minutes_url": null,
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1846",
+    "source": "civicclerk-macombcomi",
+    "published_files": null,
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "de48831a6ae77903d36601e694fee00f4a976f7f@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-04-01T11:00:00-04:00",
+    "end": "2025-04-01T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21081,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21280,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1872",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-04-01 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/135dfe51-ce8d-4845-b8fc-ee1c0029b305.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21081,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-04-01 BOC Joint Government Oversight and Finance/Audit/Budget Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/f137227a-f40f-45bc-b66f-96236c65ed69.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21084,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-04-01 BOC Joint Government Oversight and Finance/Audit/Budget Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a519a7de-d1fd-466f-8411-10e36dfdd0f6.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21280,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "e2c58d5650a1ffad63d51fcc86328d66552ca128@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-04-02T11:00:00-04:00",
+    "end": "2025-04-02T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21068,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21296,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1873",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-04-02 BOC Joint Internal Services and Health and Human Services Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/2c463d35-0309-4286-8036-9ed60b0179c7.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21068,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-04-02 BOC Joint Internal Services and Health and Human Services Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/697feb9f-ff90-4ac9-a0e4-e90432628cf3.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21075,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-04-02 BOC Joint Internal Services and Health and Human Services Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/023a2e33-2ada-45ee-8895-97c0c5fcba04.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21296,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "bb883c6465bbd25f3c89f3b015b2a931d86556af@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Joint Committee",
+    "start": "2025-04-03T11:00:00-04:00",
+    "end": "2025-04-03T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21099,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21334,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1874",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-04-03 BOC Joint Public Services and Records and Public Safety Committees Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/692e2288-ca2e-41e8-b5d8-5b010c4277a1.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21099,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-04-03 BOC Joint Public Services and Records and Public Safety Committees Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7c65b1a6-5580-47a3-b565-aeeb0afdf4be.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21093,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-04-03 BOC Joint Public Services and Records and Public Safety Committees Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/243fda66-90b7-4484-ba7a-6bda81e1d901.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21334,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "60e28d5a6e38e7743256fbc79dd4ec094e024260@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Veterans' Affairs Commission and Relief Fund",
+    "start": "2025-04-08T07:00:00-04:00",
+    "end": "2025-04-08T09:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21136,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21137,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1924",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "AGENDA 04-08-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/99234aa7-3e7a-4845-9d7d-21e15995f550.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21136,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "MINUTES 04-08-2025",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/c3cb579b-bc68-4a60-8f30-2a06d5d78a38.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21137,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "1b1a9e912a712e30bcffd59e2d56c244a4859708@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Civil Service Commission",
+    "start": "2025-04-09T05:00:00-04:00",
+    "end": "2025-04-09T07:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "120 N. Main St., Mt. Clemens, MI",
+    "address": "Meeting Notice",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21132,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21133,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1893",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/9db837a7-e30f-41ea-b71b-036634e6a3b8.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21132,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/7711f1e0-35b3-4fb4-9f5c-4a88e8272141.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21133,plainText=false)"
+      },
+      {
+        "type": "Notice",
+        "name": "Meeting Notice",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/00d3a908-6137-4a64-8377-614769527c2f.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=20829,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "cd4825d1c23b46d0d679b9137583647a005b90d0@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Community Mental Health Board - Program and Budget Committee",
+    "start": "2025-04-09T14:00:00-04:00",
+    "end": "2025-04-09T16:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "1 S. Main Street, Mt. Clemens, MI",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21116,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21793,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1818",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-04-09  CMH Program and Budget Meeting Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e7eef2de-0176-4267-857c-acfd495a4724.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21116,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-04-09  CMH Program and Budget Meeting Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/48358e7f-aac4-468e-ad75-2e424eda8454.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21118,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-04-09  CMH Program and Budget Committee Meeting Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/567049de-2023-4a75-9713-ea6b2658f4d3.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21793,plainText=false)"
+      }
+    ],
+    "agenda_text": null,
+    "minutes_text": null,
+    "agenda_items": null,
+    "votes": null
+  },
+  {
+    "uid": "d3b9b949b7600bc1f67df17bc115c0f3bf476674@civicclerk-macombcomi",
+    "title": "Meeting",
+    "body": "Board of Commissioners - Full Board",
+    "start": "2025-04-10T11:00:00-04:00",
+    "end": "2025-04-10T13:00:00-04:00",
+    "all_day": false,
+    "timezone": "America/Detroit",
+    "location": "",
+    "address": "",
+    "virtual_link": null,
+    "agenda_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21129,plainText=false)",
+    "minutes_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21592,plainText=false)",
+    "detail_url": "https://macombcomi.portal.civicclerk.com/event/1875",
+    "source": "civicclerk-macombcomi",
+    "published_files": [
+      {
+        "type": "Agenda",
+        "name": "2025-04-10 BOC Full Board Agenda",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/a2aaeb63-e0c4-4c28-8cde-e630130d4b75.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21129,plainText=false)"
+      },
+      {
+        "type": "Agenda Packet",
+        "name": "2025-04-10 BOC Full Board Agenda Packet",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/e1a864b0-987f-4e61-94d0-bdd71152b2a3.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21130,plainText=false)"
+      },
+      {
+        "type": "Minutes",
+        "name": "2025-04-10 BOC Full Board Approved Minutes",
+        "url": "https://macombcomi.portal.civicclerk.com/stream/MACOMBCOMI/ed7dc991-6b70-43cd-b1e7-423e8220cc37.pdf",
+        "download_url": "https://macombcomi.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=21592,plainText=false)"
       }
     ],
     "agenda_text": null,

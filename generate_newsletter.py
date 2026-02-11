@@ -11,79 +11,67 @@ def generate_newsletter(json_file, output_file, archive_dir):
     with open(json_file, 'r') as f:
         meetings = json.load(f)
 
-    # Use the scraper's timezone
+    # Use Detroit timezone for the dispatch time
     tz = pytz.timezone("America/Detroit")
     now = datetime.now(tz)
     current_year = now.year
     
-    # Define window for "Review" and "Preview"
+    # Define date windows
     one_week_ago = now - timedelta(days=7)
     two_weeks_ahead = now + timedelta(days=14)
 
-    past_week = []
-    upcoming = []
+    # Filter meetings for the current year only
+    past_week = [m for m in meetings if one_week_ago <= datetime.fromisoformat(m['start']) < now and datetime.fromisoformat(m['start']).year == current_year]
+    upcoming = [m for m in meetings if now <= datetime.fromisoformat(m['start']) <= two_weeks_ahead and datetime.fromisoformat(m['start']).year == current_year]
 
-    for m in meetings:
-        m_start = datetime.fromisoformat(m['start'])
-        
-        # Filter: Only include current year meetings
-        if m_start.year != current_year:
-            continue
-
-        if one_week_ago <= m_start < now:
-            past_week.append(m)
-        elif now <= m_start <= two_weeks_ahead:
-            upcoming.append(m)
-
-    # Build the content string first so we can write it to two places
+    # Build the newsletter content
     content = f"# 🏛️ Macomb County Meeting Dispatch\n"
     content += f"**Edition:** {now.strftime('%B %d, %Y')} | *2026 Governance Update*\n\n---\n\n"
 
     content += "## 🗓️ The Week in Review\n"
     if not past_week:
         content += "No meetings were held in the past 7 days.\n"
-    for m in past_week:
-        m_dt = datetime.fromisoformat(m['start'])
-        content += f"* **{m['body']}** ({m_dt.strftime('%b %d')}):\n"
-        if m.get('minutes_url'):
-            content += f"    * [📄 View Minutes]({m['minutes_url']})\n"
+    else:
+        for m in past_week:
+            m_dt = datetime.fromisoformat(m['start'])
+            content += f"* **{m['body']}** ({m_dt.strftime('%b %d')}):\n"
+            if m.get('minutes_url'):
+                content += f"    * [📄 View Minutes]({m['minutes_url']})\n"
     
     content += "\n---\n\n## 📅 Upcoming Preview\n"
     if not upcoming:
         content += "No meetings scheduled for the next two weeks.\n"
-    for m in upcoming:
-        m_dt = datetime.fromisoformat(m['start'])
-        content += f"### {m_dt.strftime('%A, %B %d')}\n"
-        content += f"* **{m['body']}** ({m_dt.strftime('%I:%M %p')})\n"
-        if m.get('location'):
-            content += f"    * *Location:* {m['location']}\n"
-        if m.get('agenda_url'):
-            content += f"    * [📄 Meeting Agenda]({m['agenda_url']})\n"
-        content += "\n"
+    else:
+        for m in upcoming:
+            m_dt = datetime.fromisoformat(m['start'])
+            content += f"### {m_dt.strftime('%A, %B %d')}\n"
+            content += f"* **{m['body']}** ({m_dt.strftime('%I:%M %p')})\n"
+            if m.get('location'):
+                content += f"    * *Location:* {m['location']}\n"
+            if m.get('agenda_url'):
+                content += f"    * [📄 Meeting Agenda]({m['agenda_url']})\n"
+            content += "\n"
 
     content += "---\n## 📁 Resources\n"
     content += "* [Macomb CivicClerk Portal](https://macombcomi.portal.civicclerk.com/)\n"
     content += "* [Board of Commissioners Site](https://bocmacomb.org/)\n\n"
-    
-    # Add the "Last Updated" timestamp
     content += f"*This dispatch was automatically generated on **{now.strftime('%A, %B %d, %Y at %I:%M %p %Z')}**.*"
 
-    # --- SAVE THE FILES ---
-    
-    # 1. Save the "Live" version
+    # Save the files
+    os.makedirs(archive_dir, exist_ok=True)
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
+    # Write live version
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(content)
 
-    # 2. Save the "Archive" version
-    os.makedirs(archive_dir, exist_ok=True)
+    # Write archive version
     datestamp = now.strftime('%Y-%m-%d')
     archive_file = os.path.join(archive_dir, f"newsletter_{datestamp}.md")
     with open(archive_file, 'w', encoding='utf-8') as f:
         f.write(content)
 
-    print(f"Generated {output_file} and {archive_file}")
+    print(f"Success: Generated {output_file} and {archive_file}")
 
 if __name__ == "__main__":
-    # Updated to pass the archive directory as a third argument
     generate_newsletter('data/macomb-meetings.json', 'briefs/newsletter.md', 'briefs/archive')

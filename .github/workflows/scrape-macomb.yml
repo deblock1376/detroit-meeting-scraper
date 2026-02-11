@@ -1,87 +1,18 @@
-name: scrape-macomb
-on:
-  schedule:
-    - cron: "15 12 * * *"   # daily 12:15 UTC (~7:15am ET standard)
-  workflow_dispatch: {}
-
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    concurrency:
-      group: scrape-macomb
-      cancel-in-progress: true
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: "pip"
-
-      - name: Install deps
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run scraper
-        id: run
-        run: |
-          set -e
-          # Updated to target 2026 meetings
-          python civicclerk_scraper.py --months-ahead 1 --months-behind 1 --year 2026 --outdir data --parse-documents | tee scrape-macomb.log
-          echo "COUNT=$(jq length data/macomb-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
-
-      - name: Show outputs
-        run: |
-          ls -la data || true
-          echo "---- First 200 bytes of JSON (if present) ----"
-          head -c 200 data/macomb-meetings.json || true
-          echo
-          echo "---- Scraper log (top) ----"
-          sed -n '1,120p' scrape-macomb.log || true
-
-      - name: Generate briefs and newsletter
-        if: ${{ steps.run.outputs.COUNT != '0' }}
-        run: |
-          set -e
-          mkdir -p briefs
-          # Run the standard briefs generator
-          python generate_briefs.py --input data/macomb-meetings.json --outdir briefs
-          # Run the new newsletter generator
-          python generate_newsletter.py
-
-      - name: Commit & push results
+- name: Commit & push results
         if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Stage all generated content
-          git add data/macomb-meetings.json data/macomb-meetings.ics briefs/ scrape-macomb.log || true
+          # Add the data, the latest newsletter, and the archive folder
+          git add data/macomb-meetings.json briefs/newsletter.md briefs/archive/
           
-          # Check for changes before committing to avoid workflow failure
           if git diff --cached --quiet; then
-            echo "No changes to data or briefs."
+            echo "No changes to data or newsletter."
           else
-            git commit -m "Update Macomb County meetings, briefs, and newsletter [skip ci]"
-            
-            # Rebase to handle any concurrent main branch changes
+            git commit -m "Update Macomb meetings and archive newsletter [skip ci]"
             git fetch origin main
             git rebase origin/main
-            
-            # Push updates back to the repo
-            git push origin HEAD:main || git push --force-with-lease origin HEAD:main
+            git push origin HEAD:main
           fi
-
-      - name: Fail if zero meetings (Visibility Check)
-        if: ${{ steps.run.outputs.COUNT == '0' }}
-        run: |
-          echo "No meetings were scraped (COUNT=0). Workflow stopping."
-          # Use exit 0 if you want the action to stay green when there is no news
-          exit 1

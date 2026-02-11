@@ -13,12 +13,10 @@ jobs:
       fail-fast: false
       matrix:
         # ADD NEW CITIES HERE
-        city: [macomb, sterling-heights]
+        city: [macomb-county]
         include:
-          - city: macomb
+          - city: macomb-county
             api: "https://macombcomi.api.civicclerk.com/v1/"
-          - city: sterling-heights
-            api: "https://sterlingheights.api.civicclerk.com/v1/"
 
     steps:
       - uses: actions/checkout@v4
@@ -67,3 +65,4 @@ jobs:
             git commit -m "Update ${{ matrix.city }} governance data [skip ci]"
             git push origin HEAD:main
           fi
+

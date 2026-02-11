@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0     # we need full history to rebase
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -32,7 +32,8 @@ jobs:
         id: run
         run: |
           set -e
-          python civicclerk_scraper.py --months-ahead 2 --months-behind 2 --year 2025 --outdir data --parse-documents | tee scrape-macomb.log
+          # Updated to target 2026 meetings
+          python civicclerk_scraper.py --months-ahead 1 --months-behind 1 --year 2026 --outdir data --parse-documents | tee scrape-macomb.log
           echo "COUNT=$(jq length data/macomb-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 
       - name: Show outputs
@@ -44,66 +45,43 @@ jobs:
           echo "---- Scraper log (top) ----"
           sed -n '1,120p' scrape-macomb.log || true
 
-      - name: Generate briefs
+      - name: Generate briefs and newsletter
         if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
           set -e
-          python generate_briefs.py --input data/macomb-meetings.json --outdir briefs
-          echo "---- Generated briefs ----"
-          ls -lh briefs/*.md | head -10 || true
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: macomb-meetings
-          path: |
-            data/macomb-meetings.json
-            data/macomb-meetings.ics
-            briefs/
-            scrape-macomb.log
-          if-no-files-found: warn
-
-      - name: Fail if zero meetings
-        if: ${{ steps.run.outputs.COUNT == '0' }}
-        run: |
-          echo "No meetings were scraped (COUNT=0). Failing for visibility."
-          exit 1
-
-      - name: Generate newsletter
-        if: ${{ steps.run.outputs.COUNT != '0' }}
-        run: |
           mkdir -p briefs
+          # Run the standard briefs generator
+          python generate_briefs.py --input data/macomb-meetings.json --outdir briefs
+          # Run the new newsletter generator
           python generate_newsletter.py
 
       - name: Commit & push results
         if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "actions@github.com"
-          git add data/macomb-meetings.json briefs/newsletter.md
-          git commit -m "Update Macomb meetings and newsletter" || echo "No changes to commit"
-          git push
-
-      - name: Commit & push results (rebase first, safe force if needed)
-        if: ${{ steps.run.outputs.COUNT != '0' }}
-        run: |
           set -e
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # stage + commit
-          git add data/macomb-meetings.json data/macomb-meetings.ics briefs/ || true
-          git commit -m "Update Macomb County meetings and briefs" || { echo "No changes to commit"; exit 0; }
+          # Stage all generated content
+          git add data/macomb-meetings.json data/macomb-meetings.ics briefs/ scrape-macomb.log || true
+          
+          # Check for changes before committing to avoid workflow failure
+          if git diff --cached --quiet; then
+            echo "No changes to data or briefs."
+          else
+            git commit -m "Update Macomb County meetings, briefs, and newsletter [skip ci]"
+            
+            # Rebase to handle any concurrent main branch changes
+            git fetch origin main
+            git rebase origin/main
+            
+            # Push updates back to the repo
+            git push origin HEAD:main || git push --force-with-lease origin HEAD:main
+          fi
 
-          # rebase onto latest main (handles concurrent commits)
-          git fetch origin main
-          git checkout main
-          git pull --rebase origin main
-
-          # now push; if we race, retry with --force-with-lease (safer than --force)
-          git push origin HEAD:main || {
-            echo "Non-fast-forward; retrying with --force-with-lease"
-            git push --force-with-lease origin HEAD:main
-          }
-
-
+      - name: Fail if zero meetings (Visibility Check)
+        if: ${{ steps.run.outputs.COUNT == '0' }}
+        run: |
+          echo "No meetings were scraped (COUNT=0). Workflow stopping."
+          # Use exit 0 if you want the action to stay green when there is no news
+          exit 1

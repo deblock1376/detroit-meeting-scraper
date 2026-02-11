@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import pytz
 import os
 
-def generate_newsletter(json_file, output_file):
+def generate_newsletter(json_file, output_file, archive_dir):
     if not os.path.exists(json_file):
         print(f"Error: {json_file} not found.")
         return
@@ -26,7 +26,7 @@ def generate_newsletter(json_file, output_file):
     for m in meetings:
         m_start = datetime.fromisoformat(m['start'])
         
-        # Filter: Only include 2026 meetings
+        # Filter: Only include current year meetings
         if m_start.year != current_year:
             continue
 
@@ -35,37 +35,55 @@ def generate_newsletter(json_file, output_file):
         elif now <= m_start <= two_weeks_ahead:
             upcoming.append(m)
 
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    # Build the content string first so we can write it to two places
+    content = f"# 🏛️ Macomb County Meeting Dispatch\n"
+    content += f"**Edition:** {now.strftime('%B %d, %Y')} | *2026 Governance Update*\n\n---\n\n"
+
+    content += "## 🗓️ The Week in Review\n"
+    if not past_week:
+        content += "No meetings were held in the past 7 days.\n"
+    for m in past_week:
+        m_dt = datetime.fromisoformat(m['start'])
+        content += f"* **{m['body']}** ({m_dt.strftime('%b %d')}):\n"
+        if m.get('minutes_url'):
+            content += f"    * [📄 View Minutes]({m['minutes_url']})\n"
     
+    content += "\n---\n\n## 📅 Upcoming Preview\n"
+    if not upcoming:
+        content += "No meetings scheduled for the next two weeks.\n"
+    for m in upcoming:
+        m_dt = datetime.fromisoformat(m['start'])
+        content += f"### {m_dt.strftime('%A, %B %d')}\n"
+        content += f"* **{m['body']}** ({m_dt.strftime('%I:%M %p')})\n"
+        if m.get('location'):
+            content += f"    * *Location:* {m['location']}\n"
+        if m.get('agenda_url'):
+            content += f"    * [📄 Meeting Agenda]({m['agenda_url']})\n"
+        content += "\n"
+
+    content += "---\n## 📁 Resources\n"
+    content += "* [Macomb CivicClerk Portal](https://macombcomi.portal.civicclerk.com/)\n"
+    content += "* [Board of Commissioners Site](https://bocmacomb.org/)\n\n"
+    
+    # Add the "Last Updated" timestamp
+    content += f"*This dispatch was automatically generated on **{now.strftime('%A, %B %d, %Y at %I:%M %p %Z')}**.*"
+
+    # --- SAVE THE FILES ---
+    
+    # 1. Save the "Live" version
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(f"# 🏛️ Macomb County Meeting Dispatch\n")
-        f.write(f"**Edition:** {now.strftime('%B %d, %Y')} | *2026 Governance Update*\n\n---\n\n")
+        f.write(content)
 
-        f.write("## 🗓️ The Week in Review\n")
-        if not past_week:
-            f.write("No meetings were held in the past 7 days.\n")
-        for m in past_week:
-            m_dt = datetime.fromisoformat(m['start'])
-            f.write(f"* **{m['body']}** ({m_dt.strftime('%b %d')}):\n")
-            if m.get('minutes_url'):
-                f.write(f"    * [📄 View Minutes]({m['minutes_url']})\n")
-        
-        f.write("\n---\n\n## 📅 Upcoming Preview\n")
-        if not upcoming:
-            f.write("No meetings scheduled for the next two weeks.\n")
-        for m in upcoming:
-            m_dt = datetime.fromisoformat(m['start'])
-            f.write(f"### {m_dt.strftime('%A, %B %d')}\n")
-            f.write(f"* **{m['body']}** ({m_dt.strftime('%I:%M %p')})\n")
-            if m.get('location'):
-                f.write(f"    * *Location:* {m['location']}\n")
-            if m.get('agenda_url'):
-                f.write(f"    * [📄 Meeting Agenda]({m['agenda_url']})\n")
-            f.write("\n")
+    # 2. Save the "Archive" version
+    os.makedirs(archive_dir, exist_ok=True)
+    datestamp = now.strftime('%Y-%m-%d')
+    archive_file = os.path.join(archive_dir, f"newsletter_{datestamp}.md")
+    with open(archive_file, 'w', encoding='utf-8') as f:
+        f.write(content)
 
-        f.write("---\n## 📁 Resources\n")
-        f.write("* [Macomb CivicClerk Portal](https://macombcomi.portal.civicclerk.com/)\n")
-        f.write("* [Board of Commissioners Site](https://bocmacomb.org/)\n")
+    print(f"Generated {output_file} and {archive_file}")
 
 if __name__ == "__main__":
-    generate_newsletter('data/macomb-meetings.json', 'briefs/newsletter.md')
+    # Updated to pass the archive directory as a third argument
+    generate_newsletter('data/macomb-meetings.json', 'briefs/newsletter.md', 'briefs/archive')

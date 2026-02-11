@@ -32,7 +32,7 @@ jobs:
         id: run
         run: |
           set -e
-          python civicclerk_scraper.py --months-ahead 2 --months-behind 1 --year 2025 --outdir data --parse-documents | tee scrape-macomb.log
+          python civicclerk_scraper.py --months-ahead 2 --months-behind 2 --year 2025 --outdir data --parse-documents | tee scrape-macomb.log
           echo "COUNT=$(jq length data/macomb-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 
       - name: Show outputs
@@ -90,3 +90,4 @@ jobs:
             echo "Non-fast-forward; retrying with --force-with-lease"
             git push --force-with-lease origin HEAD:main
           }
+

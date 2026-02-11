@@ -1,7 +1,7 @@
-name: scrape-macomb
+name: civic-scraper-suite
 on:
   schedule:
-    - cron: "15 12 * * *"   # daily 12:15 UTC
+    - cron: "15 12 * * *"
   workflow_dispatch: {}
 
 jobs:
@@ -9,9 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    concurrency:
-      group: scrape-macomb
-      cancel-in-progress: true
+    strategy:
+      fail-fast: false
+      matrix:
+        # ADD NEW CITIES HERE
+        city: [macomb, sterling-heights]
+        include:
+          - city: macomb
+            api: "https://macombcomi.api.civicclerk.com/v1/"
+          - city: sterling-heights
+            api: "https://sterlingheights.api.civicclerk.com/v1/"
 
     steps:
       - uses: actions/checkout@v4
@@ -32,18 +39,16 @@ jobs:
         id: run
         run: |
           set -e
-          # Target 2026 meetings
-          python civicclerk_scraper.py --months-ahead 1 --months-behind 1 --year 2026 --outdir data --parse-documents | tee scrape-macomb.log
-          echo "COUNT=$(jq length data/macomb-meetings.json 2>/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
+          # We use the matrix variables to target different APIs and folders
+          python civicclerk_scraper.py --api-base ${{ matrix.api }} --year 2026 --outdir data/${{ matrix.city }} --parse-documents
+          echo "COUNT=$(jq length data/${{ matrix.city }}/*.json 2/dev/null || echo 0)" >> "$GITHUB_OUTPUT"
 
       - name: Generate newsletter
         if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
-          mkdir -p briefs/archive
-          # Run the standard briefs generator if you have one
-          python generate_briefs.py --input data/macomb-meetings.json --outdir briefs || echo "Briefs script skipped"
-          # Run the new newsletter generator
-          python generate_newsletter.py
+          mkdir -p briefs/${{ matrix.city }}/archive
+          # We tell the generator where to find this city's specific data
+          python generate_newsletter.py data/${{ matrix.city }}/*.json briefs/${{ matrix.city }}/newsletter.md briefs/${{ matrix.city }}/archive
 
       - name: Commit & push results
         if: ${{ steps.run.outputs.COUNT != '0' }}
@@ -51,32 +56,14 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # 1. Temporarily hide the new scraper data
           git add .
           git stash
-
-          # 2. Sync with the remote while the workspace is clean
           git pull origin main --rebase
-
-          # 3. Bring the new data back
           git stash pop || echo "No changes to pop"
-
-          # 4. Final stage of the specific files we want
-          git add data/macomb-meetings.json briefs/ archive/ scrape-macomb.log || true
-          
-          # 5. Commit and push
+          git add data/ briefs/
           if git diff --cached --quiet; then
-            echo "No changes to data or newsletter. Skipping push."
+            echo "No changes for ${{ matrix.city }}."
           else
-            git commit -m "Update Macomb meetings and archive newsletter [skip ci]"
+            git commit -m "Update ${{ matrix.city }} governance data [skip ci]"
             git push origin HEAD:main
           fi
-
-      - name: Fail if zero meetings
-        if: ${{ steps.run.outputs.COUNT == '0' }}
-        run: |
-          echo "No meetings found in the current window."
-          exit 0
-
-

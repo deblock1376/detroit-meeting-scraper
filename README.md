@@ -1,3 +1,11 @@
+# 🏛️ Macomb County Meeting Scraper
+
+[![Macomb Scraper Status](https://github.com/deblock1376/detroit-meeting-scraper/actions/workflows/scrape-macomb.yml/badge.svg)](https://github.com/deblock1376/detroit-meeting-scraper/actions/workflows/scrape-macomb.yml)
+![Last Scraped](https://img.shields.io/github/last-commit/deblock1376/detroit-meeting-scraper?label=Last%20Update)
+
+> **Current Newsletter:** [View the Latest Dispatch Here](./briefs/newsletter.md)  
+> **Archives:** [Browse Past Meetings](./briefs/archive/)
+
 # eScribe Meeting Scraper
 
 Scrape city council & committee meetings from eScribe portals and emit **JSON** + **ICS**.

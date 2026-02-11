@@ -74,4 +74,10 @@ def generate_newsletter(json_file, output_file, archive_dir):
     print(f"Success: Generated {output_file} and {archive_file}")
 
 if __name__ == "__main__":
-    generate_newsletter('data/macomb-meetings.json', 'briefs/newsletter.md', 'briefs/archive')
+    import sys
+    # Defaults if no arguments are provided, otherwise use command line args
+    json_in = sys.argv[1] if len(sys.argv) > 1 else 'data/macomb-meetings.json'
+    news_out = sys.argv[2] if len(sys.argv) > 2 else 'briefs/newsletter.md'
+    arch_dir = sys.argv[3] if len(sys.argv) > 3 else 'briefs/archive'
+    
+    generate_newsletter(json_in, news_out, arch_dir)

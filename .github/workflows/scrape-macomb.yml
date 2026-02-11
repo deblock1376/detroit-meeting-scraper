@@ -52,14 +52,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Sync with remote to prevent conflicts
+          # 1. STAGE FILES FIRST
+          # This clears the "unstaged changes" error that blocks the rebase
+          git add data/macomb-meetings.json briefs/ newsletter.md scrape-macomb.log || true
+          
+          # 2. SYNC WITH REMOTE
+          # Now that files are staged, Git can safely rebase
           git pull origin main --rebase
 
-          # Stage all changes
-          git add data/macomb-meetings.json briefs/newsletter.md briefs/archive/ briefs/*.md || true
-          
+          # 3. COMMIT AND PUSH
           if git diff --cached --quiet; then
-            echo "No new data found today."
+            echo "No new data found today. Skipping commit."
           else
             git commit -m "Update Macomb governance data and newsletter [skip ci]"
             git push origin HEAD:main
@@ -69,4 +72,4 @@ jobs:
         if: ${{ steps.run.outputs.COUNT == '0' }}
         run: |
           echo "No meetings found in the current window."
-          exit 0 # Change to 1 if you want a Red X on empty days
+          exit 0

@@ -69,6 +69,21 @@ jobs:
           echo "No meetings were scraped (COUNT=0). Failing for visibility."
           exit 1
 
+      - name: Generate newsletter
+        if: ${{ steps.run.outputs.COUNT != '0' }}
+        run: |
+          mkdir -p briefs
+          python generate_newsletter.py
+
+      - name: Commit & push results
+        if: ${{ steps.run.outputs.COUNT != '0' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add data/macomb-meetings.json briefs/newsletter.md
+          git commit -m "Update Macomb meetings and newsletter" || echo "No changes to commit"
+          git push
+
       - name: Commit & push results (rebase first, safe force if needed)
         if: ${{ steps.run.outputs.COUNT != '0' }}
         run: |
@@ -90,4 +105,5 @@ jobs:
             echo "Non-fast-forward; retrying with --force-with-lease"
             git push --force-with-lease origin HEAD:main
           }
+
 
